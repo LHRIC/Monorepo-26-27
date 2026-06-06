@@ -1,3 +1,17 @@
 site_name: LHRIC Monorepo Docs
 theme:
+  features:
+    - content.tooltips
+    - navigation.tabs
+    - navigation.path
+    - navigation.indexes
   name: material
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md

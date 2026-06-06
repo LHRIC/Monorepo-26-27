@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# LHRIC Monorepo 26/27
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Overview
 
-## Commands
+This is the Documentation for all of the projects, libraries, tools, etc. in the
+LHRIC Monorepo. This page contains more technical documentation, if you are only
+looking for brief overviews check the [LHRIC Confluence pages](https://cloud.wikis.utexas.edu/wiki/x/TACJUw).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Most of the one pagers are mirrored here, however these pages containing more
+technical details related to the specific implementation of systems explained in
+the confluence one pagers.
 
-## Project layout
+If you feel that something is missing or could use more information, please
+create an issue in GitHub with the `documentation` tag. test DAQ
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Contributing
