@@ -11,6 +11,4 @@ technical details related to the specific implementation of systems explained in
 the confluence one pagers.
 
 If you feel that something is missing or could use more information, please
-create an issue in GitHub with the `documentation` tag. test DAQ
-
-## Contributing
+create an issue in GitHub with the `documentation` tag.
