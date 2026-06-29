@@ -1,12 +1,10 @@
 cmake_minimum_required(VERSION 3.16)
 project(LHRDB_Lib_Float LANGUAGES C)
 
-add_library(LHRDB_Lib_Float STATIC)
-
-target_sources(LHRDB_Lib_Float PRIVATE
+add_library(LHRDB_Lib_Float
    src/lhrdb.c
 )
 
 target_include_directories(LHRDB_Lib_Float
-   PUBLIC include
+   PUBLIC include/
 )
