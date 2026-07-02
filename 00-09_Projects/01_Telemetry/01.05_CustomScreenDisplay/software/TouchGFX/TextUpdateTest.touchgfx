@@ -1,0 +1,254 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 800,
+            "Height": 480
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BatteryValue",
+            "X": 76,
+            "Y": 389,
+            "Width": 142,
+            "Height": 48,
+            "TextId": "__SingleUse_3GGP",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_UXRI",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "CoolantValue",
+            "X": 349,
+            "Y": 389,
+            "Width": 103,
+            "Height": 48,
+            "TextId": "__SingleUse_U0Z8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_47DS",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ThrottleValue",
+            "X": 585,
+            "Y": 389,
+            "Width": 158,
+            "Height": 48,
+            "TextId": "__SingleUse_QCQ7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_MBOH",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "ImageProgress",
+            "Name": "imageProgress1",
+            "X": 245,
+            "Y": 25,
+            "Width": 300,
+            "Height": 10,
+            "FileNameProgress": "__generated\\alternate_theme_images_widgets_imageprogress_plain_normal_medium_active.png",
+            "AnchorAtZero": true,
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\imageprogress\\plain\\normal\\medium_active.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_imageprogress_plain_normal_medium.png",
+            "IndicatorPositionWidth": 300,
+            "IndicatorPositionHeight": 10,
+            "ProgressRangeMax": 15000,
+            "ProgressRangeSteps": 100
+          },
+          {
+            "Type": "TextArea",
+            "Name": "GearLabel",
+            "X": 352,
+            "Y": 55,
+            "Width": 96,
+            "Height": 48,
+            "TextId": "__SingleUse_D4O1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 165
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BatteryLabel",
+            "X": 72,
+            "Y": 320,
+            "Width": 148,
+            "Height": 48,
+            "TextId": "__SingleUse_D77C",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 165
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "CoolantLabel",
+            "X": 263,
+            "Y": 320,
+            "Width": 275,
+            "Height": 48,
+            "TextId": "__SingleUse_PJJZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 165
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ThrottleLabel",
+            "X": 585,
+            "Y": 320,
+            "Width": 158,
+            "Height": 48,
+            "TextId": "__SingleUse_89Y8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 165
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "GearValue",
+            "X": 349,
+            "Y": 103,
+            "Width": 102,
+            "Height": 189,
+            "TextId": "__SingleUse_Z99U",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_430Q",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FPSCOUNTER",
+            "Width": 182,
+            "Height": 48,
+            "TextId": "__SingleUse_R0FT",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_4F5X",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "TextUpdateTest",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "24": "LCDGPU2D"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U5F9/5G9",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m33",
+    "ProjectFile": "../Riverdi_50STM32U5G9.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [
+      "GPU2D"
+    ],
+    "AdditionalFeatures": [
+      "GPU2DVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.26.0",
+  "CreatedBy": "4.26.0"
+}
