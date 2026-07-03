@@ -10,7 +10,7 @@ The ID's can be broken down like this:
 
 - Areas: The first digit in an ID this is for broad categories: Projects,
   Libraries, Tools, etc.
-- Categories: The second digit in an ID, for specific categores. For Example the
+- Categories: The second digit in an ID, for specific categories. For Example the
   Projects Area has categories: Telemetry and Sensors.
 - ID's: This is the part after the '.' in a full ID, these point to the actual
   folder that is being navigated to. These are given in order and shouldn't be
