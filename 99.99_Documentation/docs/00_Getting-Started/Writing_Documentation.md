@@ -1,6 +1,6 @@
 # Writing Documentation
 
-Whenever you start a new project, library, driver, etc. you should create a new
+Whenever you start a new project, library, tool, etc. you should create a new
 folder to house it's documentation. Even if it is just a simple few sentences
 describing what it is, it makes it much easier for others to learn more about
 what you're working on.
@@ -13,12 +13,12 @@ your docs to look super fancy.
 
 ## Creating a New Folder
 
-When you start your project it will be in either the Projects, Drivers, Tools,
+When you start your project it will be in either the Projects, Tools,
 or Libraries Area of the repository ([Repository Structure](./Navigating_the_Repository.md)).
 These correspond with the same folders in the documentation directory structure.
 Simply go to the Area that your project is in and create a new folder for your
-project as well as an `index.md` file in that folder. This file serves as index
-page for your documenation where you can put your overview.
+project as well as an `index.md` file in that folder. This file serves as an index
+page for your documentation where you can put your overview.
 
 !!! example
     This is what the directory structure would look like if I made a new Project
@@ -40,9 +40,9 @@ page for your documenation where you can put your overview.
 
 ## Previewing
 
-Before you push any documenation related materials it's a good idea to preview
-it first. You can do this by running the following command from witin the "40-49
-Documentation" folder.
+Before you push any documentation related materials it's a good idea to preview
+it first. You can do this by running the following command from within the
+`99.99 Documentation` folder.
 
 ```sh
 just preview
@@ -69,7 +69,7 @@ These subpages are where you can go more in depth on how your project works.
 
 ## Tips
 
-### Admontitions
+### Admonitions
 
 You can make cool blocks like this:
 
@@ -96,7 +96,7 @@ You can make a code block with the following syntax:
         // some code
     }
     ```
-
 ```
+
 
 Where `language` will enable syntax highlighting for that language.
