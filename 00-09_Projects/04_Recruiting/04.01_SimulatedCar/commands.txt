@@ -1,0 +1,63 @@
+Hello! This is the list of commands you can use to interact with this machine.
+
+If you are familiar with Linux/Unix, you will already be familiar with some of these commands. Some of the commands are custom and some are slightly different from their Linux counterparts, so this file is still worth reading. Also, you may be familiar with additional commands and tools, but you do not have access to them.
+
+If you aren't familiar with Linux/Unix, that is okay! This smaller list of simplified commands was selected for this exact reason.
+
+I suggest you read through this list of commands and understand how to use these commands and understand why you might use each command.
+
+The commands are listed in the following format (some of them include examples):
+COMMAND [arguments aka names/files the command might use] (what the command does)
+
+GENERAL LINUX UTILITY COMMANDS:
+
+ls (lists files and folders in the current folder)
+
+cat [file_name] (prints the contents of the file)
+
+cd [path] (navigates to a different folder)
+    examples:
+    cd work -> goes into the work folder if it exists (hint: you can see what's in your current folder with ls)
+    cd .. -> goes back one folder (in Linux, .. represents the "parent" folder which is the folder that contains the current folder, and . represents the current folder)
+    cd work/documents/traces/errors -> goes to the errors folder in the traces folder in the documents folder in the work folder if they all exist
+    cd ~/Desktop -> goes to the Desktop folder located in your home folder (where you started when you got here) (in Linux, ~ represents the home folder)
+
+echo [message] (prints message)
+
+man (prints this file)
+
+help (prints this file)
+
+pwd (prints the current folder you are in)
+
+CAR UTILITY COMMANDS:
+
+ecu_protocol (prints the ecu_protocol which lists the CAN_IDs associated with values like RPM, coolant temperature, etc.)
+
+check_CAN [CAN_ID] (prints the 1 byte of the most recent data associated with the CAN_ID specified)
+    interesting notes:
+        in reality, each CAN_ID is associated with 8 bytes of data. In this car setup, each CAN_ID is associated with 1 byte of data (8 bits)
+        also in reality, each CAN_ID is a larger, 3 digit hexadecimal number. In this car setup, each CAN_ID is just an integer
+        if this byte/bit stuff is confusing, look up how to convert an unsigned 8-bit integer between binary and decimal
+    examples:
+    check_CAN 7 -> outputs the 8 bits last associated with RPM (you can check ecu_protocol and see 7 corresponds with RPM)
+    check_CAN 3 -> outputs the 8 bits last associated with gear
+
+check_display (prints the current car display)
+
+charge_battery [target_volts] (charges or decharges battery to target_volts)
+
+test_car (runs the full diagnostic test of the car's electronics. your goal is to make this pass.)
+
+TEXT EDITING:
+
+You can use Nano or Vim. If you haven't used Vim before, I highly suggest you use Nano. Here, I will describe how to create/edit text files with Nano.
+
+By running "nano test.txt" you will enter Nano and you will be editing the 'test.txt' file. 
+If 'test.txt' does not exist in the folder you are currently in, it will be created when you are done editing.
+
+Nano is very intuitive to write in. You use your arrow keys to move between lines and characters. You can use delete or backspace to delete characters. You can type normally to write characters.
+To save your changes/create the file, you must press CTRL+o (writes your changes) and then CTRL+x (exits Nano).
+
+If you want to copy/paste from this ssh terminal session to one of your own laptop's applications like Google Chrome or your favorite text editor/IDE, use CTRL+Shift+C to copy from the terminal and CTRL+Shift+V to paste in the terminal.
+This means if you want, you can write a file in your favorite IDE, then CTRL+Shift+V into Nano to write files.
