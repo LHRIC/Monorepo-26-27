@@ -1,0 +1,6 @@
+.git
+__pycache__
+*.pyc
+*.zip
+.venv
+.test-deps

@@ -1,0 +1,20 @@
+TEAM DIRECTORY
+
+Jack / today's DAQ facilitator
+    Worked on the data logger and knows its intended output format.
+    Speak to Jack when the display works but the saved data looks wrong.
+    Ask the activity host who is playing Jack if he is not here today.
+
+Power mentor / ask the activity host for their name
+    Worked on battery monitoring and the Power Distribution Module (PDM).
+    Can explain the normal supply voltage and what the shutdown loop means.
+
+Display mentor / ask the activity host for their name
+    Worked on the dashboard and which CAN measurements it accepts.
+    Can help you separate a bad measurement from a display problem.
+
+Activity host
+    Can help with connecting, terminal controls, and finding a teammate.
+
+These are role labels. The activity host will identify today's actual members.
+You will not lose credit for needing an explanation. Tell us what you tried.

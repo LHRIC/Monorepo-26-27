@@ -1,0 +1,26 @@
+MISSION: Bring the simulated car's electronics back to life.
+
+Run test_car, inspect the evidence, make one change, and test again.
+Your goal is a PASS and the handoff for the custom-IC activity.
+
+You do not need Linux, embedded systems, C++, or car-electronics experience.
+We care about how you investigate, explain your ideas, handle setbacks, and
+work together. Asking for help is part of the activity.
+
+Start with the command guide and ecu_protocol. The team directory is team.txt.
+car/ contains simplified Python configuration for the PDM and the display.
+daq/ contains the logger's existing data and the recovery instructions.
+work/ is a place for your notes. Save notes with nano; there is no redirection.
+
+Helpful habits:
+  - Say what you expect a command to tell you before running it.
+  - Compare the display with the underlying CAN measurement.
+  - Share the keyboard and explain changes to your teammates.
+  - Bring a specific observation or hypothesis when asking a team member.
+
+At the DAQ stage you MUST speak to Jack, or the person filling that role today.
+The facilitator confirms that conversation before the final test can pass.
+Describe your diagnosis so far and ask what data format the logger should use.
+
+This is a simplified simulation. Its repair steps are not instructions for
+working on a real vehicle's power or safety circuits.
