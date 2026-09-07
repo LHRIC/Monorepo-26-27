@@ -13,7 +13,8 @@ void lock_data_mode(void);
 void unlock_data_mode(void);
 
 uint8_t serial_buffer[128];
-uint8_t *current_serial_data;
+uint8_t current_serial_data;
+uint8_t serial_buffer_size;
 
 /*
  *  Initializes Serial Data Output
@@ -34,9 +35,11 @@ void init_serial(void) {
 /*
  *  Resets the serial ptr to start with the start of the buffer
  */
-void reset_serial_ptr(void) {
-   current_serial_data = serial_buffer;
-   USIDR = *current_serial_data;
+void reset_serial_ptr(uint8_t size) {
+   current_serial_data = 0;
+   serial_buffer_size = size;
+   USIDR = serial_buffer[current_serial_data];
+   USISR = (1 << USIOIF);
 }
 
 /*
@@ -128,7 +131,7 @@ int main() {
    */
 
    init_serial();
-   rc_measurement_init();
+   // rc_measurement_init();
    sei();
    // rc_measurement_begin();
    // while (!rc_measurement_check_valid())
@@ -140,9 +143,13 @@ int main() {
    // serial_buffer[2] = (measurement & 0xFF0000) >> 16;
    // serial_buffer[3] = (measurement & 0xFF000000) >> 24;
    // reset_serial_ptr();
-   serial_buffer[0] = 'h';
-   serial_buffer[1] = 'i';
-   reset_serial_ptr();
+   serial_buffer[0] = 'H';
+   serial_buffer[1] = 'e';
+   serial_buffer[2] = 'l';
+   serial_buffer[3] = 'l';
+   serial_buffer[4] = 'o';
+   serial_buffer[5] = '\n';
+   reset_serial_ptr(6);
 
    while (true) {
       _NOP();
@@ -163,5 +170,9 @@ ISR(ANA_COMP_vect) {
 
 ISR(USI_OVF_vect) {
    current_serial_data++;
-   USIDR = *current_serial_data;
+   if (current_serial_data >= serial_buffer_size) {
+      current_serial_data = 0;
+   }
+   USIDR = serial_buffer[current_serial_data];
+   USISR = (1 << USIOIF);
 }
