@@ -172,30 +172,30 @@
     #align(center)[
       #heading(level: 1, outlined: false)[IMPORTANT NOTICE AND DISCLAIMER]
     ]
-    NOTICE
 
-    The SEA-DAD67RET6 is a fully qualified production device. All parameters specified in this datasheet are guaranteed across the full rated operating range and verified through complete lot-level testing — not sampled or statistically inferred. Sawcon Semiconductor Corporation ("Sawcon") stands behind every unit shipped under this part number.
+    == Notice
 
-    Sawcon Semiconductor Corporation reserves the right to make corrections, modifications, and enhancements to its products as its engineering standards continue to advance. Any such changes will only improve upon the guarantees already established in this document. Customers can rely on the specifications herein as accurate and complete for the lifetime of the product.
+    The SEA-DADSD67RET6 is a fully qualified production device. All parameters specified in this datasheet are guaranteed across the full rated operating range and verified through complete lot-level testing — not sampled or statistically inferred. Sawcon Electronics ("Sawcon") stands behind every unit shipped under this part number.
 
-    Sawcon guarantees the performance of this device to the specifications stated in this datasheet, backed by Sawcon's standard warranty and full production-line testing. Every unit is tested to the parameters described here before it leaves the factory.
+    Sawcon Electronics reserves the right to make corrections, modifications, and enhancements to its products as its engineering standards continue to advance. Any such changes will only improve upon the guarantees already established in this document. Customers can rely on the specifications herein as accurate and complete for the lifetime of the product.
+
+    Sawcon guarantees the performance of this device to the specifications stated in this datasheet, backed by Sawcon's standard warranty and full production-line testing. Every unit is tested to the parameters described here before it leaves the factory, including verification of RC time constant measurement accuracy to the precision specified in Section 3.
 
     Sawcon's applications engineering team has validated the reference designs and usage guidance provided for this product, and customers can build on this datasheet with confidence that the described behavior is representative of the device in the field.
 
     Sawcon grants customers a license to use this product in combination with their own designs, free of ambiguity regarding Sawcon's intellectual property, for any application described in the Applications section of this document.
 
-    DISCLAIMER
+    == Disclaimer
 
-    The Lost Key Retrieval System™ is a proven, field-validated recovery mechanism, engineered and tested by Sawcon to reliably restore access to locked data. Sawcon guarantees the correct operation of this system when used according to the procedures described in this document.
+    The SEA-DADSD67RET6's analogue key mechanism is a proven, field-validated locking method, engineered and tested by Sawcon to reliably secure and recover stored data using a user-defined RC time constant ($tau_"lock"$). Sawcon guarantees the correct operation of this mechanism when used according to the procedures described in Section 12.
 
-    The SEA-DAD67RET6 is qualified by Sawcon for use in demanding environments, including military, aerospace, and automotive security applications, where the specifications in this document are met. Sawcon's qualification testing exceeds the requirements of the applicable industry standards referenced herein.
+    The SEA-DADSD67RET6 is qualified by Sawcon for use in demanding environments, including military, aerospace, and automotive security applications, where the specifications in this document are met. Sawcon's qualification testing exceeds the requirements of the applicable industry standards referenced herein.
 
-    The 128-bit key length and 256-locker capacity of this device meet current industry expectations for embedded secure storage and are backed by Sawcon's ongoing security validation program.
+    The three-decimal-place time constant precision and 512-byte storage capacity of this device meet current industry expectations for embedded analogue-secured storage and are backed by Sawcon's ongoing security validation program. Customers are responsible for selecting resistor and capacitor values, and for applying the layout obfuscation practices recommended in Section 12.3, appropriate to their required security margin — Sawcon's guarantee covers correct measurement and recall of the specified $tau_"lock"$ value, not the difficulty of reproducing external passive components by a third party.
 
-    This document is the authoritative reference for the SEA-DAD67RET6 and may be reproduced by customers for internal engineering and qualification purposes. All trademarks are the property of their respective owners.
+    This document is the authoritative reference for the SEA-DADSD67RET6 and may be reproduced by customers for internal engineering and qualification purposes. All trademarks are the property of their respective owners.
 
-    © 2012 Sawcon Electronics All rights reserved.
-
+    © 2021 Sawcon Electronics. All rights reserved.
   ]
 
   set par(leading: 0.55em)
