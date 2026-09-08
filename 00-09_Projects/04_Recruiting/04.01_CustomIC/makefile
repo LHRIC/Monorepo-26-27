@@ -7,9 +7,10 @@ CPU = attiny85
 BUILD_DIR = build
 SOURCE_DIR = src
 OBJECT_DIR = $(BUILD_DIR)/obj
+INCLUDE_DIR = include
 
 CC = avr-gcc
-CC_FLAGS = -Wall -Os -mmcu=$(CPU)
+CC_FLAGS = -Wall -Os -mmcu=$(CPU) -I $(INCLUDE_DIR)
 LD_FLAGS = -mmcu=$(CPU)
 
 C_SRC = $(wildcard $(SOURCE_DIR)/*.c)
