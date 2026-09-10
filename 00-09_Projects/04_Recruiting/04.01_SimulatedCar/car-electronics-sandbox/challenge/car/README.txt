@@ -1,16 +1,22 @@
 SIMULATED CAR COMPONENTS
 
-Battery: supplies power. Its voltage can be read on CAN and set with charge_battery.
+Battery: 
+supplies power. Its voltage can be read on the CAN bus and set with charge_battery.
 
-PDM (Power Distribution Module): checks a simplified shutdown loop. A continuous
-loop permits normal operation; a discontinuous loop reports a warning. Inspect
-pdm.py if the display mentions this. In this simulation a Boolean models the loop.
+PDM (Power Distribution Module): 
+Distributes power to all the components in the car!
+Checks a simplified shutdown loop. 
+A continuous loop permits normal operation; a discontinuous loop reports a warning.
 
-Display: receives CAN messages for dashboard readings. Its allow_list in
-display.py contains the CAN IDs it is permitted to display. A missing ID shows 0,
-even if the ECU is publishing the right value. Use ecu_protocol to identify IDs.
+Display: 
+receives CAN messages and displays them for dashboard readings.
 
-The files are intentionally small Python configurations. You only need to edit
-a Boolean or a list of integers. Keep the variable names and simple assignments.
-Comments beginning with # are fine. No imports, functions, or other code are needed.
-Saving takes effect on the next check; no compiler, service command, or reboot.
+DAQ (Data Acquisition):
+Records and stores CAN data.
+this is not a script for DAQ in this environment, but it exists on the car so I included it here
+
+Sensor Boards:
+most data on the CAN bus comes from the ECU, but we also add some sensors to different parts of the car
+the sensor boards put the data from these sensors on the CAN bus
+
+These components exist as Python scripts in this simulated car. Most of the code doesn't actually do anything here, but the program configs might have problems you have to fix...

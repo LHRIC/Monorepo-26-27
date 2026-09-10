@@ -1,26 +1,26 @@
 MISSION: Bring the simulated car's electronics back to life.
 
-Run test_car, inspect the evidence, make one change, and test again.
-Your goal is a PASS and the handoff for the custom-IC activity.
+Run test_car, inspect the evidence, make a change, and test again.
+Your goal is a PASS and the handoff for the hardware activity.
 
 You do not need Linux, embedded systems, C++, or car-electronics experience.
-We care about how you investigate, explain your ideas, handle setbacks, and
-work together. Asking for help is part of the activity.
+We care about how you investigate, handle setbacks, and
+work together. Asking for help from us is part of the activity.
 
 Start with the command guide and ecu_protocol. The team directory is team.txt.
-car/ contains simplified Python configuration for the PDM and the display.
+car/ contains simplified Python configuration for some electronic components.
 daq/ contains the logger's existing data and the recovery instructions.
-work/ is a place for your notes. Save notes with nano; there is no redirection.
+work/ is a place for your notes if you want to use it.
 
 Helpful habits:
-  - Say what you expect a command to tell you before running it.
-  - Compare the display with the underlying CAN measurement.
-  - Share the keyboard and explain changes to your teammates.
-  - Bring a specific observation or hypothesis when asking a team member.
+  - Learn how to use the commands and interact with this environment before trying to solve anything
+  - read the CAN bus when you want to know things
+  - work with your team and communicate. we are watching how you work with people.
+  - ask us questions! you will not have all the information needed to solve all the problems.
+    this is intentional because it kind of mirrors what starting a project on the team looks like.
+    you have to figure out what you can and ask us questions about things our experience might be able to help with.
 
-At the DAQ stage you MUST speak to Jack, or the person filling that role today.
-The facilitator confirms that conversation before the final test can pass.
-Describe your diagnosis so far and ask what data format the logger should use.
+This is a simplified simulation. Its repair steps are not instructions for working on a real vehicle's power or safety circuits. 
+Also, as you may soon discover the car is moving so that's another unrealistic thing.
 
-This is a simplified simulation. Its repair steps are not instructions for
-working on a real vehicle's power or safety circuits.
+Once again, run 'test_car' to get started debugging the car.

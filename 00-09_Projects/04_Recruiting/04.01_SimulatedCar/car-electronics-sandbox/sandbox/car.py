@@ -126,15 +126,17 @@ class Car:
         self.lock = threading.Lock()
 
     def settings(self):
-        pdm = config(self.files.read(("challenge", "car", "pdm.py")),
+        pdm = config(self.files.read(("challenge", "car", "pdm_config.py")),
                      "shutdown_continuous", "boolean")
-        allowed = config(self.files.read(("challenge", "car", "display.py")), "allow_list", "list")
+        allowed = config(self.files.read(("challenge", "car", "display_config.py")), "allow_list", "list")
         return pdm, allowed
 
     def display(self):
         bus = self.backend.snapshot()
         if bus[1] < 115:
             return "DISPLAY OFF - no illuminated screen."
+        elif bus[1] > 150:
+            return "DISPLAY OFF - on the real car you might have fried everything"
         pdm, allowed = self.settings()
         lines = ["CAR DISPLAY"]
         if not pdm:
@@ -147,29 +149,33 @@ class Car:
     def test(self):
         with self.lock:
             bus = self.backend.snapshot()
-            if bus[1] < 115:
+            if bus[1] < 115 or bus[1] > 150:
                 return "You turn on power. The display doesn't turn on... Check the available measurements."
-            pdm = config(self.files.read(("challenge", "car", "pdm.py")),
+            pdm = config(self.files.read(("challenge", "car", "pdm_config.py")),
                          "shutdown_continuous", "boolean")
             if not pdm:
                 return "The display turns on! But there is flashing red text. Run check_display."
-            allowed = config(self.files.read(("challenge", "car", "display.py")), "allow_list", "list")
+            allowed = config(self.files.read(("challenge", "car", "display_config.py")), "allow_list", "list")
             if not REQUIRED_IDS <= allowed:
                 return ("The warning has gone away, but display measurements are missing or read 0. "
                         "Compare check_display with the CAN bus and the display code.")
             state = self.backend.state
-            if not (state / "jack-approved").exists():
-                return ("The display looks correct! DAQ is next, and its saved data looks like gibberish.\n"
-                        "Find Jack (or today's DAQ facilitator). Explain what you tested and ask him to inspect the logger.\n"
-                        "He must confirm your conversation before this stage can pass. Read challenge/daq/README.txt.")
-            data = self.files.read(("challenge", "daq", "data.txt"))
+            # if not (state / "jack-approved").exists():
+            #     return ("The display looks correct! DAQ is next, and its saved data looks like gibberish.\n"
+            #             "Find Jack. Explain what you tested and ask him to inspect the logger.\n"
+            #             "He must confirm your conversation before this stage can pass. Read challenge/daq/README.txt.")
+            data = self.files.read(("challenge", "daq_logs", "logs_latest", "data.txt"))
             # Preserve exact contents except conventional CRLF and one optional final newline.
             normalized = data.replace("\r\n", "\n").removesuffix("\n")
             if normalized != recovered_data().removesuffix("\n"):
-                return ("Jack smirks: 'A silly logger bug. I'll fix the DAQ code; can you recover the old data?\n"
-                        "Look at the binary representation of those decimal bytes. Write a program on your laptop,\n"
-                        "then replace challenge/daq/data.txt with the recovered text.'\n"
-                        "The data in data.txt isn't quite right. Jack will finish the DAQ fix when you fix this data.")
+                return ("The display looks correct! DAQ is next, and the most recent data log looks like gibberish.\n"
+                        "Jack happens to be nearby, sees the issue, and looks at the DAQ code.\n"
+                        "He smirks: 'A silly logging bug. I'll fix the DAQ code; can you recover the data?\n\n"
+                        "Compare the binary representation of the messed up new data log and correct old logs to try and figure out what the issue is.\n"
+                        "Feel free to look up how to do this in the programming language of your choice. I suggest Python if you aren't sure."
+                        "Write a program to reverse the issue and recover the data on your laptop,\n"
+                        "then replace challenge/daq_logs/logs_latest/data.txt with the recovered text.'\n"
+                        "The data in the latest log isn't quite right. Jack will finish the DAQ when you fix this data.")
             (state / "daq-fixed").write_text("fixed\n")
             # This file is outside the virtual home until the final check passes.
             prize_text = self.prize.read_text(encoding="utf-8")

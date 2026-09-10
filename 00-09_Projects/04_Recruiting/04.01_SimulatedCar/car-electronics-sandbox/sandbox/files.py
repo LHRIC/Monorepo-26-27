@@ -112,8 +112,8 @@ class Files:
         if (len(parts) < 2 or parts[0] != "challenge"
                 or parts == ("challenge", "reward.txt")
                 or parts[-1] in ("commands.txt", "mission.txt", "team.txt",
-                                  "ecu_protocol.txt", "README.txt")):
-            raise UserError("That document is read-only. Edit a challenge file instead.")
+                                  "ecu_protocol.txt", "README.txt", "display_backend.py", "pdm_backend.py", "sensors_backend.py")):
+            raise UserError("That document is read-only. Edit a config file instead.")
 
     @staticmethod
     def revision(text):

@@ -2,10 +2,9 @@ SIMPLIFIED ECU / CAN PROTOCOL
 
 The ECU is the simulated controller that publishes measurements on the CAN bus.
 CAN is a shared message system. An ID says what a message represents.
-The background simulator publishes the latest values four times per second.
 Each measurement here is one unsigned byte: an integer from 0 to 255.
 check_CAN prints that byte as eight binary digits. Convert it to decimal, then
-apply the scale below. Different commands may see slightly different timestamps.
+apply the scale below.
 
 CAN ID   Measurement          Decode the decimal byte
 1        Battery voltage      divide by 10 to get volts
@@ -14,14 +13,7 @@ CAN ID   Measurement          Decode the decimal byte
 7        Engine speed         multiply by 100 to get RPM
 8        Throttle             direct percentage
 
-Example: a byte of 00011000 is decimal 24.
+Example: a byte of 00011000 is decimal 24. -> look up converting binary to and from decimal if this doesn't make sense
 For CAN ID 7 that means 24 * 100 = 2400 RPM.
 For CAN ID 1 that would mean 24 / 10 = 2.4 V.
 Readings from different IDs can need different scales.
-
-The display needs at least 11.5 V to turn on. The normal target is 12.6 V.
-The low-voltage CAN monitor has an independent simulated supply, so check_CAN
-still works when the display is off. charge_battery takes volts, not a CAN byte.
-
-A display can ignore a valid message. Compare check_CAN and check_display if a
-reading seems impossible. Saving a configuration file updates the next check.

@@ -51,7 +51,7 @@ test_car (runs the full diagnostic test of the car's electronics. your goal is t
 
 TEXT EDITING:
 
-You can use Nano or Vim. If you haven't used Vim before, I highly suggest you use Nano. Here, I will describe how to create/edit text files with Nano.
+You can use simplified versions of Nano or Vim. If you haven't used Vim before, I highly suggest you use Nano. Here, I will describe how to create/edit text files with Nano.
 
 By running "nano test.txt" you will enter Nano and you will be editing the 'test.txt' file. 
 If 'test.txt' does not exist in the folder you are currently in, it will be created when you are done editing.

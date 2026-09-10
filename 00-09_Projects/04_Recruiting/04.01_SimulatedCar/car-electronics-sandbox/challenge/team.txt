@@ -1,20 +1,32 @@
 TEAM DIRECTORY
 
-Jack / today's DAQ facilitator
-    Worked on the data logger and knows its intended output format.
-    Speak to Jack when the display works but the saved data looks wrong.
-    Ask the activity host who is playing Jack if he is not here today.
+Shalini / Electronics Lead / knows how everything works / shalini3445
+    previous hardware lead. worked on PDM. some people say she's intimidating.
 
-Power mentor / ask the activity host for their name
-    Worked on battery monitoring and the Power Distribution Module (PDM).
-    Can explain the normal supply voltage and what the shutdown loop means.
+JackGPT / Software Lead / resident ???? hunter / jackfromschool
+    worked on DAQ and knows its intended output format. call him JackGPT.
 
-Display mentor / ask the activity host for their name
-    Worked on the dashboard and which CAN measurements it accepts.
-    Can help you separate a bad measurement from a display problem.
+Ethan / Hardware Lead / bad little slug / butteroutlaw
+    worked on upright CAN boards and other stuff
 
-Activity host
-    Can help with connecting, terminal controls, and finding a teammate.
+Sophie / coordinates Electronics socials / pronounces "poutine" as "putzin" / avocado123
+    worked on sensor boards
 
-These are role labels. The activity host will identify today's actual members.
-You will not lose credit for needing an explanation. Tell us what you tried.
+Henry / very funny / might have asked you to draw a full bridge rectifier / yourerubbish 
+    worked on custom display hardware
+
+Puneet / elite ball knowledge / MechE / puneet0305
+    worked on some boards
+
+Ayaan / right handed / good at Moomoo Meadows time trials / nobbertins 
+    worked on custom display software
+
+Kamran / wrong handed / bad at Moomoo Meadows time trials / llama
+    worked on CAN library, GPS stuff, and lap timer
+
+some uncs:
+    Ryan - prev Electronics Lead, doing his integrated masters, will be around
+    Jimmy - may or may not be around idk. he has job
+
+These are our team members. There are no pictures, so if you don't know which face matches which name, you should guess. It will be funny.
+Also, more importantly, you should ask us questions if you get stuck! There's no penalty or anything like that.
