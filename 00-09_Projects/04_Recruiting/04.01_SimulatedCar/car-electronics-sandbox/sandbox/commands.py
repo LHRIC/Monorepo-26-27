@@ -1,6 +1,7 @@
 """The entire participant command surface. Never launch an external executable."""
 import re
 import shlex
+import base64
 
 from .car import REQUIRED_IDS
 from .files import UserError, VIRTUAL_HOME
@@ -8,7 +9,7 @@ from .terminal import Editor
 
 COUNTS = {"ls": 0, "cat": 1, "cd": 1, "echo": None, "man": 0, "help": 0, "pwd": 0,
           "ecu_protocol": 0, "check_CAN": 1, "check_display": 0, "charge_battery": 1,
-          "test_car": 0, "nano": 1, "vim": 1}
+          "test_car": 0, "nano": 1, "vim": 1, "download": 1}
 FORBIDDEN = re.compile(r"[<>|;&`$\\*?\[\]{}()!\x00-\x1f\x7f]")
 
 
@@ -68,6 +69,13 @@ class Session:
             return self.car.display()
         if command == "test_car":
             return self.car.test()
+        if command == "download":
+            parts = self.files.path(args[0], self.cwd)
+            content = self.files.read_bytes(parts)
+            payload = base64.b64encode(content).decode("ascii")
+            filename = parts[-1] if parts else args[0]
+            return ("Copy the block below and run it in a terminal on your own computer:\n\n"
+                    f"base64 -d > {filename} << 'EOF'\n{payload}\nEOF")
         if command in ("nano", "vim"):
             if self.terminal is None:
                 raise UserError("The editor requires an interactive SSH terminal.")

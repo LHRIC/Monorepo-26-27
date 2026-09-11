@@ -83,6 +83,28 @@ class Files:
                     items.append(name)
             return "\n".join(items) or "(empty folder)"
 
+    def read_bytes(self, parts, missing_ok=False):
+        if not parts:
+            raise UserError("Choose a file, not a folder.")
+        with self.directory(parts[:-1]) as fd:
+            try:
+                f = os.open(parts[-1], os.O_RDONLY | os.O_NOFOLLOW | os.O_NONBLOCK,
+                            dir_fd=fd)
+            except FileNotFoundError:
+                if missing_ok:
+                    return None
+                raise UserError("That file does not exist.") from None
+            except OSError:
+                raise UserError("That file is not available.") from None
+            with os.fdopen(f, "rb") as stream:
+                info = os.fstat(stream.fileno())
+                if not stat.S_ISREG(info.st_mode) or info.st_nlink != 1:
+                    raise UserError("Only ordinary files are available.")
+                data = stream.read(MAX_FILE + 1)
+                if len(data) > MAX_FILE:
+                    raise UserError("Files must be at most 64 KiB.")
+                return data
+
     def read(self, parts, missing_ok=False):
         if not parts:
             raise UserError("Choose a file, not a folder.")

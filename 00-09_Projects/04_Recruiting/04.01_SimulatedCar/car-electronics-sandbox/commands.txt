@@ -37,24 +37,6 @@ help (prints this file; no arguments)
 
 pwd (prints the current folder; no arguments)
 
-download [file_name] (gives you the command to copy the file onto your local computer)
-    Example: download commands.txt
-    output (copy and paste the output into your terminal on your computer. if you don't know how, look up or ask somebody how to do this.):
-    base64 -d > ecu_protocol.txt << 'EOF'
-    U0lNUExJRklFRCBFQ1UgLyBDQU4gUFJPVE9DT0wKClRoZSBFQ1UgaXMgdGhlIHNpbXVsYXRlZCBjb250cm9sbGVyIHRoYXQgcHVibGlzaGVzIG1lYX
-    N1cmVtZW50cyBvbiB0aGUgQ0FOIGJ1cy4KQ0FOIGlzIGEgc2hhcmVkIG1lc3NhZ2Ugc3lzdGVtLiBBbiBJRCBzYXlzIHdoYXQgYSBtZXNzYWdlIHJl
-    cHJlc2VudHMuCkVhY2ggbWVhc3VyZW1lbnQgaGVyZSBpcyBvbmUgdW5zaWduZWQgYnl0ZTogYW4gaW50ZWdlciBmcm9tIDAgdG8gMjU1LgpjaGVja1
-    9DQU4gcHJpbnRzIHRoYXQgYnl0ZSBhcyBlaWdodCBiaW5hcnkgZGlnaXRzLiBDb252ZXJ0IGl0IHRvIGRlY2ltYWwsIHRoZW4KYXBwbHkgdGhlIHNj
-    YWxlIGJlbG93LgoKQ0FOIElEICAgTWVhc3VyZW1lbnQgICAgICAgICAgRGVjb2RlIHRoZSBkZWNpbWFsIGJ5dGUKMSAgICAgICAgQmF0dGVyeSB2b2
-    x0YWdlICAgICAgZGl2aWRlIGJ5IDEwIHRvIGdldCB2b2x0cwoyICAgICAgICBDb29sYW50IHRlbXBlcmF0dXJlICBkaXJlY3QgcmVhZGluZyBpbiBk
-    ZWdyZWVzIENlbHNpdXMKMyAgICAgICAgR2VhciAgICAgICAgICAgICAgICAgZGlyZWN0IGludGVnZXIgZ2VhciBudW1iZXIKNyAgICAgICAgRW5naW
-    5lIHNwZWVkICAgICAgICAgbXVsdGlwbHkgYnkgMTAwIHRvIGdldCBSUE0KOCAgICAgICAgVGhyb3R0bGUgICAgICAgICAgICAgZGlyZWN0IHBlcmNl
-    bnRhZ2UKCkV4YW1wbGU6IGEgYnl0ZSBvZiAwMDAxMTAwMCBpcyBkZWNpbWFsIDI0LiAtPiBsb29rIHVwIGNvbnZlcnRpbmcgYmluYXJ5IHRvIGFuZC
-    Bmcm9tIGRlY2ltYWwgaWYgdGhpcyBkb2Vzbid0IG1ha2Ugc2Vuc2UKRm9yIENBTiBJRCA3IHRoYXQgbWVhbnMgMjQgKiAxMDAgPSAyNDAwIFJQTS4K
-    Rm9yIENBTiBJRCAxIHRoYXQgd291bGQgbWVhbiAyNCAvIDEwID0gMi40IFYuClJlYWRpbmdzIGZyb20gZGlmZmVyZW50IElEcyBjYW4gbmVlZCBkaW
-    ZmZXJlbnQgc2NhbGVzLgo=
-    EOF
-
 CAR UTILITY COMMANDS
 
 ecu_protocol (lists available CAN IDs, units, and how to interpret each byte)

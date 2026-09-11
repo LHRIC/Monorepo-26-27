@@ -12,13 +12,10 @@ from .files import UserError, safe_text
 
 REQUIRED_IDS = {1, 2, 3, 7, 8}
 
+DATA_DIR = Path(__file__).resolve().parent
 
 def recovered_data():
-    lines = ["sample,battery_v,coolant_c,rpm,gear,throttle_pct"]
-    for n in range(64):
-        lines.append(f"{n},12.6,{78 + n % 9},{1800 + (n * 137) % 2800},{1 + n // 16},{20 + n * 7 % 61}")
-    return "\n".join(lines) + "\n"
-
+    return (DATA_DIR / "proper_data.txt").read_text(encoding="utf-8")
 
 def atomic_json(path, value):
     temp = path.with_suffix(".tmp")
@@ -91,34 +88,42 @@ class Backend:
                 self.bus[1] = value
         return f"Battery set to {value / 10:.1f} V. The CAN backend has been updated."
 
-
 def config(text, name, kind):
-    """Accept ONLY a literal assignment. Never execute participant Python."""
-    if len(text) > 8192:
-        raise UserError(f"Keep {name}'s file under 8 KiB.")
+    """Parse ONLY a literal assignment to `name` out of a larger Python file.
+    Never executes participant Python — parsed with ast, never eval'd or exec'd.
+    """
+    if len(text) > 65536:
+        raise UserError(f"Keep {name}'s file under 64 KiB.")
     try:
         tree = ast.parse(text)
     except (SyntaxError, ValueError, RecursionError):
         raise UserError(f"Cannot read {name}. Check the Python syntax and save the file.") from None
-    nodes = list(ast.walk(tree))
-    if len(nodes) > 256 or len(tree.body) != 1:
-        raise UserError(f"Keep just the {name} assignment and comments in this file.")
-    statement = tree.body[0]
-    if (not isinstance(statement, ast.Assign) or len(statement.targets) != 1
-            or not isinstance(statement.targets[0], ast.Name) or statement.targets[0].id != name):
-        raise UserError(f"This file must contain the assignment {name} = ...")
+
+    match = None
+    for statement in tree.body:
+        if (isinstance(statement, ast.Assign) and len(statement.targets) == 1
+                and isinstance(statement.targets[0], ast.Name)
+                and statement.targets[0].id == name):
+            match = statement
+
+    if match is None:
+        raise UserError(f"This file must contain the assignment {name} = ... on its own line.")
+
+    # Only bound the complexity of the matched value, not the whole file.
+    if len(list(ast.walk(match.value))) > 4096:
+        raise UserError(f"This file is too complex to parse for {name}.")
+
+    node = match.value
     if kind == "boolean":
-        node = statement.value
         if not isinstance(node, ast.Constant) or type(node.value) is not bool:
             raise UserError(f"{name} must be True or False.")
         return node.value
-    node = statement.value
+
     if (not isinstance(node, ast.List) or len(node.elts) > 32
             or any(not isinstance(v, ast.Constant) or type(v.value) is not int
                    or not 0 <= v.value <= 255 for v in node.elts)):
         raise UserError(f"{name} must be a list of integer CAN IDs, such as [3, 7, 8].")
     return set(v.value for v in node.elts)
-
 
 class Car:
     def __init__(self, files, backend, prize):
@@ -158,13 +163,13 @@ class Car:
             allowed = config(self.files.read(("challenge", "car", "display_config.py")), "allow_list", "list")
             if not REQUIRED_IDS <= allowed:
                 return ("The warning has gone away, but display measurements are missing or read 0. "
-                        "Compare check_display with the CAN bus and the display code.")
+                        "Compare check_display with the CAN bus.")
             state = self.backend.state
             # if not (state / "jack-approved").exists():
             #     return ("The display looks correct! DAQ is next, and its saved data looks like gibberish.\n"
             #             "Find Jack. Explain what you tested and ask him to inspect the logger.\n"
             #             "He must confirm your conversation before this stage can pass. Read challenge/daq/README.txt.")
-            data = self.files.read(("challenge", "daq_logs", "logs_latest", "data.txt"))
+            data = self.files.read(("challenge", "daq_logs", "logs_latest", "recovered_data.txt"))
             # Preserve exact contents except conventional CRLF and one optional final newline.
             normalized = data.replace("\r\n", "\n").removesuffix("\n")
             if normalized != recovered_data().removesuffix("\n"):
@@ -172,9 +177,9 @@ class Car:
                         "Jack happens to be nearby, sees the issue, and looks at the DAQ code.\n"
                         "He smirks: 'A silly logging bug. I'll fix the DAQ code; can you recover the data?\n\n"
                         "Compare the binary representation of the messed up new data log and correct old logs to try and figure out what the issue is.\n"
-                        "Feel free to look up how to do this in the programming language of your choice. I suggest Python if you aren't sure."
-                        "Write a program to reverse the issue and recover the data on your laptop,\n"
-                        "then replace challenge/daq_logs/logs_latest/data.txt with the recovered text.'\n"
+                        "Feel free to look up how to do this in the programming language of your choice. I suggest Python if you aren't sure.\n"
+                        "Write a program to reverse the issue and recover the data on your laptop.\n"
+                        "Then, write challenge/daq_logs/logs_latest/recovered_data.txt with the recovered text.'\n"
                         "The data in the latest log isn't quite right. Jack will finish the DAQ when you fix this data.")
             (state / "daq-fixed").write_text("fixed\n")
             # This file is outside the virtual home until the final check passes.
