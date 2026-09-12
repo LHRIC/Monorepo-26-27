@@ -11,8 +11,8 @@
 #include "rc.h"
 #include "serial.h"
 
-#define RC_CORRECT_UPPER_BOUND 960000
-#define RC_CORRECT_LOWER_BOUND 800000
+#define RC_CORRECT_UPPER_BOUND 99000
+#define RC_CORRECT_LOWER_BOUND 93000
 
 void lock_data_mode(void);
 
@@ -43,11 +43,13 @@ int main() {
 
 void lock_data_mode(void) {
    enable_serial();
-   char *message = "Locker already locked :(";
-   uint8_t size = snprintf(serial_buffer, 128, "%s", message);
-   reset_serial_ptr(size);
+   serial_buffer[0] = 0xDE;
+   serial_buffer[1] = 0xAD;
+   serial_buffer[2] = 0xBE;
+   serial_buffer[3] = 0xEF;
+   reset_serial_ptr(4);
    while (true)
-      ;
+      _NOP();
 }
 
 void unlock_data_mode(void) {
@@ -62,16 +64,21 @@ void unlock_data_mode(void) {
          ;
       uint32_t measurement = rc_measurement_get();
 
-      // if (measurement >= RC_CORRECT_LOWER_BOUND &&
-      //     measurement <= RC_CORRECT_UPPER_BOUND)
-      //    break;
-      enable_serial();
+      if (measurement >= RC_CORRECT_LOWER_BOUND &&
+          measurement <= RC_CORRECT_UPPER_BOUND)
+         break;
 
+      enable_serial();
       uint8_t size =
-          snprintf(serial_buffer, 128, "RC Measurement: %ld\n", measurement);
+          snprintf(serial_buffer, 128, "RC Circuit: %ld\n", measurement);
       reset_serial_ptr(size);
       timer1_delay_ms(500);
-
       disable_serial();
    }
+
+   enable_serial();
+   uint8_t size = snprintf(serial_buffer, 128, "Circuit Unlocked");
+   reset_serial_ptr(size);
+   while (true)
+      _NOP();
 }
