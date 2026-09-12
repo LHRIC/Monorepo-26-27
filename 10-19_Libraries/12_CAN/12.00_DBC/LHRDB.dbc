@@ -555,6 +555,10 @@ BO_ 1026 id_402: 8 Vector__XXX
    SG_ GPS_Fix_Type m1M : 56|7@1+ (0,0) [0|0] "" Vector__XXX
    SG_ GPS_Fixed m1M : 63|1@1+ (0,0) [0|0] "" Vector__XXX
 
+BO_ 256 AS5048A_ANGLE: 3 Vector__XXX
+   SG_ Angle : 0|14@1+ (0.0219726563,0) [0|359.99] "deg" Vector__XXX
+   SG_ Error : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+
 CM_ SG_ 1780 Park_Light_State "0=Off, 1=On";
 CM_ SG_ 1780 Head_Light_State "0=Off, 1=On";
 CM_ SG_ 1780 High_Beam_Light_State "0=Off, 1=On";
