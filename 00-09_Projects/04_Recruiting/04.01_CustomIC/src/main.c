@@ -11,8 +11,8 @@
 #include "rc.h"
 #include "serial.h"
 
-#define RC_CORRECT_UPPER_BOUND 99000
-#define RC_CORRECT_LOWER_BOUND 93000
+#define RC_CORRECT_UPPER_BOUND 140000
+#define RC_CORRECT_LOWER_BOUND 130000
 
 void lock_data_mode(void);
 
@@ -68,16 +68,12 @@ void unlock_data_mode(void) {
           measurement <= RC_CORRECT_UPPER_BOUND)
          break;
 
-      enable_serial();
-      uint8_t size =
-          snprintf(serial_buffer, 128, "RC Circuit: %ld\n", measurement);
-      reset_serial_ptr(size);
       timer1_delay_ms(500);
-      disable_serial();
    }
 
    enable_serial();
-   uint8_t size = snprintf(serial_buffer, 128, "Circuit Unlocked");
+   uint8_t size =
+       snprintf(serial_buffer, 128, "Congrats! You won trial workday!");
    reset_serial_ptr(size);
    while (true)
       _NOP();

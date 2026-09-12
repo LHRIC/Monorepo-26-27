@@ -77,14 +77,15 @@
     stroke: 0.5pt,
     table.header([*Pin*], [*Name*], [*Description*]),
     [1], [$overline("RESET")$], [Active-low device reset. Internally pulled high.],
-    [2], [$M$], [Mode Select bit.],
+    [2],
+    [$"RC Driver"$],
+    [Connected to a resistor to the $"RC"$ pin. Charges
+      the capacitor during RC measurement.],
+
     [3], [$"RC"$], [RC time constant input.],
 
     [4], [$"GND"$], [Ground reference.],
-    [5],
-    [$"UNLOCKED"$],
-    [Driven logic-high whenever the correct RC time
-      constant has been entered. Driven logic-low otherwise.],
+    [5], [$"Mode"$], [Selects which mode the chip will boot into on reset.],
 
     [6], [$"DATA"$], [Bidirectional serial data input and output.],
 
@@ -273,6 +274,7 @@ bit they are on, the $"CLK"$ line can be held high for at least 1 second to rese
 == Startup Operating Mode Selection
 
 Upon startup the $M$ pin is checked to determine what operating mode the system
+enable_serial();
 will boot into. The following table describes the modes.
 
 #figure(
@@ -344,6 +346,11 @@ been stored to in Lock Data Mode. Upon boot, the system, by default, starts with
 the serial interface fully locked down. After boot up, the system will begin to
 test for $tau_"lock"$ repeatadly until it gets the correct value.
 
+This measurement is performed by the chip driving the $"RC Driver"$ pin. The
+intended application circuit involves connecting the $"RC Driver"$ pin to the
+$"RC"$ pin through a resistor, the $R$, and connecting the $"RC Driver"$ pin to
+ground through a capacitor.
+
 It is recommended that the value of ocompanying resistors and capacitors used
 for unlocking the device be obfiscated in the hardware layout. The following
 methods can be used:
@@ -375,8 +382,7 @@ functionality of the device. The following table describes the fusing registers:
     $0$,
     [Disable Lock],
     [Disables the locking functionality of the chip, such
-      that it cannot be written to or have it's RC time constant changed.
-      Attempting to interface with serial will yield bad data.],
+      that it cannot be written to or have it's RC time constant changed.],
 
     $1$,
     [Enable Circular Flash],
