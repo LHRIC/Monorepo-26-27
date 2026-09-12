@@ -19,6 +19,10 @@ void init_serial(void) {
            (0 << USICS0) | (0 << USICLK);
 }
 
+void disable_serial(void) { USICR &= ~((1 << USIWM1) | (1 << USIWM0)); }
+
+void enable_serial(void) { USICR |= (0 << USIWM1) | (1 << USIWM0); }
+
 void reset_serial_ptr(uint8_t size) {
    current_serial_data = 0;
    serial_buffer_size = size;

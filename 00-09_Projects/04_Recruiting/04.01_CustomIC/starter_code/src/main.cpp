@@ -26,10 +26,10 @@ void setup() {
    pinMode(CLK_PIN, OUTPUT);
    pinMode(DATA_PIN, INPUT);
    digitalWrite(CLK_PIN, LOW);
-   delay(1000);
+   delay(2000);
 }
 
 void loop() {
-   char letter = read_byte();
-   Serial.write(letter);
+   char byte = read_byte();
+   Serial.write(byte);
 }

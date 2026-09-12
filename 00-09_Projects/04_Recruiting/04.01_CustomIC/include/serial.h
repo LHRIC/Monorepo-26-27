@@ -20,4 +20,14 @@ void init_serial(void);
  */
 void reset_serial_ptr(uint8_t size);
 
+/*
+ *  Disables the serial peripheral
+ */
+void disable_serial(void);
+
+/*
+ *  Re-activates the serial peripheral
+ */
+void enable_serial(void);
+
 #endif

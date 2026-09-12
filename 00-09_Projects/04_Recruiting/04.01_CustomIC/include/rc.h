@@ -24,4 +24,12 @@ bool rc_measurement_check_valid(void);
  */
 uint32_t rc_measurement_get(void);
 
+/*
+ *  Ensure Cap is discharged
+ */
+void rc_discharge_cap(void);
+
+void comparator_init(void);
+void timer0_init(void);
+
 #endif
