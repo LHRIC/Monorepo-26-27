@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "tts")(type "KiCad")(uri "C:/Users/sophi/Documents/KiCad/tts.pretty")(options "")(descr ""))
+)
