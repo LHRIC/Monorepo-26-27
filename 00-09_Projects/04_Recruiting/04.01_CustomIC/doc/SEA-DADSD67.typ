@@ -355,10 +355,37 @@ methods can be used:
 Once the $"RC"$ pin has measured $tau_"lock"$ sucessfully, the chip will become
 unlocked for the remainder of the time it is powered on, or until reset. The
 $"UNLOCKED"$ pin will be pulled high to indicate that the chip is ready for data
-transmission.
+transmission. Prior to the chip being unlocked the system will not output
+anything from its serial data port.
 
 After the system is unlocked, the serial interface will become active and will
-repeatadly output the stored value acording to @SerialDataInterface.
+repeatedly output the stored value acording to @SerialDataInterface.
+
+== Programmable Fuses
+
+The SEA-DADSD67 has a set of programmable fuses that can change the
+functionality of the device. The following table describes the fusing registers:
+
+#figure(
+  table(
+    columns: (auto, auto, auto),
+    align: (left, left, left),
+    stroke: 0.5pt,
+    table.header([*Bits*], [*Name*], [*Device*]),
+    $0$,
+    [Disable Lock],
+    [Disables the locking functionality of the chip, such
+      that it cannot be written to or have it's RC time constant changed.
+      Attempting to interface with serial will yield bad data.],
+
+    $1$,
+    [Enable Circular Flash],
+    [Enables circular flash overwriting. Flash
+      segments are overwritten in a circular order using a stepped pointer.],
+
+    $2 \- 7$, [Reserved], [Reserved for future use.],
+  ),
+)
 
 = Package Information
 

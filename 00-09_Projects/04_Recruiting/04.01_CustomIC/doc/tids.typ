@@ -298,23 +298,6 @@
 
     #desc
 
-    #figure(
-      rect(height: 30%, canvas(length: 0.75cm, {
-        plot.plot(
-          size: (8, 6),
-          x-tick-step: 1,
-          x-ticks: ((-calc.pi, $-pi$), (0, $0$), (calc.pi, $pi$)),
-          y-tick-step: 1,
-          {
-            plot.add(
-              domain: (-calc.pi, calc.pi),
-              x => calc.sin(x * 1rad),
-            )
-          },
-        )
-      })),
-      caption: [Awesome Performance],
-    )
 
   ])
 
