@@ -1,0 +1,105 @@
+Hello! This is the list of commands you can use to interact with this machine.
+
+If you are familiar with Linux/Unix, you will already know some of these names.
+Some commands are custom and others differ from their Linux counterparts, so
+this file is still worth reading. Other Linux tools are not available here.
+If you aren't familiar with Linux/Unix, that is okay! We selected this smaller
+list of simplified commands for exactly that reason.
+
+Commands use the format COMMAND [argument] (what the command does).
+Do not type the square brackets. Commands are case-sensitive. There are no flags.
+Enter one command at a time. No pipes, redirection, command chaining, wildcards,
+or shell substitutions are available. For example, > and | are not commands.
+
+GENERAL LINUX UTILITY COMMANDS
+
+ls (lists files and folders in the current folder; no arguments)
+
+cat [file_name] (prints the contents of one text file)
+    Example: cat commands.txt
+
+cd [path] (navigates to a different folder)
+    cd challenge -> enters the challenge folder
+    cd work -> enters the work folder if it exists in your current folder
+    cd .. -> goes back one folder; .. means the parent folder
+    cd work/documents/traces/errors -> follows a path, if those folders exist
+    cd ~/challenge -> enters the challenge folder in your home folder
+    cd ~ -> returns to your home folder, where you started
+    A single dot means the current folder. Your home is /home/recruit.
+    You cannot navigate above your home folder.
+
+echo [message] (prints your message)
+    Example: echo We should compare the readings
+
+man (prints this file; no arguments)
+
+help (prints this file; no arguments)
+
+pwd (prints the current folder; no arguments)
+
+CAR UTILITY COMMANDS
+
+ecu_protocol (lists available CAN IDs, units, and how to interpret each byte)
+
+check_CAN [CAN_ID] (prints the eight bits of the latest byte for this CAN ID)
+    check_CAN 7 -> prints the latest RPM byte; see ecu_protocol for its scale
+    check_CAN 3 -> prints the latest gear byte
+    In this activity each CAN ID carries exactly one byte, or eight bits.
+    Classic CAN supports up to eight data bytes per frame; CAN FD supports more.
+    Real CAN identifiers can be 11 or 29 bits. We use small decimal IDs here.
+    If bits are unfamiliar, look up unsigned 8-bit binary-to-decimal conversion,
+    or ask a teammate or a facilitator. You are welcome to use a calculator.
+
+check_display (prints the car display, including warnings and five readings)
+
+charge_battery [target_volts] (sets battery voltage and updates the CAN backend)
+    Use volts, not the encoded CAN byte. This can charge or discharge the battery.
+    The simulator accepts 0 to 16 V, in steps of 0.1 V.
+
+test_car (runs the full electronics diagnostic; your goal is to make it pass)
+    Saved changes take effect immediately. There is no compile or restart command.
+    Car commands work from any folder.
+
+TEXT EDITING
+
+nano [file_name] (creates or edits one challenge text file)
+vim [file_name] (edits one challenge text file with simple Vim-style controls)
+
+These are built-in sandbox editors with familiar keys, not full Nano or Vim.
+Neither can execute commands or open another file from inside the editor.
+If you have not used Vim, use nano.
+
+For example, nano test.txt opens test.txt. If it does not exist, saving creates
+it. New files must be inside challenge or an existing folder beneath it.
+Read-only activity documents are protected. Folder creation is not available.
+
+NANO CONTROLS
+    Type normally. Use arrow keys, Backspace, Delete, Home, End, and Page Up/Down.
+    Ctrl+O saves directly to the file you opened. Ctrl+X exits.
+    If you exit with unsaved changes, press Y to save, N to discard, or another
+    key to continue editing.
+    Ctrl+T, then Y, clears the whole buffer so you can paste a replacement file.
+    Clearing the buffer does not change the saved file until you save.
+    Shortcuts not listed here are not implemented. This editor has no undo.
+
+VIM CONTROLS
+    Start in normal mode. Press i to insert text; Escape returns to normal mode.
+    Arrow keys work in both modes; h/j/k/l move in normal mode, and x deletes.
+    :w saves, :q quits if saved, :wq saves and quits, :q! discards and quits.
+    :%d clears the whole buffer. Ctrl+O, Ctrl+X, and Ctrl+T also work.
+    Other Vim commands, plugins, startup files, and shell escapes are unavailable.
+
+COPY, PASTE, AND CODING
+    Use your terminal's Copy/Paste menu. On many Linux terminals the shortcuts
+    are Ctrl+Shift+C / Ctrl+Shift+V. On macOS use Command+C / Command+V.
+    Windows Terminal commonly uses Ctrl+Shift+C / Ctrl+Shift+V.
+    You can write text in your own IDE and paste it into this editor.
+    Paste a single command at the prompt; paste file contents inside an editor.
+    The editor accepts plain ASCII text, tabs, and line breaks, up to 64 KiB.
+    Only one teammate should edit a file at a time; conflicting saves are blocked.
+    Programs for the data-recovery challenge run ON YOUR LAPTOP, in any language.
+    There is intentionally no python, bash, scp, or sftp command on this machine.
+
+Press Ctrl+D at the command prompt to disconnect. Ctrl+C cancels a command line.
+
+Ready? Use ls, then explore challenge and find your mission.

@@ -1,0 +1,32 @@
+TEAM DIRECTORY
+
+Shalini / Electronics Lead / knows how everything works / shalini3445
+    previous hardware lead. worked on PDM. some people say she's intimidating.
+
+JackGPT / Software Lead / resident ???? hunter / jackfromschool
+    worked on DAQ and knows its intended output format. call him JackGPT.
+
+Ethan / Hardware Lead / bad little slug / butteroutlaw
+    worked on upright CAN boards and other stuff
+
+Sophie / coordinates Electronics socials / pronounces "poutine" as "putzin" / avocado123
+    worked on sensor boards
+
+Henry / very funny / might have asked you to draw a full bridge rectifier / yourerubbish 
+    worked on custom display hardware
+
+Puneet / elite ball knowledge / MechE / puneet0305
+    worked on some boards
+
+Ayaan / right handed / good at Moomoo Meadows time trials / nobbertins 
+    worked on custom display software
+
+Kamran / wrong handed / bad at Moomoo Meadows time trials / llama
+    worked on CAN library, GPS stuff, and lap timer
+
+some uncs:
+    Ryan - prev Electronics Lead, doing his integrated masters, will be around
+    Jimmy - may or may not be around idk. he has job
+
+These are our team members. There are no pictures, so if you don't know which face matches which name, you should guess. It will be funny.
+Also, more importantly, you should ask us questions if you get stuck! There's no penalty or anything like that.

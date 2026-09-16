@@ -1,0 +1,24 @@
+services:
+  sandbox:
+    build:
+      context: .
+      target: runtime
+    ports:
+      - "${SSH_BIND:-0.0.0.0}:${SSH_HOST_PORT:-2222}:2222"
+    volumes:
+      - recruit_home:/home/recruit
+      - car_state:/state
+    init: true
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    pids_limit: 128
+    mem_limit: 256m
+    cpus: 1.0
+    restart: unless-stopped
+
+volumes:
+  recruit_home:
+  car_state:

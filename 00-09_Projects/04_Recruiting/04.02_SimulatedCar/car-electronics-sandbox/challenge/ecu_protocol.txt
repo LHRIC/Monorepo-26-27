@@ -1,0 +1,19 @@
+SIMPLIFIED ECU / CAN PROTOCOL
+
+The ECU is the simulated controller that publishes measurements on the CAN bus.
+CAN is a shared message system. An ID says what a message represents.
+Each measurement here is one unsigned byte: an integer from 0 to 255.
+check_CAN prints that byte as eight binary digits. Convert it to decimal, then
+apply the scale below.
+
+CAN ID   Measurement          Decode the decimal byte
+1        Battery voltage      divide by 10 to get volts
+2        Coolant temperature  direct reading in degrees Celsius
+3        Gear                 direct integer gear number
+7        Engine speed         multiply by 100 to get RPM
+8        Throttle             direct percentage
+
+Example: a byte of 00011000 is decimal 24. -> look up converting binary to and from decimal if this doesn't make sense
+For CAN ID 7 that means 24 * 100 = 2400 RPM.
+For CAN ID 1 that would mean 24 / 10 = 2.4 V.
+Readings from different IDs can need different scales.

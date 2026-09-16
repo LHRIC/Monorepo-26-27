@@ -1,0 +1,13 @@
+DAQ DATA Record (2 samples)
+---------------------------
+Battery: 11.9V
+Throttle: 84%
+RPM: 14910
+Coolant Temp: 80C
+Gear: 5
+
+Battery: 11.9V
+Throttle: 24%
+RPM: 11341
+Coolant Temp: 82C
+Gear: 4

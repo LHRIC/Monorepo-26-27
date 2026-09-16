@@ -1,0 +1,9 @@
+ACTIVITY COMPLETE - CUSTOM IC HANDOFF
+
+The electronics and recovered recording passed the diagnostic.
+
+FACILITATOR SETUP REQUIRED: Replace this text file with the real custom-IC
+datasheet URL or handoff instructions before running the activity.
+No actual IC datasheet was supplied with the sandbox specification.
+
+If you see this placeholder during the activity, ask the host for the datasheet.
