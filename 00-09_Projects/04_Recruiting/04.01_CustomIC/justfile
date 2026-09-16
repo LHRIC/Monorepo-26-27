@@ -1,0 +1,3 @@
+flash:
+   minipro -p 'ATTINY85@DIP8' -w fuses.conf --fuses
+   minipro -p 'ATTINY85@DIP8' -w ./build/attiny_test.hex
