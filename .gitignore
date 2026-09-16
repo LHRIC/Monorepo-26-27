@@ -1,4 +1,128 @@
+# === Sofware Stuff ===
+
+**/build/
+compile_commands.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Directory metadata
+.directory
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Log files
+*.log
+
+# Build artifacts and directories
+**/build/
+build/
+*.o
+*.a
+*.out
+*.exe # For any host-side utilities compiled on Windows
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+CMakeLists.txt
+
+# Python environment files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+
+# ESP-IDF dependencies
+# For older versions or manual component management
+/components/.idf/
+**/components/.idf/
+# For modern ESP-IDF component manager
+managed_components/
+# If ESP-IDF tools are installed/referenced locally to the project
+.espressif/
+
+# Virtual environment folders
+myvenv/
 venv/
-env/
 .venv/
-ENV/
+env/
+
+# Language Servers
+*.clangd
+.clangd/
+.ccls-cache/
+compile_commands.json
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# User-specific configuration files
+*.user
+*.workspace # General workspace files, can be from various tools
+*.suo       # Visual Studio Solution User Options
+*.sln.docstates # Visual Studio
+.vscode/
+.devcontainer/
+
+# === KICAD ===
+
+# Lock Files
+**/hardware/*.000
+**/hardware/*.bak
+**/hardware/*.bck
+**/hardware/*.kicad_pcb-bak
+**/hardware/*.kicad_sch-bak
+**/hardware/*-backups
+**/hardware/*-cache*
+**/hardware/*-bak
+**/hardware/*-bak*
+**/hardware/*~
+**/hardware/~*
+**/hardware/_autosave-*
+**/hardware/\#auto_saved_files\#
+**/hardware/*.tmp
+**/hardware/*-save.pro
+**/hardware/*-save.kicad_pcb
+**/hardware/fp-info-cache
+**/hardware/~*.lck
+**/hardware/\#auto_saved_files#
+
+# Netlist files (exported from Eeschema)
+**/hardware/*.net
+
+# Autorouter files (exported from Pcbnew)
+**/hardware/*.dsn
+**/hardware/*.ses
+
+# Exported BOM files
+**/hardware/*.xml
+**/hardware/*.csv
+
+# Archived Backups (KiCad 6.0)
+**/hardware/**/*-backups/*.zip
+
+# Local git-based history (KiCad 9.0+)
+**/hardware/.history
+
+# Local project settings
+**/hardware/*.kicad_prl
+
+# Generated Production Files
+**/hardware/*.drl
+**/hardware/*.grbjob
+**/hardware/*.grb

@@ -1,0 +1,6087 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "55a99d5f-8a3e-4d25-89b9-d979c9fbe8ee")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Power LED"
+		(exclude_from_sim no)
+		(at 59.69 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8068120-a32d-4126-9aeb-203b621b6709")
+	)
+	(polyline
+		(pts
+			(xy 55.88 113.03) (xy 55.88 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07be6bd4-ba3d-480f-898f-9c32ebe9b336")
+	)
+	(wire
+		(pts
+			(xy 151.13 72.39) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc404d2-b222-4793-baff-e5275a7a9b21")
+	)
+	(wire
+		(pts
+			(xy 113.03 72.39) (xy 113.03 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da5d10e-268b-49aa-ad65-63027bbc7910")
+	)
+	(wire
+		(pts
+			(xy 173.99 72.39) (xy 173.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148f2117-78a4-4137-ab9e-85740e0bbd38")
+	)
+	(wire
+		(pts
+			(xy 166.37 72.39) (xy 166.37 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38344408-dc84-4151-8616-c7d4798454c3")
+	)
+	(wire
+		(pts
+			(xy 67.31 72.39) (xy 67.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4680c4dc-2c7f-4547-aa4f-fdb32bd1a5c4")
+	)
+	(wire
+		(pts
+			(xy 158.75 72.39) (xy 158.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "561c01de-d02f-48e4-ae81-cb3ab6ed87fb")
+	)
+	(wire
+		(pts
+			(xy 59.69 72.39) (xy 59.69 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570af561-cad9-406d-872b-edb6f70b4ac3")
+	)
+	(wire
+		(pts
+			(xy 97.79 72.39) (xy 97.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6060a1-3f1f-40ac-9299-ef619fbbf5a8")
+	)
+	(wire
+		(pts
+			(xy 74.93 72.39) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eda730e-a21b-444c-bbf5-7085533dc107")
+	)
+	(wire
+		(pts
+			(xy 143.51 72.39) (xy 143.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b2ff71-f198-42bd-9561-d5036a63cc5f")
+	)
+	(wire
+		(pts
+			(xy 90.17 72.39) (xy 90.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8536705e-cfc5-4c10-aede-d8860f345ba6")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87672565-281c-4cc1-837b-97a16629661c")
+	)
+	(polyline
+		(pts
+			(xy 55.88 133.35) (xy 71.12 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995412a7-a182-458e-a824-0cf77f5911ff")
+	)
+	(wire
+		(pts
+			(xy 82.55 72.39) (xy 82.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf0e0b4-f80c-418a-8291-07f86d95a5ef")
+	)
+	(wire
+		(pts
+			(xy 105.41 72.39) (xy 105.41 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a919f7-6559-4a59-b8eb-ae8dff7b99aa")
+	)
+	(wire
+		(pts
+			(xy 128.27 72.39) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc939068-dea7-4244-b42f-2537b542beb8")
+	)
+	(polyline
+		(pts
+			(xy 55.88 113.03) (xy 71.12 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72cb035-1cca-4120-9e84-c3b08e126502")
+	)
+	(wire
+		(pts
+			(xy 135.89 72.39) (xy 135.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d5f886-27ca-4a10-ac98-fde0decaca2e")
+	)
+	(polyline
+		(pts
+			(xy 71.12 133.35) (xy 71.12 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca3d6f6-bbde-4eeb-bd19-4311ebdaa42a")
+	)
+	(global_label "SWDN_3V"
+		(shape input)
+		(at 77.47 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22e22b29-28d7-42ed-bb2d-db7b32c6768b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 105.3277 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH7_Fault"
+		(shape input)
+		(at 158.75 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a63e9bb-4234-4d9d-a5b0-019830df181b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.75 59.8497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH1_EN"
+		(shape input)
+		(at 59.69 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2aff88dc-ccde-4ef3-bbb8-fd4014e65af4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 62.1477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH6_EN"
+		(shape input)
+		(at 135.89 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "423f87d9-aeb5-4d01-a91a-68d39eb9361e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 62.1477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH5_EN"
+		(shape input)
+		(at 120.65 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fb966ea-8897-494a-b0a3-458249ba4714")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.65 62.1477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH8_EN"
+		(shape input)
+		(at 166.37 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fe77305-ea6e-4223-8c8e-6b7fe77c8312")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 62.1477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH5_Fault"
+		(shape input)
+		(at 128.27 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5753e19b-b84a-414b-a831-de6ad8a371b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 59.8497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH1_Fault"
+		(shape input)
+		(at 67.31 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5aba5356-3ec3-4d0d-89fa-08af48ba3bfc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 59.8497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH4_Fault"
+		(shape input)
+		(at 113.03 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ae8f422-372e-413e-8885-2085d815a20e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 59.8497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH2_EN"
+		(shape input)
+		(at 74.93 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "642a0a06-a3f4-4686-990d-16b37911840a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.93 62.1477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH3_EN"
+		(shape input)
+		(at 90.17 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a93f0c4-a2bf-4321-a6cd-7c803c57d373")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 62.1477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Key_3V"
+		(shape input)
+		(at 85.09 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e85ec75-3197-42de-a747-a0a682c86974")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 107.2629 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH8_Fault"
+		(shape input)
+		(at 173.99 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2f1f116-f3a8-4d6b-802b-5ae4205656e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.99 59.8497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH4_EN"
+		(shape input)
+		(at 105.41 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0562506-86ce-465c-966c-11031131b5c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 62.1477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH6_Fault"
+		(shape input)
+		(at 143.51 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c28cae8e-7637-44a1-b8df-19cfbf9143a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 59.8497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH3_Fault"
+		(shape input)
+		(at 97.79 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c66a7367-20ec-4d25-adb3-527c5fec0d51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 59.8497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH7_EN"
+		(shape input)
+		(at 151.13 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9afc959-3537-4ea2-9156-9a893aeb91ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 62.1477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH2_Fault"
+		(shape input)
+		(at 82.55 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb21c13b-8be2-4a3e-8482-4204a2ffd382")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 59.8497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 173.99 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01d5021b-cd5f-4bf7-8b51-e6b9616cc082")
+		(property "Reference" "R67"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 175.26 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4478eaa4-c2aa-482f-937c-63574f2af1cc")
+		)
+		(pin "2"
+			(uuid "1eaf52d3-10f7-4804-8a0c-e642e1d18c8e")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "055e920b-57a0-464c-a72d-a89421250923")
+		(property "Reference" "#PWR0169"
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cecb67da-6626-4236-b46d-0f5295effcec")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 128.27 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06bc9e3d-be8b-4a56-8442-5b316785b2ac")
+		(property "Reference" "D24"
+			(at 129.54 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 129.54 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 128.27 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR29"
+			(at 128.27 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e44e9c0a-a0f4-443c-8dfd-3c4c35bfb1bb")
+		)
+		(pin "2"
+			(uuid "63127581-af37-46d9-8d54-a70c79c271fb")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f3f9d49-0558-426d-b97c-12f2a9972bba")
+		(property "Reference" "#PWR0170"
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f93380e7-4502-4c6d-88ef-225743ab7019")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 77.47 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16fb697d-f94a-4b77-9563-ee5fbe2d8c59")
+		(property "Reference" "R53"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 78.74 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68b11967-e65e-473c-88be-c6dc2a111319")
+		)
+		(pin "2"
+			(uuid "2c85c8a5-5780-4c24-b549-9c5087e17571")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b4e5b3d-6a83-4b67-a525-ee2c114fed49")
+		(property "Reference" "#PWR0163"
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd19c050-1b4f-48e5-bd8a-9ad00a4e8d3b")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 166.37 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cdb042d-391b-4ce6-8527-b727766c83da")
+		(property "Reference" "D29"
+			(at 167.64 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 167.005 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 166.37 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR68"
+			(at 166.37 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0afcae68-86c5-44e7-bcae-f38411143cc3")
+		)
+		(pin "2"
+			(uuid "4c9aa297-5ea0-4936-bb46-8a05d1eb96ca")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2072c71d-6a13-48ab-ba4b-c3d09c2e60fc")
+		(property "Reference" "#PWR0168"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0400e1b4-40a8-4178-9de5-afb47acf5ed9")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 67.31 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2609cefc-4c30-4291-ab28-40b364ef7b59")
+		(property "Reference" "R51"
+			(at 68.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 68.58 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba445654-c697-447c-b281-c2a4f5229161")
+		)
+		(pin "2"
+			(uuid "d6a6cc47-2052-43a4-9dff-35f05ccb2f80")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d7818c2-e428-470e-88d0-e106c0d72b2c")
+		(property "Reference" "#PWR0161"
+			(at 105.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f24fa832-1225-4a74-ad89-83b3d52bb92e")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 59.69 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31e7fd9a-f46e-4b2c-8600-13305129f4b8")
+		(property "Reference" "D12"
+			(at 60.96 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 60.325 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 59.69 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR68"
+			(at 59.69 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 59.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 59.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d87777e-5860-4b65-b49e-d31f4feabeb2")
+		)
+		(pin "2"
+			(uuid "eb099ba7-5af8-4d39-8ef8-9733cd9646d3")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 90.17 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33811723-1d42-4f77-92d3-b5deb21f6ce6")
+		(property "Reference" "R56"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 91.44 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6fbf15a-67ee-4b62-a78a-ede126bdae73")
+		)
+		(pin "2"
+			(uuid "9a3d5e67-1eeb-427c-92ab-762f0445d868")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 113.03 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34c79d1b-2368-49ac-94b6-ee496390ef86")
+		(property "Reference" "R59"
+			(at 114.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 114.3 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06083a1b-d110-4c2a-8175-9f751b8b4724")
+		)
+		(pin "2"
+			(uuid "2d814f9d-58b6-41e0-b9ef-39efd3a35997")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 60.96 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "391a7d26-3dd1-48a3-ac12-a72ed486f459")
+		(property "Reference" "#PWR0152"
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 64.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2f9a6af-0a18-4a83-85be-98cc8628b5ff")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 67.31 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53823eb1-96e6-4ecd-8a3f-adb1b9e0fe3c")
+		(property "Reference" "D14"
+			(at 68.58 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 68.58 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 67.31 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR29"
+			(at 67.31 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e762cb6-aa93-41bc-ba18-49a24a12063d")
+		)
+		(pin "2"
+			(uuid "d975d3d4-a5e3-4bfd-abbf-0361a27a7ee4")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 97.79 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60f4267d-bbf0-427f-92ac-acd556d3cb86")
+		(property "Reference" "D20"
+			(at 99.06 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 99.06 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 97.79 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR29"
+			(at 97.79 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efdbb0ee-187e-4e79-bd98-e153469ad42a")
+		)
+		(pin "2"
+			(uuid "05dcb97c-b781-45e6-99bb-47d85de4bf92")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 74.93 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61cdc381-821f-41a4-afe0-516daa09c408")
+		(property "Reference" "D15"
+			(at 76.2 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 75.565 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 74.93 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR68"
+			(at 74.93 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e856b4c0-4c10-4d27-b29f-1c39259a966b")
+		)
+		(pin "2"
+			(uuid "120ae5df-c644-4dd2-a4cd-75c5ecbd5af7")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 60.96 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67301eb9-17b5-437b-a99f-0feabb98bc65")
+		(property "Reference" "D13"
+			(at 62.23 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 62.23 126.365 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 60.96 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 60.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR29"
+			(at 60.96 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 60.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 60.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82d60c55-b304-4a7b-ba81-4f0816ce7aaa")
+		)
+		(pin "2"
+			(uuid "38e8d0d8-5ab4-4047-b1c1-6fdf22c2e2b5")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 113.03 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fec9e5a-c4b1-4b68-97e8-8d61ab88d21f")
+		(property "Reference" "D22"
+			(at 114.3 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 114.3 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 113.03 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR29"
+			(at 113.03 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc44555b-2381-4987-9e08-c91495ac523f")
+		)
+		(pin "2"
+			(uuid "3d2da062-4798-47e3-89ba-7edd677c6778")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ff7afed-023a-48dd-ad17-3fbeff0d7806")
+		(property "Reference" "#PWR0165"
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95f6298d-c3a6-468c-9819-2b86d9a54c15")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "874558ac-14cc-472e-a69a-66d7fc708e7f")
+		(property "Reference" "#PWR0155"
+			(at 74.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a00769d-ab50-4286-a926-0525391ae2ff")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 143.51 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "898b71c7-ba24-44e5-a8a8-a2ae142ce6fe")
+		(property "Reference" "R63"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 144.78 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5fa25f6-ce38-45d8-81e9-f6aec12e529a")
+		)
+		(pin "2"
+			(uuid "5326c5d8-57a8-4bf9-a1f1-c6847dd398b2")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c505e03-1bd8-41cd-bb53-e691decaae86")
+		(property "Reference" "#PWR0153"
+			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82943f9a-8dd4-4f8b-b43c-90d256c202cd")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 158.75 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cf62d13-5159-460c-a977-2e7c2047c323")
+		(property "Reference" "R65"
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 160.02 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bc6decf-f92e-4a3c-b211-a21c35afe2ab")
+		)
+		(pin "2"
+			(uuid "9d62b47f-6e38-4077-9d4e-94eb8ee6e80b")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d39a49e-0c6a-4fae-97cf-1dbfb11f2261")
+		(property "Reference" "#PWR0167"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5ef6cff-97e0-43de-bf6c-046b891b3f47")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 85.09 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d70ca42-350a-41d3-a234-e651fdbfa2eb")
+		(property "Reference" "D18"
+			(at 86.36 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 86.36 126.365 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 85.09 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR29"
+			(at 85.09 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe94442b-151b-48af-bbf7-6e0330ac527b")
+		)
+		(pin "2"
+			(uuid "b348b588-2ae5-4c65-95e5-474c87e474d5")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "952c933f-8d2d-4f7c-add2-0f840590aead")
+		(property "Reference" "#PWR0159"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49e484f3-4550-4264-8ea2-e9d61aed86aa")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 135.89 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96cece47-7c7b-4bf6-8a55-fe93c4bfaeb0")
+		(property "Reference" "R62"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 137.16 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e155e23d-5917-4ca8-bae3-60933801867f")
+		)
+		(pin "2"
+			(uuid "b037b354-f94d-4b3c-a941-49deb74fd556")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9870c079-7725-4f4a-a69c-28cdff95787e")
+		(property "Reference" "#PWR0166"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "182b28f1-6f7b-4f26-8c81-093938f0a0e1")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 143.51 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e4871f7-8791-498c-90ab-7b75f74ffcab")
+		(property "Reference" "D26"
+			(at 144.78 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 144.78 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 143.51 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR29"
+			(at 143.51 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cc4bda8-e49f-46d3-8173-ddeb5caf910f")
+		)
+		(pin "2"
+			(uuid "d850a686-1177-4f01-b422-f1bc8ff3382f")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 120.65 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3c3b4ff-296c-4e33-9f21-568d32051e9c")
+		(property "Reference" "R60"
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 121.92 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2626a7d8-0c48-4167-867b-3a98f1b8d98b")
+		)
+		(pin "2"
+			(uuid "48dc39c8-f704-4b49-bf7b-6b7cee74659c")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 151.13 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a51550c8-76dc-4024-8935-532b00b417d3")
+		(property "Reference" "R64"
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 152.4 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdafe9ae-e4d2-48cb-839e-4a36c55c06a3")
+		)
+		(pin "2"
+			(uuid "99e0fa67-a96e-4917-9c20-8afa61ad9506")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 74.93 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5ccc0a5-2906-4a62-bb8c-18a89db3d53c")
+		(property "Reference" "R52"
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 76.2 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 74.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 74.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 74.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 74.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 74.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb37d24a-e899-4aa3-a9ed-e64a4b8ceb35")
+		)
+		(pin "2"
+			(uuid "0cc0bb66-4650-43da-a084-da71a066867b")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 97.79 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae34e34f-0103-42cc-9f87-c8c2a7264321")
+		(property "Reference" "R57"
+			(at 99.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 99.06 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7251fd1e-bb8a-4088-a065-a1952bed9663")
+		)
+		(pin "2"
+			(uuid "31637d01-f0e6-4d71-bda9-0d590eac2d80")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0883854-f340-42bc-9acb-25c08f6f0f5c")
+		(property "Reference" "#PWR0162"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a80dee42-efe2-4fd8-aea6-f9ef5ff79ca6")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 158.75 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7f8854f-2154-4776-821b-bda974fa225f")
+		(property "Reference" "D28"
+			(at 160.02 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 160.02 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 158.75 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 158.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR29"
+			(at 158.75 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 158.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 158.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "526571d2-c6d2-4247-a806-eb2527a45a52")
+		)
+		(pin "2"
+			(uuid "b69e8b07-ead7-475e-b912-268e5a8818a3")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 82.55 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc8903aa-f894-403a-a03e-0a61e1df199d")
+		(property "Reference" "D17"
+			(at 83.82 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 83.82 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 82.55 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 82.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR29"
+			(at 82.55 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 82.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 82.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "409ca1d7-d283-4b3b-8954-8b7f8ed25671")
+		)
+		(pin "2"
+			(uuid "29c87f2d-09f3-437b-8dfd-7fe409e0ecb8")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2db9e85-5150-41e9-be7d-00a3deb3a787")
+		(property "Reference" "#PWR0160"
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef769ed0-0c6f-452d-8c6a-5e4c07587e4b")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 59.69 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c395bc41-e641-4791-b179-6eda3127e245")
+		(property "Reference" "R49"
+			(at 60.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 60.96 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec300749-9373-4ff7-ad94-d6bb66abfdbb")
+		)
+		(pin "2"
+			(uuid "2a91ea4c-b013-4b84-b1d1-4c5b4ea97d62")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4415779-85c8-4ed7-b237-9b66db935396")
+		(property "Reference" "#PWR0156"
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c611c6e9-1858-4125-ad4d-4de5366de257")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c96bec1a-268d-4418-badc-7306493cb0da")
+		(property "Reference" "#PWR0158"
+			(at 85.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88ac105a-8404-4cc7-a4f5-f10f5d97a718")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 151.13 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce3cf330-afd5-4a3c-a191-344f2d783db8")
+		(property "Reference" "D27"
+			(at 152.4 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 151.765 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 151.13 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR68"
+			(at 151.13 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710a4184-3000-4ed5-8240-1c238b4d18a5")
+		)
+		(pin "2"
+			(uuid "ae3c6236-1596-4b8b-a647-102e6fa9e348")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 173.99 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfe2f508-62da-40cd-ba9d-8d1ee023690e")
+		(property "Reference" "D30"
+			(at 175.26 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 175.26 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 173.99 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR29"
+			(at 173.99 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d4aa32f-a20b-4480-a169-ee433a4f0dc8")
+		)
+		(pin "2"
+			(uuid "f40f1c68-4a6d-4362-a655-443eb5758d9b")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 82.55 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d38c410b-be23-4b73-b6e9-ac41533b99b3")
+		(property "Reference" "R54"
+			(at 83.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 83.82 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5de311f6-2939-4e1e-9b3a-880f130a8e72")
+		)
+		(pin "2"
+			(uuid "d303b1d1-95a3-4d8e-935a-28d5f9cdc1d4")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 135.89 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d66005e5-51e5-4b07-95b3-b95d443d583b")
+		(property "Reference" "D25"
+			(at 137.16 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 136.525 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 135.89 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR68"
+			(at 135.89 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d947be-df54-4f8f-9692-a3b6f07b3dbc")
+		)
+		(pin "2"
+			(uuid "38f39bf9-48ba-4615-a179-4c639769cd65")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7d88555-4bc4-41c8-a5e9-a19654fde3de")
+		(property "Reference" "#PWR0157"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "095398e7-a637-456d-a099-7b1f97691d34")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 105.41 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9ac49e0-cbf5-4f63-8b0b-87884900eccd")
+		(property "Reference" "D21"
+			(at 106.68 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 106.045 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 105.41 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR68"
+			(at 105.41 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61b9b472-67bd-4166-ac59-c6e8e7912fc2")
+		)
+		(pin "2"
+			(uuid "7875a642-1f18-4c10-bab7-7e14461d9fe4")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 128.27 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e246aa90-c318-422b-9a9a-c63b87b8a0ca")
+		(property "Reference" "R61"
+			(at 129.54 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 129.54 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7e62612-32f9-47c5-90da-97056068fc67")
+		)
+		(pin "2"
+			(uuid "5414e386-83fc-4af4-b5a1-a567782464c3")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 120.65 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6a24c79-44e3-4f4d-a51e-f440962a1528")
+		(property "Reference" "D23"
+			(at 121.92 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 121.285 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 120.65 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR68"
+			(at 120.65 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0448597f-58e5-4b38-9550-fa74969a2e87")
+		)
+		(pin "2"
+			(uuid "2f7d7a1f-0a1d-4fc3-b1bf-b40d475588d0")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 77.47 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e943ca96-006a-4b55-aa3a-a402200d5d46")
+		(property "Reference" "D16"
+			(at 78.74 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 78.74 126.365 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 77.47 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 77.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR29"
+			(at 77.47 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 77.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 77.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a76132e-7cb6-4e26-a288-071162f1af71")
+		)
+		(pin "2"
+			(uuid "5d3bdbc3-bbae-475f-ab66-4ea7eb32e0ea")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 166.37 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0680f9a-f5c1-4283-8d86-519f71a65e9d")
+		(property "Reference" "R66"
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 167.64 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d58c381-d6b5-424d-8148-1aaa13df771f")
+		)
+		(pin "2"
+			(uuid "7bd1b87e-b0fd-49da-abbc-debf7afa6d26")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0ba3e72-a6fd-40dc-81e3-d7537a3a21a2")
+		(property "Reference" "#PWR0154"
+			(at 67.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38e72b76-6215-43b0-9e48-26aba4c21c57")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 60.96 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4b0e659-7599-456a-9f94-12fad7736ba2")
+		(property "Reference" "R50"
+			(at 62.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 62.23 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e34fcec1-1067-4ebd-b2ed-a8d44e504a84")
+		)
+		(pin "2"
+			(uuid "81d9db22-dc0e-4caf-939f-6a351d8cfd23")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f75f16c7-2194-439c-b9fb-06deb9b2c612")
+		(property "Reference" "#PWR0147"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b2e691c-e8f2-47f3-ac6b-3ece59512753")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 105.41 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f799d984-b01e-4bef-8820-e3a4199a3e72")
+		(property "Reference" "R58"
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 106.68 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cc79a23-7c3a-4965-8f56-ead9d6e00301")
+		)
+		(pin "2"
+			(uuid "665f7d58-f0f7-43d7-a239-069a0b63801c")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "faafcf43-5d2a-4d64-b556-0dd60c2ebece")
+		(property "Reference" "#PWR0164"
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e140530f-1efe-4f10-ba86-345014be63c1")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 90.17 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe25728e-f8e8-4523-abc6-b4cfec9161ab")
+		(property "Reference" "D19"
+			(at 91.44 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 90.805 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 90.17 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR68"
+			(at 90.17 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 90.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 90.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed68b228-a9b5-4c36-9a73-fedef30528c1")
+		)
+		(pin "2"
+			(uuid "cf8514ab-5b06-402e-8385-6e62debfaa0f")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 85.09 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffb9ac5b-eaf9-4d92-a96e-30586f1c7951")
+		(property "Reference" "R55"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 86.36 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LHR" "LHR48"
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "890290f0-e421-4346-8ccf-fef455fa62ed")
+		)
+		(pin "2"
+			(uuid "feb21741-7097-4799-af32-35d0a8f9e435")
+		)
+		(instances
+			(project "PDM v3.4"
+				(path "/148ca9be-7715-45ed-8d93-68c87a8050e7/36341247-901a-4802-9f18-8d22714958f3"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

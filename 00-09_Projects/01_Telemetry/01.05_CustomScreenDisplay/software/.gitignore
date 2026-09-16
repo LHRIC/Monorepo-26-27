@@ -1,0 +1,12 @@
+# Build Objects
+build
+Debug
+Release
+
+#CMake
+CMakePresets.json
+/cmake
+
+#vscode
+/.vscode
+
