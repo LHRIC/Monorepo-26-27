@@ -40,6 +40,9 @@ explain their previous tests and to ask at least one question about the logger.
 Tell them the intended file is ASCII CSV with a header and 64 measurement rows.
 The damaged file contains decimal representations of bytes, not decimal
 measurements. A single bit fault affected every byte, including line breaks.
+
+THE CONVERSATION IS NO LONGER REQUIRED BECAUSE THAT'S STUPID.
+
 Then record the conversation from the host:
 
 ```bash
