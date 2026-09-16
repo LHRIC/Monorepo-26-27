@@ -1,0 +1,16 @@
+alias a := all
+alias gf := generate_float
+alias gnf := generate_no_float
+
+# Generate floating point library
+generate_float:
+   python3 -m cantools generate_c_source  --use-float ../12.00_DBC/LHRDB.dbc -o ./float
+   mv ./float/lhrdb.c ./float/src/lhrdb.c && mv ./float/lhrdb.h ./float/include/lhrdb.h
+
+# Generate non floating point library
+generate_no_float:
+   python3 -m cantools generate_c_source  --no-floating-point-numbers ../12.00_DBC/LHRDB.dbc -o ./no_float
+   mv ./no_float/lhrdb.c ./no_float/src/lhrdb.c && mv ./no_float/lhrdb.h ./no_float/include/lhrdb.h
+
+# Generate all libraries. Ensure you are in a python environment with the requiremed dependencies
+all: generate_float generate_no_float

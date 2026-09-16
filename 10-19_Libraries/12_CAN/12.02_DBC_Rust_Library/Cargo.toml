@@ -1,0 +1,11 @@
+[package]
+name = "lhrdb"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bitvec = { version = "1.0", default-features = false }
+embedded-can = "0.4"
+
+[build-dependencies]
+dbc-codegen = { git = "https://github.com/oxibus/dbc-codegen", branch = "main" }
