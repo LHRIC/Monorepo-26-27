@@ -38,3 +38,6 @@ fn main() {
     messages::Messages::from_can_message(can_id, bytes);
 }
 ```
+
+You can also view all of the library functions by calling `cargo doc --open`
+when you are in the `12.02` folder.
