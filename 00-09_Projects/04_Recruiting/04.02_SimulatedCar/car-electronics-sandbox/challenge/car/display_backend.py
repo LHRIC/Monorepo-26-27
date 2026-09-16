@@ -288,7 +288,7 @@ def main(ticks: int = 5):
         model.tick()
         time.sleep(0.1)
 
-    print("\nDone ticking. The car remains parked. Mission accomplished.")
+    print("\nDone tickWhat is the value of 1.111 if it is a 2's complement fraction?ing. The car remains parked. Mission accomplished.")
 
 
 if __name__ == "__main__":

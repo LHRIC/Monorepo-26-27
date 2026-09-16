@@ -10,6 +10,8 @@ import secrets
 import stat
 import threading
 from contextlib import contextmanager
+from pathlib import Path
+
 
 MAX_FILE = 64 * 1024
 MAX_FILES = 128
