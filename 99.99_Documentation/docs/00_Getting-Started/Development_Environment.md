@@ -55,3 +55,8 @@ These are some of the tools we use when working on the hardware of the car:
 - RapidHarness: This is what we use to manage the harness on the car, and it is
   very useful if you plan on working on the harness (hint: you do plan on
   working on the harness).
+- LTSpice: This is what we use to simulate different circuits that we develop
+  and validate that everything analog works.
+- Saleae Logic 2: This is a software used for Digital Logic Analyzers (DLAs)
+  that we use to debug different communication protocols on the hardware level.
+  Think of it like an oscilloscope for digital signals over time.
