@@ -49,7 +49,7 @@ Make sure to update this if you add any other areas in the future.
       probably a powertrain project.
     - 04 Recruiting: Things for trial workday.
 - 10-19 Libraries: This is for anything that is generally reusable, or would
-  nice to be reused in the future. The main separation from tools is that
+  minimize redundancy. The main separation from tools is that
   libraries includes things like software libraries, CAN DBC, and KiCad design
   blocks, but not actual programs or devices.
     - 11 Drivers: Drivers for different IC's and Sensors
@@ -60,4 +60,4 @@ Make sure to update this if you add any other areas in the future.
     - 20 Electronics Testing: This is things like breakout boards and HWIL.
     - 21 User Applications: These are apps we've made to help out with various
     tasks around the garage.
-- 99.99 Documentation: Documentation get's its own thing cause its special :).
+- 99.99 Documentation: Documentation gets its own thing cause it's special :).
