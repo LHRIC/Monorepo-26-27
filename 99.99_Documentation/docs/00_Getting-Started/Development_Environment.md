@@ -12,7 +12,15 @@ you should use WSL in order to use a linux environment.
 
 ## Tools
 
-Here is a list of a few of the tools we use:
+Here is a list of a few of the tools we use that everyone should have:
+
+- git: You need this to contribute to the monorepo, everything is on the
+  monorepo, therefore you need git to contribute. Using git from the terminal is
+  recommended, but if you want to use github desktop or something that's fine also.
+
+### Software
+
+These are some of the tools we use when working on the software of the car:
 
 - arm-none-eabi-gcc: This is the GNU cross compiler used for compiling C code to
   be run on ARM devices. You need this to compile basically anything in this
@@ -33,5 +41,22 @@ Here is a list of a few of the tools we use:
 - ESP-IDF: This is the development framework for ESP microcontrollers. It is
   also used to flash them.
 
-You're probably fine waiting until you try doing something and it says you're
-missing one of these tools, though it isn't a bad idea to install them all now.
+Additionally, when working on software things tend to be easier in a linux
+environment. That's why I'd recommend setting up WSL and making sure that you
+have these programs on there. Most of these *should* work on windows too, but if
+you use WSL you won't have to worry.
+
+### Hardware
+
+These are some of the tools we use when working on the hardware of the car:
+
+- KiCAD: This is the schematic and PCB editor we use. This is where the majority
+  of hardware work is done, so it is very necessary.
+- RapidHarness: This is what we use to manage the harness on the car, and it is
+  very useful if you plan on working on the harness (hint: you do plan on
+  working on the harness).
+- LTSpice: This is what we use to simulate different circuits that we develop
+  and validate that everything analog works.
+- Saleae Logic 2: This is a software used for Digital Logic Analyzers (DLAs)
+  that we use to debug different communication protocols on the hardware level.
+  Think of it like an oscilloscope for digital signals over time.
