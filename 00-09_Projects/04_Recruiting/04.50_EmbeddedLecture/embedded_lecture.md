@@ -235,31 +235,84 @@ Wasn't this presentation about how you blink an LED?
 
 Any guesses now how we're going to do it?
 
+<!-- pause -->
+
+<!-- alignment: center -->
+Memory Mapped IO!
+
 <!-- end_slide -->
 
 The STM32f103 Datapath
 ---
+
+Here's what a datapath looks like for the STM32f103:
+
+![](./assets/stm_system_arch.png)
+
+<!-- alignment: center -->
+_This is actually the system architecture, but it still shows what I'm trying to
+get at._
 
 <!-- end_slide -->
 
 The STM32f103 Memory Map
 ---
 
+Here's the memory map for the STM32f103 microcontroller:
+
+![](./assets/stm_memory_map.png)
+
+<!-- alignment: center -->
+_This is actually specifically for the STM32f103C8_
+
 <!-- end_slide -->
 
 The GPIO Registers
 ---
+
+GPIO stands for general purpose IO, these are the pins that we can manually set
+high and low. This is what we need for blinking an LED.
+
+<!-- pause -->
+
+<!-- incremental_lists: true -->
+There are a few registers that we can find in the datasheet:
+
+- Port Configuration Low Register (CRL)
+- Port Configuration High Register (CRH)
+- Port Input Data Register (IDR)
+- Port Output Data Register (ODR)
+- Port Bit Set Reset Register (BSRR)
+- Port Configuration Lock Register (BRR)
+
+<!-- pause -->
+Which registers do you think we need?
 
 <!-- end_slide -->
 
 The CRL Register
 ---
 
+This is like the settings register for the our GPIO ports.
+
+![](./assets/crl_reg.png)
+
+<!-- pause -->
+
+If we want to blink PA0, we need to set `MODE0 = 0b01` and `CNF0 = 00`.
+
 <!-- end_slide -->
 
 The ODR Register
 ---
 
+This is how we control what we want to be output on the GPIO ports.
+
+![](./assets/odr_reg.png)
+
+<!-- pause -->
+
+To blink PA0, we'll toggle the `ODR0` bit.
 <!-- end_slide -->
 
 The Program Once Again
