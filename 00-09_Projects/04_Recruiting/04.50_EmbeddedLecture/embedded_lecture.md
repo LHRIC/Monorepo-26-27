@@ -512,9 +512,13 @@ int main(void) {
 
 Once again, why you should care
 ---
+An embedded systems engineer should be able to translate a cool idea into hardware and software.
 
+This presentation is about software, and while you will use a HAL for your projects, knowing what your HAL actually does is necessary for knowing why your code works or why your code doesn't.
+
+I think that's good enough reason for why you should care.
 <!-- end_slide -->
 
 Thoughts and Feedback
 ---
-
+Any questions? Things Jack should explain more? Feeback?
