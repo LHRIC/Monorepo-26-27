@@ -99,7 +99,7 @@ Desktop.ini
 **/hardware/*-save.pro
 **/hardware/*-save.kicad_pcb
 **/hardware/fp-info-cache
-**/hardware/~*.lck
+**/hardware/*.lck
 **/hardware/\#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
