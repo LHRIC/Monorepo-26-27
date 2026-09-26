@@ -1,0 +1,4 @@
+alias p := present
+
+present:
+   presenterm embedded_lecture.md
