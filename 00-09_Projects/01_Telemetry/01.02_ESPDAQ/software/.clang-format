@@ -1,0 +1,8 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 80
+UseTab: Never
+BreakBeforeBraces: Allman
+AlwaysBreakBeforeMultilineStrings: true
+BinPackParameters: true
+SortIncludes: true
