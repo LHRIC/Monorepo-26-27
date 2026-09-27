@@ -1,0 +1,222 @@
+(footprint "150141xx66140"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMT Mono-color TOP LED Diffused Dome, body 3.50 x 2.80 mm")
+	(property "Reference" "REF**"
+		(at 0 -3.55 0)
+		(layer "F.SilkS")
+		(uuid "0d3bde51-26f4-4602-bfc0-6a16f40cfe9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "150141xx66140"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "f42e2a5e-0a8e-4061-9360-8bcce478fcef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5e6e9ae-0a9a-49b3-b02e-893dd3008c85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7819eb59-f19f-455e-8144-d36b9695de17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "600e3b27-7460-4ff4-9503-ac2b46ace824")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center -0.85 -2.7)
+		(end -0.85 -2.775)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f440afb7-3b06-42b0-9da7-481404d62343")
+	)
+	(fp_line
+		(start -1.7 -2.5)
+		(end 1.7 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "d16a6344-6cce-475b-b2ff-38fc9fdd6cde")
+	)
+	(fp_line
+		(start -1.7 2.5)
+		(end -1.7 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "5ea1d40f-9bc5-4888-ad8a-d5e012abaf08")
+	)
+	(fp_line
+		(start -1.7 2.5)
+		(end 1.7 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "10888131-a1f0-458d-aa9f-71fa10276ca1")
+	)
+	(fp_line
+		(start -1.4 -1.575)
+		(end 1.4 -1.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "7af38654-b8db-4653-9497-b6b3e26bd359")
+	)
+	(fp_line
+		(start -1.4 -0.775)
+		(end -0.59999 -1.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "29b41673-de3f-48d0-93b4-d2e8f157e31d")
+	)
+	(fp_line
+		(start -1.4 1.575)
+		(end -1.4 -1.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "69a10ca8-2404-42b3-9d5c-f4f55b120af5")
+	)
+	(fp_line
+		(start -1.4 1.575)
+		(end 1.4 1.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "f2e4cf14-0412-4e2d-81d4-88777ad1340d")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "fca1af85-aebf-4fc1-afa8-885987673a1b")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "7aaaf684-12fd-4b9b-874a-a32520b3f4aa")
+	)
+	(fp_line
+		(start 1.4 1.575)
+		(end 1.4 -1.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "f4bb0395-0552-4089-aa08-cec597c45a57")
+	)
+	(fp_line
+		(start 1.7 2.5)
+		(end 1.7 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "898750af-6e59-460d-b6fc-26d53d0c24ff")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 -0.13127 0)
+		(unlocked yes)
+		(layer "Eco2.User")
+		(uuid "772a12ae-a193-4fa7-8cd9-316e08d9d229")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 1.55)
+		(size 0.9 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6e21be5e-f2cd-49ad-8ed5-6ceeb095d383")
+	)
+	(pad "2" smd rect
+		(at -0.85 -1.55)
+		(size 0.9 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "19bdf2c7-c273-4edb-bcd3-e353e98e2f91")
+	)
+	(pad "3" smd rect
+		(at 0.85 -1.55)
+		(size 0.9 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5f1c784b-7d76-4f13-b96a-c98bb461e794")
+	)
+	(pad "4" smd rect
+		(at 0.85 1.55)
+		(size 0.9 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "977f09dd-f585-42e8-a0e0-0edc28534ef3")
+	)
+)
