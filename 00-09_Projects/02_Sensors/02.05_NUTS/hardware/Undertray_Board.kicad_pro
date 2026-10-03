@@ -416,7 +416,7 @@
         "uuid": "85866aa8-1074-44e2-a4f8-fc50fec0cbab"
       }
     ],
-    "used_designators": "Y2,C17-21,D2,D6-10,#PWR38-55,H1-2,SW1-2,R11-17,U6",
+    "used_designators": "J1,J4,R13,R18-21,FB2,D11,#PWR29-30,#PWR36-37,#PWR44,#PWR56-59,H3-4,U3,U7,C22,TP1-7,JP1-3",
     "variants": []
   },
   "sheets": [
@@ -434,7 +434,7 @@
     ],
     [
       "035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc",
-      "Sensors"
+      "Sensors_I2C"
     ]
   ],
   "text_variables": {},
