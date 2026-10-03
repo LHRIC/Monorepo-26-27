@@ -14,6 +14,8 @@
 
 #include <gui/screen1_screen/Screen1View.hpp>
 #include <gui/screen1_screen/Screen1Presenter.hpp>
+#include <gui/diagnostics_screen/diagnosticsView.hpp>
+#include <gui/diagnostics_screen/diagnosticsPresenter.hpp>
 
 
 /**
@@ -37,7 +39,8 @@ public:
      * @note All view types used in the application MUST be added to this list!
      */
     typedef touchgfx::meta::TypeList< Screen1View,
-            touchgfx::meta::Nil
+            touchgfx::meta::TypeList< diagnosticsView,
+            touchgfx::meta::Nil >
             > GeneratedViewTypes;
 
     /**
@@ -50,7 +53,8 @@ public:
      * @note All presenter types used in the application MUST be added to this list!
      */
     typedef touchgfx::meta::TypeList< Screen1Presenter,
-            touchgfx::meta::Nil
+            touchgfx::meta::TypeList< diagnosticsPresenter,
+            touchgfx::meta::Nil >
             > GeneratedPresenterTypes;
 
     /**

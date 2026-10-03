@@ -1,0 +1,455 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 800,
+            "Height": 480
+          },
+          {
+            "Type": "ImageProgress",
+            "Name": "imageProgress1",
+            "X": 101,
+            "Y": 12,
+            "Width": 599,
+            "Height": 59,
+            "FileNameProgress": "filledRPMbar.png",
+            "AnchorAtZero": true,
+            "Direction": "Right",
+            "FileNameBackground": "backgroundRPMbar.png",
+            "IndicatorPositionWidth": 599,
+            "IndicatorPositionHeight": 59,
+            "ProgressRangeMax": 15000,
+            "ProgressRangeSteps": 15000,
+            "ProgressInitialValue": 9877
+          },
+          {
+            "Type": "TextArea",
+            "Name": "GearLabel",
+            "X": 352,
+            "Y": 81,
+            "Width": 96,
+            "Height": 48,
+            "TextId": "__SingleUse_TXBH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 254,
+              "Green": 189,
+              "Blue": 23
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BatteryLabel",
+            "X": 48,
+            "Y": 307,
+            "Width": 148,
+            "Height": 48,
+            "TextId": "__SingleUse_H56G",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 254,
+              "Green": 189,
+              "Blue": 23
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ThrottleLabel",
+            "X": 604,
+            "Y": 307,
+            "Width": 158,
+            "Height": 48,
+            "TextId": "__SingleUse_DI5G",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 254,
+              "Green": 189,
+              "Blue": 23
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "CoolantLabel",
+            "X": 263,
+            "Y": 307,
+            "Width": 275,
+            "Height": 48,
+            "TextId": "__SingleUse_TW6Y",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 254,
+              "Green": 189,
+              "Blue": 23
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "GearValue",
+            "X": 375,
+            "Y": 122,
+            "Width": 51,
+            "Height": 81,
+            "TextId": "__SingleUse_9KQ6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_FBL2",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BatteryValue",
+            "X": 64,
+            "Y": 374,
+            "Width": 117,
+            "Height": 48,
+            "TextId": "__SingleUse_FJOQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_OIVM",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SpeedLabel",
+            "X": 60,
+            "Y": 155,
+            "Width": 125,
+            "Height": 48,
+            "TextId": "__SingleUse_ZEDS",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 254,
+              "Green": 189,
+              "Blue": 23
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SpeedValue",
+            "X": 48,
+            "Y": 216,
+            "Width": 149,
+            "Height": 48,
+            "TextId": "__SingleUse_OEOA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_8NN1",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "RPMLabel",
+            "X": 640,
+            "Y": 155,
+            "Width": 86,
+            "Height": 48,
+            "TextId": "__SingleUse_HTJY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 254,
+              "Green": 189,
+              "Blue": 23
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "RPMValue",
+            "X": 621,
+            "Y": 216,
+            "Width": 125,
+            "Height": 48,
+            "TextId": "__SingleUse_UMP9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_IWNQ",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "CoolantValue",
+            "X": 342,
+            "Y": 374,
+            "Width": 103,
+            "Height": 48,
+            "TextId": "__SingleUse_JN0G",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_PW3X",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ThrottleValue",
+            "X": 617,
+            "Y": 374,
+            "Width": 133,
+            "Height": 48,
+            "TextId": "__SingleUse_MMWE",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_33NH",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FPSCOUNTER",
+            "X": 61,
+            "Y": 85,
+            "Width": 80,
+            "Height": 20,
+            "TextId": "__SingleUse_E90B",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_KIOP",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SHUTDOWNWARNING",
+            "X": 472,
+            "Y": 85,
+            "Width": 314,
+            "Height": 20,
+            "TextId": "__SingleUse_7BRL",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Box",
+            "Name": "ShiftLight",
+            "X": 719,
+            "Y": 25,
+            "Width": 31,
+            "Height": 32,
+            "Color": {
+              "Red": 255
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "to_diagnostics_interaction",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen1 change_to_diagnostics"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "diagnostics"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "change_to_diagnostics",
+            "Description": "switches to diagnostics screen"
+          }
+        ]
+      },
+      {
+        "Name": "diagnostics",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 800,
+            "Height": 480
+          },
+          {
+            "Type": "TextArea",
+            "Name": "RPMValue",
+            "X": 150,
+            "Y": 66,
+            "Width": 125,
+            "Height": 48,
+            "TextId": "__SingleUse_RUS9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_7HR5",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "RPMLabel",
+            "X": 26,
+            "Y": 66,
+            "Width": 86,
+            "Height": 48,
+            "TextId": "__SingleUse_OQYZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 254,
+              "Green": 189,
+              "Blue": 23
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SpeedValue",
+            "X": 138,
+            "Y": 10,
+            "Width": 149,
+            "Height": 48,
+            "TextId": "__SingleUse_FFAR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_I2YJ",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SpeedLabel",
+            "X": 7,
+            "Y": 10,
+            "Width": 125,
+            "Height": 48,
+            "TextId": "__SingleUse_HJFY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 254,
+              "Green": 189,
+              "Blue": 23
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "DriverDisplay",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "24": "LCDGPU2D"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U599/5A9",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m33",
+    "ProjectFile": "../Riverdi_50STM32U5A9.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [
+      "GPU2D"
+    ],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.26.0",
+  "CreatedBy": "4.26.0"
+}

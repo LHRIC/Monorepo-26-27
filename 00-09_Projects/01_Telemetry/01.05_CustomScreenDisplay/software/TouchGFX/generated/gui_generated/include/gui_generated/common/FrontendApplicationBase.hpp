@@ -23,6 +23,9 @@ public:
     // Screen1
     void gotoScreen1ScreenNoTransition();
 
+    // diagnostics
+    void gotodiagnosticsScreenNoTransition();
+
 protected:
     touchgfx::Callback<FrontendApplicationBase> transitionCallback;
     FrontendHeap& frontendHeap;
@@ -30,6 +33,9 @@ protected:
 
     // Screen1
     void gotoScreen1ScreenNoTransitionImpl();
+
+    // diagnostics
+    void gotodiagnosticsScreenNoTransitionImpl();
 };
 
 #endif // FRONTENDAPPLICATIONBASE_HPP

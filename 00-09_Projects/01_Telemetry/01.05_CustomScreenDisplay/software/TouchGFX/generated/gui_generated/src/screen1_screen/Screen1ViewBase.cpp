@@ -74,7 +74,7 @@ Screen1ViewBase::Screen1ViewBase()
     SpeedLabel.setTypedText(touchgfx::TypedText(T___SINGLEUSE_ZEDS));
     add(SpeedLabel);
 
-    SpeedValue.setXY(51, 216);
+    SpeedValue.setXY(48, 216);
     SpeedValue.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     SpeedValue.setLinespacing(0);
     Unicode::snprintf(SpeedValueBuffer, SPEEDVALUE_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_8NN1).getText());
@@ -89,14 +89,14 @@ Screen1ViewBase::Screen1ViewBase()
     RPMLabel.setTypedText(touchgfx::TypedText(T___SINGLEUSE_HTJY));
     add(RPMLabel);
 
-    SpeedValue_1.setXY(621, 216);
-    SpeedValue_1.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
-    SpeedValue_1.setLinespacing(0);
-    Unicode::snprintf(SpeedValue_1Buffer, SPEEDVALUE_1_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_IWNQ).getText());
-    SpeedValue_1.setWildcard(SpeedValue_1Buffer);
-    SpeedValue_1.resizeToCurrentText();
-    SpeedValue_1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_UMP9));
-    add(SpeedValue_1);
+    RPMValue.setXY(621, 216);
+    RPMValue.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    RPMValue.setLinespacing(0);
+    Unicode::snprintf(RPMValueBuffer, RPMVALUE_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_IWNQ).getText());
+    RPMValue.setWildcard(RPMValueBuffer);
+    RPMValue.resizeToCurrentText();
+    RPMValue.setTypedText(touchgfx::TypedText(T___SINGLEUSE_UMP9));
+    add(RPMValue);
 
     CoolantValue.setXY(342, 374);
     CoolantValue.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
@@ -117,7 +117,7 @@ Screen1ViewBase::Screen1ViewBase()
     add(ThrottleValue);
 
     FPSCOUNTER.setXY(61, 85);
-    FPSCOUNTER.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    FPSCOUNTER.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     FPSCOUNTER.setLinespacing(0);
     Unicode::snprintf(FPSCOUNTERBuffer, FPSCOUNTER_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_KIOP).getText());
     FPSCOUNTER.setWildcard(FPSCOUNTERBuffer);
@@ -144,4 +144,12 @@ Screen1ViewBase::~Screen1ViewBase()
 void Screen1ViewBase::setupScreen()
 {
 
+}
+
+void Screen1ViewBase::change_to_diagnostics()
+{
+    //to_diagnostics_interaction
+    //When change_to_diagnostics is called change screen to diagnostics
+    //Go to diagnostics with no screen transition
+    application().gotodiagnosticsScreenNoTransition();
 }

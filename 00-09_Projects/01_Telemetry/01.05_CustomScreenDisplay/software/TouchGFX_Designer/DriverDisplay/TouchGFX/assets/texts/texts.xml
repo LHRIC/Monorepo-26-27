@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.26.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_OQYZ" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">RPM</Translation>
+      </Text>
+      <Text Id="__SingleUse_7HR5" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">00000</Translation>
+      </Text>
+      <Text Id="__SingleUse_RUS9" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_I2YJ" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_FFAR" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;kph</Translation>
+      </Text>
+      <Text Id="__SingleUse_HJFY" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Speed</Translation>
+      </Text>
+      <Text Id="__SingleUse_HTJY" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">RPM</Translation>
+      </Text>
+      <Text Id="__SingleUse_IWNQ" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">00000</Translation>
+      </Text>
+      <Text Id="__SingleUse_UMP9" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZEDS" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Speed</Translation>
+      </Text>
+      <Text Id="__SingleUse_8NN1" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_OEOA" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;kph</Translation>
+      </Text>
+      <Text Id="__SingleUse_7BRL" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">SHUTDOWN DISCONTINUOUS!</Translation>
+      </Text>
+      <Text Id="__SingleUse_KIOP" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_33NH" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">00.0</Translation>
+      </Text>
+      <Text Id="__SingleUse_MMWE" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_PW3X" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_JN0G" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;C</Translation>
+      </Text>
+      <Text Id="__SingleUse_OIVM" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0.00</Translation>
+      </Text>
+      <Text Id="__SingleUse_FJOQ" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;V</Translation>
+      </Text>
+      <Text Id="__SingleUse_DI5G" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Throttle</Translation>
+      </Text>
+      <Text Id="__SingleUse_TW6Y" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Coolant Temp</Translation>
+      </Text>
+      <Text Id="__SingleUse_H56G" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Battery</Translation>
+      </Text>
+      <Text Id="__SingleUse_E90B" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">FPS: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_FBL2" Alignment="Left" TypographyId="Massive">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_9KQ6" Alignment="Left" TypographyId="Massive">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_TXBH" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Gear</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-.0123456789" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-.0123456789" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-.0123456789" />
+    <Typography Id="Massive" Font="verdana.ttf" Size="80" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-.0123456789" />
+  </Typographies>
+</TextDatabase>

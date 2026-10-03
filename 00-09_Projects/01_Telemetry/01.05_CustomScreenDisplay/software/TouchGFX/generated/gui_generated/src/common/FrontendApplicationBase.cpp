@@ -13,6 +13,8 @@
 #endif
 #include <gui/screen1_screen/Screen1View.hpp>
 #include <gui/screen1_screen/Screen1Presenter.hpp>
+#include <gui/diagnostics_screen/diagnosticsView.hpp>
+#include <gui/diagnostics_screen/diagnosticsPresenter.hpp>
 
 using namespace touchgfx;
 
@@ -46,4 +48,17 @@ void FrontendApplicationBase::gotoScreen1ScreenNoTransition()
 void FrontendApplicationBase::gotoScreen1ScreenNoTransitionImpl()
 {
     touchgfx::makeTransition<Screen1View, Screen1Presenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+}
+
+// diagnostics
+
+void FrontendApplicationBase::gotodiagnosticsScreenNoTransition()
+{
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotodiagnosticsScreenNoTransitionImpl);
+    pendingScreenTransitionCallback = &transitionCallback;
+}
+
+void FrontendApplicationBase::gotodiagnosticsScreenNoTransitionImpl()
+{
+    touchgfx::makeTransition<diagnosticsView, diagnosticsPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
