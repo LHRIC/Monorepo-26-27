@@ -1,0 +1,10 @@
+# 1. Ignore
+.history/
+Undertray_Board_Sym/
+Undertray_Board-backups/
+sym-lib-table
+Undertray_Board.kicad_prl
+
+
+# 2. Re-include your specific files
+
