@@ -116,6 +116,8 @@
 
   #item-by-item(start: 2)[
     - Synchronous/Asynchronous: Is there a dedicated clock line or not?
+      - Baud Rate: When asynchronous, both devices must agree upon the speed
+        they want to send and receive data.
     - Full/Half Duplex: Can communication happen between both systems at once
   ]
 ]
@@ -541,6 +543,22 @@
 
   The last line in the file, is the last log that DAQ made. Don't look at the
   number, I have no clue what it means.
+]
+
+#slide[
+  = A session file
+  Here's what an actual log looks like:
+
+  ```txt
+    0000000000.300000,372,009C0000FC0B03F5
+    0000000000.300000,3E2,00000000FFFF0000
+    0000000000.300000,3EC,0000000000000000
+    0000000000.300000,471,085300EA03F50000
+  ```
+
+  The first part has the time stamp that the CAN message was collected, then the
+  CAN ID, and then the raw bytes from the CAN message. This can be parsed into a
+  json file with all of the data.
 ]
 
 #slide[
