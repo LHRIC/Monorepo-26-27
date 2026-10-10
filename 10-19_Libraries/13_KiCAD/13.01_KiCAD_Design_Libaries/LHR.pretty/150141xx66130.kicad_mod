@@ -1,0 +1,233 @@
+(footprint "150141xx66130"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMT Mono-color TOP LED Diffused Dome, body 3.50 x 2.80 mm")
+	(property "Reference" "REF**"
+		(at 0 -3.55 0)
+		(layer "F.SilkS")
+		(uuid "df46ff15-e2c4-4934-a235-baa456833850")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "150141xx66130"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "6e0bc6cf-7c89-4b8f-9252-8c6c4b21354e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab7371f3-ffdb-47c3-aa0a-db5c30cb2e61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d30c0b99-c83b-488b-8f3d-7afa3e7a2c9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74712010-89af-4129-870b-9b3db3b2f137")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center -0.85 -2.7)
+		(end -0.85 -2.775)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "230dd004-a64d-447b-a3e0-9dd40bea8154")
+	)
+	(fp_line
+		(start -1.7 -2.5)
+		(end 1.7 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "7e990ff5-0426-42fa-8681-f349d14b9c9f")
+	)
+	(fp_line
+		(start -1.7 2.5)
+		(end -1.7 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "4e793a18-33d2-4685-b580-67f27929b71d")
+	)
+	(fp_line
+		(start -1.7 2.5)
+		(end 1.7 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "72545b18-c45a-4196-b9a9-8dd939a234f4")
+	)
+	(fp_line
+		(start -1.4 -1.575)
+		(end 1.4 -1.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "9a37d5bc-14b7-4370-a450-6b5d1d90cfb0")
+	)
+	(fp_line
+		(start -1.4 -0.775)
+		(end -0.59999 -1.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "42a61cd6-6b96-4429-8846-db0267c4a10b")
+	)
+	(fp_line
+		(start -1.4 1.575)
+		(end -1.4 -1.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "7420b56f-d334-4891-82ad-4ffea6ee263e")
+	)
+	(fp_line
+		(start -1.4 1.575)
+		(end 1.4 1.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "6e83a481-405b-4903-8abb-8c92bc800b14")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "89981c83-4ff2-4b60-b58b-86cad2eda74f")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "ebaadb10-7600-4d67-92fa-c43d28fbd39a")
+	)
+	(fp_line
+		(start 1.4 1.575)
+		(end 1.4 -1.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "c66fcbef-90cc-4c2e-ac2b-f0a4d664d280")
+	)
+	(fp_line
+		(start 1.7 2.5)
+		(end 1.7 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "74121f31-3cd9-4617-8383-3606719c7ee0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 -0.13127 0)
+		(unlocked yes)
+		(layer "Eco2.User")
+		(uuid "4d2632a9-b88e-44fe-9be6-fca1aa08523a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 1.55)
+		(size 0.9 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f23c4540-0a55-41d8-b82d-2ab3d4ff133c")
+	)
+	(pad "2" smd rect
+		(at -0.85 -1.55)
+		(size 0.9 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e66d1ac7-187d-4e38-aed0-c1c84edb97ea")
+	)
+	(pad "3" smd rect
+		(at 0.85 -1.55)
+		(size 0.9 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "20be9282-d290-4b6b-878c-41ccf00456a8")
+	)
+	(pad "4" smd rect
+		(at 0.85 1.55)
+		(size 0.9 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9c7cf225-f38d-4ddf-b3a7-808466aa7ae7")
+	)
+	(model "C:/Users/pisto/OneDrive - The University of Texas at Austin/Documents/KiCad/LHR-KiCad-Libraries/3D_Models/STP_150141xx66140_rev1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
