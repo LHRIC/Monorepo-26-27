@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Undertray FP") (type "KiCad") (uri "${KIPRJMOD}/Undertray_Board_fp") (options "") (descr ""))
+	(lib (name "LHR") (type "KiCad") (uri "C:/Users/kevin/Documents/LHR-KiCad-Libraries/LHR.pretty") (options "") (descr ""))
+)

@@ -2306,7 +2306,7 @@
 	)
 	(rectangle
 		(start 17.78 153.67)
-		(end 80.01 184.15)
+		(end 67.31 184.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -4314,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 26.67 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -4752,7 +4752,8 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 116.84 45.72 180)
+		(at 116.84 45.72 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4762,7 +4763,7 @@
 		(dnp no)
 		(uuid "4905d298-3a1f-4b3e-950e-36279a5606c3")
 		(property "Reference" "JP2"
-			(at 116.586 42.926 0)
+			(at 117.094 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4772,7 +4773,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 116.586 40.386 0)
+			(at 117.094 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4781,7 +4782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 116.84 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5020,7 +5021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 26.67 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -5097,7 +5098,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 48.26 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5330,7 +5331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA12_STM"
+		(property "Footprint" "Undertray FP:LGA12_STM"
 			(at 46.99 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5523,7 +5524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
 			(at 115.57 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5845,7 +5846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA-14L_2p5x3-0p5_STM"
+		(property "Footprint" "Undertray FP:LGA-14L_2p5x3-0p5_STM-M"
 			(at 160.02 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5963,7 +5964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 48.26 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6278,7 +6279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 116.84 53.848 90)
 			(hide yes)
 			(show_name no)
