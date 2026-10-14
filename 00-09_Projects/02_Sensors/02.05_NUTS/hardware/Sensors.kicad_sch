@@ -3890,7 +3890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04132b28-fe8a-4dad-81eb-431c9edc9fbe")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 67.31 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3954,7 +3954,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "R8")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3972,7 +3972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19164aae-e650-492d-aad9-773c3b58d143")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR044"
 			(at 102.87 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4032,7 +4032,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR028")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4049,7 +4049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1dbaf054-48f5-46d7-9cba-1f7df13af314")
-		(property "Reference" "C12"
+		(property "Reference" "C18"
 			(at 26.924 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4113,7 +4113,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "C12")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4130,7 +4130,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "247e316f-584f-403f-99bc-5fc758b6c0e4")
-		(property "Reference" "C15"
+		(property "Reference" "C21"
 			(at 213.614 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4194,7 +4194,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "C15")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4212,7 +4212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31658d9f-9761-4585-aec1-e2764a1a2bcf")
-		(property "Reference" "R7"
+		(property "Reference" "R14"
 			(at 44.45 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4276,7 +4276,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "R7")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4371,7 +4371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39b3cfc3-5137-428e-94dd-87f1e08681be")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR054"
 			(at 41.91 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4431,7 +4431,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR029")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4449,7 +4449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c1f225e-60bf-4d3b-9f3f-2edec12ad7c5")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR057"
 			(at 41.91 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4509,7 +4509,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR037")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4527,7 +4527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3da09c21-e03a-414c-8f72-f21243ac16f3")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR058"
 			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4587,7 +4587,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR036")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4604,7 +4604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "446b7de5-6f8c-4911-8284-3816bd7afb38")
-		(property "Reference" "R17"
+		(property "Reference" "R13"
 			(at 102.87 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +4666,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "R17")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4684,7 +4684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47423517-de62-4e95-b7f7-17928bbbbcbc")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR047"
 			(at 35.56 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4744,7 +4744,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR024")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4842,7 +4842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5359640d-0099-4c35-b763-dc19e8d2a4fa")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR052"
 			(at 146.05 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4902,7 +4902,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR032")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4919,7 +4919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "554a92ba-28e8-4774-8830-059e915423fa")
-		(property "Reference" "C13"
+		(property "Reference" "C19"
 			(at 38.354 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4983,7 +4983,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "C13")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5001,7 +5001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f68d7f3-3d31-4d0f-a010-e1bbf52c5586")
-		(property "Reference" "TP5"
+		(property "Reference" "TP6"
 			(at 23.368 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5060,7 +5060,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "TP5")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -5078,7 +5078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63761e3e-04ad-426a-ae3f-14f6f63c88af")
-		(property "Reference" "TP6"
+		(property "Reference" "TP5"
 			(at 44.958 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5137,7 +5137,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -5155,7 +5155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "826cc306-3a5c-45e6-ab00-e97c9eee9410")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR055"
 			(at 64.77 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5215,7 +5215,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR030")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5233,7 +5233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "899b3499-f1d8-4257-85e4-99305eb528bf")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR048"
 			(at 146.05 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5293,7 +5293,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR033")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5311,7 +5311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dd95dbd-c5db-4058-96e7-9a876c22d496")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 72.39 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5405,7 +5405,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5423,7 +5423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fd18f25-6351-4c06-be9d-1e03197591e3")
-		(property "Reference" "R9"
+		(property "Reference" "R17"
 			(at 44.45 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5487,7 +5487,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "R9")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5504,7 +5504,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90b924d0-e23b-4fe9-8344-eb41dfbb7556")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 115.57 121.412 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5572,7 +5572,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -5590,7 +5590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db6c65f-1129-4cd1-b571-169fb5770627")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 30.48 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,7 +5652,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5670,7 +5670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a422ed11-acf9-4c4e-b359-3abe44620f54")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR050"
 			(at 210.82 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5730,7 +5730,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR035")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5748,7 +5748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a70f600c-257b-4936-a757-b30528eef3d7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR043"
 			(at 35.56 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5808,7 +5808,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR03")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6021,7 +6021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b839902c-1200-4385-9d96-338ab55ca3df")
-		(property "Reference" "R10"
+		(property "Reference" "R18"
 			(at 67.31 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6085,7 +6085,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "R10")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -6102,7 +6102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc0e418e-c860-4585-97e2-e4397222f1c5")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 102.87 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6164,7 +6164,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "R15")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6182,7 +6182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cccbe910-c31a-4cfa-a936-065ed55398c7")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR053"
 			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6242,7 +6242,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR034")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6338,7 +6338,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc351193-298e-4189-a26b-dd5c7d395ed3")
-		(property "Reference" "C16"
+		(property "Reference" "C22"
 			(at 226.314 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6402,7 +6402,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "C16")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -6419,7 +6419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e09b7664-419d-46a3-8e84-30531e0815f5")
-		(property "Reference" "C14"
+		(property "Reference" "C20"
 			(at 148.844 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6483,7 +6483,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "C14")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6501,7 +6501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4c1e86e-2dfa-4724-a55c-3d11291ad89b")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR046"
 			(at 125.73 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6561,7 +6561,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR026")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6579,7 +6579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9fed76f-4418-4cbf-9d01-20b813e7e7bc")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 124.46 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6639,7 +6639,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6657,7 +6657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef5bcf78-c3ad-441a-a83f-6ad7efbfa39e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR051"
 			(at 44.45 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6717,7 +6717,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR025")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6735,7 +6735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5844655-6646-4852-b41d-9fab4b2898dd")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR049"
 			(at 25.4 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6795,7 +6795,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR023")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6813,7 +6813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f68583f0-0138-40a0-9e41-25abe0d6eb91")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR045"
 			(at 140.97 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6873,7 +6873,7 @@
 		(instances
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/035b2bc5-f0ab-41c2-8e15-5261fc6d9ffc"
-					(reference "#PWR027")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
