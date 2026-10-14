@@ -4123,16 +4123,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 115.57) (xy 237.49 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "008b77cc-64e6-4f8f-8658-cca63ee9ef5e")
-	)
-	(wire
-		(pts
 			(xy 176.53 137.16) (xy 176.53 143.51)
 		)
 		(stroke
@@ -4313,16 +4303,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 118.11) (xy 237.49 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f076b58-7fc9-488b-b009-f5933184271c")
-	)
-	(wire
-		(pts
 			(xy 63.5 36.83) (xy 76.2 36.83)
 		)
 		(stroke
@@ -4400,6 +4380,16 @@
 			(type default)
 		)
 		(uuid "3f2a5766-e31b-41a6-8a5d-57a99fa8da69")
+	)
+	(wire
+		(pts
+			(xy 222.25 118.11) (xy 222.25 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40639255-1301-40b2-a461-194b417bc3c1")
 	)
 	(wire
 		(pts
@@ -4583,6 +4573,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 118.11) (xy 237.49 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6481f42f-a2ca-4ec2-b1f3-ee7e678c6a9c")
+	)
+	(wire
+		(pts
 			(xy 36.83 134.62) (xy 36.83 132.08)
 		)
 		(stroke
@@ -4760,16 +4760,6 @@
 			(type default)
 		)
 		(uuid "981a5bfc-832e-448d-af01-01c5a40823e7")
-	)
-	(wire
-		(pts
-			(xy 223.52 115.57) (xy 223.52 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c2bf02e-b3f0-498f-8c73-a992efd0f321")
 	)
 	(wire
 		(pts
@@ -5120,6 +5110,16 @@
 			(type default)
 		)
 		(uuid "ec55642d-aabf-44af-b0a7-6f3ccd3599da")
+	)
+	(wire
+		(pts
+			(xy 236.22 115.57) (xy 237.49 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef4af9c-27dc-492d-be85-20d216f94cde")
 	)
 	(wire
 		(pts
@@ -5475,30 +5475,6 @@
 			)
 		)
 	)
-	(global_label "+VBUS"
-		(shape input)
-		(at 236.22 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a42b53ef-13f6-4e0c-9d4b-0b25e5b3d372")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.7638 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CAN_L"
 		(shape input)
 		(at 236.22 123.19 180)
@@ -5512,6 +5488,30 @@
 		(uuid "a42d8391-a623-4a59-8a57-a48195418ebf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 227.55 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "+VBUS"
+		(shape input)
+		(at 236.22 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bec586d5-7fb1-45bf-852f-796c7e956da1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.7638 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7153,85 +7153,6 @@
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/be2888db-2070-4339-a2b3-9cc9a585c76f"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 116.84 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50b12675-a809-4f5a-a8cd-cb2281c04607")
-		(property "Reference" "#PWR013"
-			(at 223.52 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e31f78b9-d189-42df-9f00-b7ea52e55711")
-		)
-		(instances
-			(project "Undertray_Board"
-				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/be2888db-2070-4339-a2b3-9cc9a585c76f"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9034,6 +8955,85 @@
 			(project "Undertray_Board"
 				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/be2888db-2070-4339-a2b3-9cc9a585c76f"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 119.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f264676f-df62-4533-9fac-49b33b6bf69d")
+		(property "Reference" "#PWR013"
+			(at 222.25 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70286815-2cf0-4639-8bd0-88de43060b72")
+		)
+		(instances
+			(project "Undertray_Board"
+				(path "/85866aa8-1074-44e2-a4f8-fc50fec0cbab/be2888db-2070-4339-a2b3-9cc9a585c76f"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
