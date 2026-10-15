@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2026-01-11_23-53-58")(type "KiCad")(uri "C:/Users/sophi/Documents/KiCad/9.0/symbols/2026-01-11_23-53-58.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-01-12_00-21-37")(type "KiCad")(uri "C:/Users/sophi/Documents/KiCad/9.0/symbols/2026-01-12_00-21-37.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-01-12_01-05-49")(type "KiCad")(uri "C:/Users/sophi/Documents/KiCad/9.0/symbols/2026-01-12_01-05-49.kicad_sym")(options "")(descr ""))
+  (lib (name "MLX90621ESF-BAB-000-TU")(type "KiCad")(uri "C:/Users/sophi/Documents/KiCad/9.0/symbols/MLX90621ESF-BAB-000-TU.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-01-31_21-16-19")(type "KiCad")(uri "C:/Users/sophi/Documents/KiCad/9.0/symbols/2026-01-31_21-16-19.kicad_sym")(options "")(descr ""))
+)
