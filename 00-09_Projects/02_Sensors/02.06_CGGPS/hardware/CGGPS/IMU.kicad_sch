@@ -1692,6 +1692,17 @@
 		)
 		(uuid "b83db4ae-e64e-455c-9570-4c630cf714ec")
 	)
+	(text "650 Hz"
+		(exclude_from_sim no)
+		(at 90.678 28.448 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "131c7563-a0d6-4697-b686-ef45f8b2ddf4")
+	)
 	(text "BNO086 9 DOF IMU"
 		(exclude_from_sim no)
 		(at 29.972 26.416 0)
