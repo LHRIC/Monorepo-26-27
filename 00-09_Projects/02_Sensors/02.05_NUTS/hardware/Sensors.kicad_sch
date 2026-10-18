@@ -4614,7 +4614,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "47"
 			(at 102.87 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6112,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "200"
 			(at 102.87 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6900,7 +6900,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "47"
 			(at 102.87 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2213,7 +2213,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "330"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3642a7bb-d82a-4942-9fcb-52f77953f9b3")
@@ -4626,7 +4626,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "330"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a2dcc15f-f8b4-419d-b01f-a53cff71638e")
@@ -7180,6 +7180,12 @@
 		(path "/74cdce65-3117-4a3b-a9a5-a5d0459f2000/6ad252bb-38ab-45ac-94d0-489471b05df8")
 		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "4" "5" "6" "7" "3" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8214,7 +8220,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "47"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "32f9d2b0-6ed5-4736-a0a6-4b146b54f71e")
@@ -10788,9 +10794,9 @@
 			(at 0 -2.0325 180)
 			(size 0.74 2.795)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "SWO")
+			(net "unconnected-(J4-Pad08)")
 			(pinfunction "08_08")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "d19ce9c4-5d6f-4d2f-8ad7-0b7f763d3aa5")
 		)
@@ -10873,7 +10879,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "47"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e9195a8d-adda-4bce-ad8a-7df5721c0d9f")
@@ -11031,7 +11037,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "330"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ce84f921-f0f1-4227-8579-ed50fca411ca")
@@ -11189,7 +11195,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "330"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "e8c872c3-7380-4c82-90a8-951d8b7136ba")
@@ -11654,7 +11660,7 @@
 			)
 		)
 		(property ki_fp_filters "SSOP* VSSOP*")
-		(path "/74cdce65-3117-4a3b-a9a5-a5d0459f2000/e5a4b2d4-2043-420b-aee9-84f4e7ee3421")
+		(path "/74cdce65-3117-4a3b-a9a5-a5d0459f2000/f9d6c73f-1bfa-4556-8c88-7c420e5af03c")
 		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(units
@@ -13744,7 +13750,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "200"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cd627699-68f7-40e4-a675-8c2eb943ca4f")
@@ -25250,6 +25256,38 @@
 		(uuid "34e7c632-7719-4d88-8a04-e2c6ba882da1")
 	)
 	(segment
+		(start 140.475 80.8725)
+		(end 141.2025 81.6)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(C23-Pad1)")
+		(uuid "22fb46f9-e8c9-47db-93ec-721c961aedac")
+	)
+	(segment
+		(start 140.865 81.9375)
+		(end 141.2025 81.6)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(C23-Pad1)")
+		(uuid "726914bc-1f9d-4f22-971e-794c56eb4ea0")
+	)
+	(segment
+		(start 139.6 81.9375)
+		(end 140.865 81.9375)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(C23-Pad1)")
+		(uuid "a80012d3-05fa-41ca-adad-b726ee83b1f1")
+	)
+	(segment
+		(start 140.475 80.25)
+		(end 140.475 80.8725)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(C23-Pad1)")
+		(uuid "d513e5de-67c4-481d-b76d-8fa454bb1796")
+	)
+	(segment
 		(start 136.8 82)
 		(end 138.55 80.25)
 		(width 0.3)
@@ -25512,38 +25550,6 @@
 		(layer "B.Cu")
 		(net "Net-(U2-BYP{slash}ADJ)")
 		(uuid "540bcb1e-3dd4-478a-ab00-70d735f06104")
-	)
-	(segment
-		(start 140.475 80.8725)
-		(end 141.2025 81.6)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(C23-Pad1)")
-		(uuid "22fb46f9-e8c9-47db-93ec-721c961aedac")
-	)
-	(segment
-		(start 140.865 81.9375)
-		(end 141.2025 81.6)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(C23-Pad1)")
-		(uuid "726914bc-1f9d-4f22-971e-794c56eb4ea0")
-	)
-	(segment
-		(start 139.6 81.9375)
-		(end 140.865 81.9375)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(C23-Pad1)")
-		(uuid "a80012d3-05fa-41ca-adad-b726ee83b1f1")
-	)
-	(segment
-		(start 140.475 80.25)
-		(end 140.475 80.8725)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(C23-Pad1)")
-		(uuid "d513e5de-67c4-481d-b76d-8fa454bb1796")
 	)
 	(zone
 		(net "GND")
