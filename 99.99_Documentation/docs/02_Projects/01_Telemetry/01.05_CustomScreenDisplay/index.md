@@ -4,7 +4,10 @@
 
 Custom Display is a driver information display for the car, built on an STM32H7 microcontroller with a Riverdi LCD. The STM32 reads live data from the Haltech ECU over the car's CAN bus and renders it on-screen using [TouchGFX](https://support.touchgfx.com/docs/introduction/what-is-touchgfx), an embedded graphics library for STM32.
 
-**Display hardware:** [https://riverdi.com/product/5-inch-tft-lcd-screen-stm32u5-embedded-display-rvt50hqsfwn01?srsltid=AfmBOoq_PbYSuQUkMhpmtfA5kOqO7L9fX0RrjbtiRxhyNDaXJeP7M8Rh](#)  
+**Source Code:** [https://github.com/LHRIC/Monorepo-26-27/tree/main/00-09_Projects/01_Telemetry/01.05_CustomScreenDisplay/software](https://github.com/LHRIC/Monorepo-26-27/tree/main/00-09_Projects/01_Telemetry/01.05_CustomScreenDisplay/software){:target="_blank"}
+
+**Display hardware:** [https://riverdi.com/product/5-inch-tft-lcd-screen-stm32u5-embedded-display-rvt50hqsfwn01?srsltid=AfmBOoq_PbYSuQUkMhpmtfA5kOqO7L9fX0RrjbtiRxhyNDaXJeP7M8Rh](https://riverdi.com/product/5-inch-tft-lcd-screen-stm32u5-embedded-display-rvt50hqsfwn01?srsltid=AfmBOoq_PbYSuQUkMhpmtfA5kOqO7L9fX0RrjbtiRxhyNDaXJeP7M8Rh){:target="_blank"}
+
 > ![picture](assets/driverdisplay.jpg)
 
 
@@ -25,7 +28,7 @@ Custom Display is a driver information display for the car, built on an STM32H7 
 
 ## Architecture
 
-All code is written in C style but integrates with TouchGFX, a C++ library. There is no RTOS — the update loop runs entirely inside `Model::tick` for simplicity.
+All code is written in C style but integrates with TouchGFX, a C++ library. There is no RTOS — the update loop runs entirely inside `Model::tick` for simplicity. The FreeRTOS version wasn't needed as both versions run at 60 FPS.
 
 ### Data Flow
 
