@@ -5924,7 +5924,7 @@
 				)
 			)
 		)
-		(property "Value" "RB520S30T5G"
+		(property "Value" "SDM20U30-7"
 			(at 152.7175 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
