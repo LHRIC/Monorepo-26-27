@@ -5873,7 +5873,7 @@
 				)
 			)
 		)
-		(property "Value" "200mA"
+		(property "Value" "250mA"
 			(at 195.58 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5883,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 195.58 110.998 90)
 			(hide yes)
 			(show_name no)
@@ -9090,7 +9090,7 @@
 				)
 			)
 		)
-		(property "Value" "200mA"
+		(property "Value" "250mA"
 			(at 48.26 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9100,7 +9100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 48.26 109.728 90)
 			(hide yes)
 			(show_name no)
