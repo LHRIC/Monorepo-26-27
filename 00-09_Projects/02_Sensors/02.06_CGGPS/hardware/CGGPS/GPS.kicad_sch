@@ -3377,6 +3377,16 @@
 		)
 		(uuid "88fb60bc-7a02-426b-8f7a-23bc0edfdf62")
 	)
+	(text "LQW15AWR12J80D"
+		(exclude_from_sim no)
+		(at 29.464 55.626 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd11345b-e534-423b-8616-cc3f48253991")
+	)
 	(junction
 		(at 240.03 97.79)
 		(diameter 0)
@@ -6678,7 +6688,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CGGPS:SMT_F9P-02B_UBL"
 			(at 187.96 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7473,7 +7483,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CGGPS:SMT_F9P-02B_UBL"
 			(at 55.88 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7857,7 +7867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 33.02 54.61 0)
 			(hide yes)
 			(show_name no)

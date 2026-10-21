@@ -7019,7 +7019,7 @@
 				)
 			)
 		)
-		(property "Value" "RB520S30T5G"
+		(property "Value" "SDM20U30-7"
 			(at 36.83 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7029,7 +7029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 36.83 103.505 0)
 			(hide yes)
 			(show_name no)
@@ -7288,7 +7288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 80.01 50.8 0)
 			(hide yes)
 			(show_name no)

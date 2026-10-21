@@ -6417,7 +6417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" ""
 			(at 233.68 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7073,7 +7073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 220.98 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8235,7 +8235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 135.89 116.84 0)
 			(hide yes)
 			(show_name no)

@@ -2062,7 +2062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CGGPS:BN0086_1_LGA-28_CEV"
 			(at 87.63 55.88 0)
 			(hide yes)
 			(show_name no)
