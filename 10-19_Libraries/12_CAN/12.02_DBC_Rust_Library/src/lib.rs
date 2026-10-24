@@ -1,3 +1,7 @@
+#![no_std]
+
+use core::include;
+
 pub mod messages {
     include!(concat!(env!("OUT_DIR"), "/messages.rs"));
 }
