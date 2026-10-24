@@ -1,0 +1,5 @@
+build:
+   typst compile presentation.typ
+
+watch:
+   typst watch presentation.typ

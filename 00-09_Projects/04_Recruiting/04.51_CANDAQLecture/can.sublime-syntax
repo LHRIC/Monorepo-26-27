@@ -1,0 +1,58 @@
+%YAML 1.2
+---
+name: CAN DBC
+file_extensions: [dbc]
+scope: source.dbc
+
+contexts:
+  main:
+    # Comments (Starting with CM_)
+    - match: '\bCM_\b'
+      scope: comment.line.dbc
+      push: comment_block
+
+    # Keywords / Structure Identifiers
+    - match: '\b(VERSION|NS_|BS_|BU_|BO_|SG_|EV_|BA_DEF_|BA_|VAL_|VAL_TABLE_)\b'
+      scope: keyword.control.dbc
+
+    # Message Definitions (BO_ [ID] [Name]: [Length] [Transmitter])
+    - match: '\bBO_\s+(\d+)\s+(\w+)\s*:'
+      captures:
+        1: constant.numeric.integer.dbc
+        2: entity.name.function.dbc
+
+    # Signal Definitions (SG_ [Name] [M] : [Start]|[Size]@[Endian][Sign] ([Factor],[Offset]) [[Min]|[Max]] "[Unit]" [Receiver])
+    - match: '\bSG_\s+(\w+)\b'
+      captures:
+        1: variable.parameter.dbc
+
+    # Multiplexer indicators (m0, m1, M)
+    - match: '\s([mM]\d+|\bM\b)\s'
+      scope: keyword.operator.symbol.dbc
+
+    # Bit layout specifications (e.g., 8|16@1+)
+    - match: '\b\d+\|\d+@\d+[\+-]'
+      scope: constant.numeric.integer.dbc
+
+    # Strings (e.g., Unit descriptions, Comments)
+    - match: '"'
+      scope: string.quoted.double.dbc
+      push: string_block
+
+    # Numbers (Integers, Floats, Hex keys)
+    - match: '\b-?\d+(?:\.\d+)?\b'
+      scope: constant.numeric.dbc
+
+  # Context for multiline or trailing strings
+  string_block:
+    - meta_scope: string.quoted.double.dbc
+    - match: '\\.'
+      scope: constant.character.escape.dbc
+    - match: '"'
+      pop: true
+
+  # Context for comment structures
+  comment_block:
+    - meta_scope: comment.block.dbc
+    - match: ';'
+      pop: true
