@@ -1,0 +1,18 @@
+[package]
+name = "generic_can"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+embassy-stm32 = { version = "0.x", features = ["defmt", "stm32f373cc", "time-driver-any", "exti", "memory-x", "unstable-pac"] }
+embassy-executor = { version = "0.x", features = ["arch-cortex-m", "executor-thread", "defmt"] }
+embassy-time = { version = "0.x", features = ["defmt", "defmt-timestamp-uptime"] }
+embassy-sync = "0.x"
+
+cortex-m = { version = "0.7", features = ["inline-asm", "critical-section-single-core"] }
+cortex-m-rt = "0.7"
+defmt = "1"
+defmt-rtt = "1"
+panic-probe = { version = "1", features = ["print-defmt"] }
+
+lhrdb = { path = "../../../../10-19_Libraries/12_CAN/12.02_DBC_Rust_Library"}
