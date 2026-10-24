@@ -9,7 +9,7 @@ use embassy_stm32::peripherals::CAN;
 use embassy_stm32::{bind_interrupts, can};
 use embassy_sync::blocking_mutex::raw::CriticalSectionRawMutex;
 use embassy_sync::channel::{Channel, Sender};
-use embassy_time::Timer;
+use embassy_time::{Duration, Ticker, Timer};
 use {defmt_rtt as _, panic_probe as _};
 
 use lhrdb::messages;
@@ -77,6 +77,7 @@ async fn main(spawner: Spawner) -> ! {
 async fn adc_conversion(
     queue_sender: Sender<'static, CriticalSectionRawMutex, Frame, QUEUE_SIZE>,
 ) -> ! {
+    let mut ticker = Ticker::every(Duration::from_millis(100));
     loop {
         // Start with channel 0
         pac::ADC1.sqr3().modify(|w| {
@@ -96,6 +97,6 @@ async fn adc_conversion(
         let frame = Frame::new_standard(0x400, &payload).unwrap();
         queue_sender.send(frame).await;
 
-        Timer::after_millis(1000).await;
+        ticker.next().await;
     }
 }
