@@ -4386,6 +4386,10 @@
 		(uuid "9ff8e063-0c1e-446e-b93d-32ff67d85657")
 	)
 	(no_connect
+		(at 248.92 97.79)
+		(uuid "a0e773b1-21db-4de5-ac13-3f77d36c4e61")
+	)
+	(no_connect
 		(at 256.54 86.995)
 		(uuid "a1c31d1e-a3d1-4f4f-b28d-06b1265e7f73")
 	)
@@ -4408,6 +4412,10 @@
 	(no_connect
 		(at 236.22 135.89)
 		(uuid "c4a4d515-0ab0-45e2-96ee-7f6a308a07ca")
+	)
+	(no_connect
+		(at 248.92 100.33)
+		(uuid "cd34a3c6-c42b-4ffd-95a7-15da92e1b63e")
 	)
 	(no_connect
 		(at 270.51 128.27)
@@ -5582,30 +5590,6 @@
 			)
 		)
 	)
-	(global_label "D+"
-		(shape input)
-		(at 248.92 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "041105b6-0057-4437-bacd-4651eeb1d6bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.0924 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "NEUTRAL_PEG"
 		(shape input)
 		(at 236.22 95.25 180)
@@ -5654,31 +5638,7 @@
 			)
 		)
 	)
-	(global_label "D-"
-		(shape input)
-		(at 248.92 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "24560051-f1b0-4802-8d23-d4a160990156")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.0924 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "EN2_TO_CANL"
+	(global_label "MOTOR2_CANL"
 		(shape input)
 		(at 72.39 95.25 0)
 		(fields_autoplaced yes)
@@ -5690,7 +5650,7 @@
 		)
 		(uuid "271b217a-6c9e-4daa-a093-c75a2fb90e50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.0147 95.25 0)
+			(at 88.6195 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5963,7 +5923,7 @@
 			)
 		)
 	)
-	(global_label "EN2_TO_CANH"
+	(global_label "MOTOR2_CANH"
 		(shape input)
 		(at 72.39 77.47 0)
 		(fields_autoplaced yes)
@@ -5975,7 +5935,7 @@
 		)
 		(uuid "8750cf58-e01f-4b61-9e33-4ff9ae9d0654")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.3171 77.47 0)
+			(at 88.9219 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
