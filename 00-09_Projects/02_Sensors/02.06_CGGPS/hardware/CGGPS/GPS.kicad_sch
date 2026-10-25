@@ -5378,7 +5378,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LHR:NEO-F9P-15B"
 			(at 68.58 39.37 0)
 			(hide yes)
 			(show_name no)
