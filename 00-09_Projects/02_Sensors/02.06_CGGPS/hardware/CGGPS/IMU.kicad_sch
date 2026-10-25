@@ -1219,17 +1219,6 @@
 		)
 		(uuid "b83db4ae-e64e-455c-9570-4c630cf714ec")
 	)
-	(text "650 Hz"
-		(exclude_from_sim no)
-		(at 83.058 24.638 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "131c7563-a0d6-4697-b686-ef45f8b2ddf4")
-	)
 	(text "BNO086 9 DOF IMU"
 		(exclude_from_sim no)
 		(at 22.352 22.606 0)
@@ -1272,7 +1261,7 @@
 		(at 36.83 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47b33877-145d-4b36-a166-176010259812")
+		(uuid "543d2dee-3bbf-40a9-aaba-e589f5eed08f")
 	)
 	(junction
 		(at 60.96 44.45)
@@ -1790,7 +1779,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 68.58) (xy 36.83 68.58)
+			(xy 34.29 68.58) (xy 36.83 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1838,197 +1827,93 @@
 		)
 		(uuid "f8bb7d3e-77ea-4796-819a-a95c06c643a2")
 	)
-	(global_label "IMU_PS0{slash}WAKE"
-		(shape input)
-		(at 35.56 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "20d2285d-177c-4d9f-a0bf-b7cf4a0e13b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.242 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IMU_CS"
-		(shape input)
-		(at 160.02 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3dc6f206-5946-4eaa-b774-7953484c980c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.839 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IMU_NRST"
-		(shape input)
-		(at 86.36 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50daa330-56b5-40f8-82c9-eef2b238e046")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.2429 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IMU_SCLK"
-		(shape input)
-		(at 160.02 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "73e8d051-a2b4-4544-a7e3-2634b0c87a08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.1371 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IMU_MOSI"
-		(shape input)
-		(at 160.02 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c4a7468-fc7f-46da-a3ed-5a80bcd8293d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.9557 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IMU_H_INTN"
+	(hierarchical_label "H_INTN"
 		(shape input)
 		(at 86.36 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "9d7c912a-1d78-4ec7-ba9f-143802e84626")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.489 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "08bde0bb-6e97-4f84-8a27-dc27318b22fa")
 	)
-	(global_label "IMU_MISO"
+	(hierarchical_label "SCLK"
 		(shape input)
-		(at 160.02 76.2 0)
-		(fields_autoplaced yes)
+		(at 160.02 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b0970c24-6ce1-4836-8c16-05b9bfe18326")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.9557 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "1c659bff-6dd7-442b-bf5a-4669ca50b86b")
 	)
-	(global_label "IMU_BOOTN"
+	(hierarchical_label "MOSI"
 		(shape input)
-		(at 45.72 49.53 180)
-		(fields_autoplaced yes)
+		(at 160.02 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "325d941e-e148-49f4-85e6-0cab0db82252")
+	)
+	(hierarchical_label "MISO"
+		(shape input)
+		(at 160.02 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "385256ee-8ab2-4879-8d50-56e5268e5049")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 86.36 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d0565080-5541-4d45-896a-a3d50300e7c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.1514 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "3b211067-7110-4e99-aaee-c8c96b526c37")
+	)
+	(hierarchical_label "CS_N"
+		(shape input)
+		(at 160.02 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "42112590-2556-471c-a8f8-c0ef375725cf")
+	)
+	(hierarchical_label "BOOTN"
+		(shape input)
+		(at 45.72 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52592627-e756-40d5-937a-f5dec8cd3eb6")
+	)
+	(hierarchical_label "PS0{slash}WAKE"
+		(shape input)
+		(at 34.29 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5979cbcc-f79f-4aba-867d-7bd266c6da1e")
 	)
 	(symbol
 		(lib_id "CGGPS:BNO085")
@@ -2688,7 +2573,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 179.07 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3249,7 +3134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 187.96 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
