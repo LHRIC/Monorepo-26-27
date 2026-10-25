@@ -5552,7 +5552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LHR:WS-SLSU_6p7x2p7_WRE"
 			(at 233.68 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8167,7 +8167,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 146.05 64.008 90)
 			(hide yes)
 			(show_name no)
