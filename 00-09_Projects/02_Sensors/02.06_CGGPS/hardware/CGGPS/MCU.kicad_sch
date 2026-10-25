@@ -7013,7 +7013,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8dc4fd07-0eab-496f-a2ee-beb25e567490")
 		(property "Reference" "SW1"
 			(at 148.59 102.87 0)
@@ -7025,8 +7024,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 148.59 105.41 0)
+		(property "Value" "PTS645SH43SMTR92 LFS"
+			(at 153.162 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7035,7 +7034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
 			(at 148.59 105.41 0)
 			(hide yes)
 			(show_name no)
