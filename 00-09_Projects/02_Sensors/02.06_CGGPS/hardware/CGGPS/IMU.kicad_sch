@@ -1230,17 +1230,6 @@
 		)
 		(uuid "3ac3f18e-da24-428b-85d4-cd15705224ca")
 	)
-	(text "Need to test if the internal clock can be used for Rev 2."
-		(exclude_from_sim no)
-		(at 93.218 35.814 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5cdd9e05-7cc4-4ab3-b546-460d5bddd6dd")
-	)
 	(text "Pin 5 (PS1) and Pin 6 (PS0/WAKE) are the host interface protocol selection pins. Both pins must be high from\nbefore reset until after the first assertion of H_INTN to select the SPI interface"
 		(exclude_from_sim no)
 		(at 107.442 102.87 0)
@@ -2087,7 +2076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e6c35b8-3b94-4574-abb9-8fc2db97c205")
-		(property "Reference" "R14"
+		(property "Reference" "R20"
 			(at 53.34 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2151,7 +2140,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "R14")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2168,7 +2157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2afc2ba7-a8fe-4ab8-bbc9-26806e9a80f4")
-		(property "Reference" "R12"
+		(property "Reference" "R18"
 			(at 31.242 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2232,7 +2221,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "R12")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2250,7 +2239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47809756-f4e9-4f69-9c37-894faa64be8e")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR062"
 			(at 66.04 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2310,7 +2299,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "#PWR057")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2328,7 +2317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49578a3a-dd24-44a3-b629-a06fcbb0eab7")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR061"
 			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2388,7 +2377,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "#PWR056")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2406,7 +2395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bbef5a9-a90d-4e2c-832d-edbd2682e748")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR065"
 			(at 176.53 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2466,7 +2455,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "#PWR060")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -2484,7 +2473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6972ba52-9754-4b69-bb49-6cbe78cacd2e")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR059"
 			(at 54.61 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2544,7 +2533,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "#PWR054")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2562,7 +2551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "782a4765-6b3f-4c32-a23f-1c696b794e3b")
-		(property "Reference" "R15"
+		(property "Reference" "R21"
 			(at 179.07 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2626,7 +2615,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "R15")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2644,7 +2633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82a3a5da-b4d3-45d4-af66-e8437559ec75")
-		(property "Reference" "C21"
+		(property "Reference" "C26"
 			(at 58.42 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,7 +2697,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "C21")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2726,7 +2715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83824bd3-56fa-4aed-8876-947bca1fb685")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR064"
 			(at 170.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2786,7 +2775,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "#PWR059")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2804,7 +2793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84bd1e64-f09b-499f-8a4c-133793bf4a34")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR068"
 			(at 185.42 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2864,7 +2853,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "#PWR063")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2882,7 +2871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ce30817-25ba-4e24-9464-d0ccc8ac60ab")
-		(property "Reference" "C22"
+		(property "Reference" "C27"
 			(at 64.77 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2946,7 +2935,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "C22")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -2963,7 +2952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b1c1235-3c9f-47a6-8e4d-8deb08e1abaf")
-		(property "Reference" "R13"
+		(property "Reference" "R19"
 			(at 43.434 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,7 +3016,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "R13")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3045,7 +3034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d76084c-a59c-4408-9cd8-a47dde1bdb06")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR057"
 			(at 36.83 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3105,7 +3094,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "#PWR052")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3123,7 +3112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fc8ae22-15d2-4af1-bb73-247bbb71638e")
-		(property "Reference" "R16"
+		(property "Reference" "R22"
 			(at 187.96 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3187,7 +3176,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "R16")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3205,7 +3194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b21be623-9840-46c0-a358-310d03dd8128")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR058"
 			(at 50.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3265,7 +3254,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "#PWR053")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3283,7 +3272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4717ad0-ec33-44ce-b379-88b082c78e65")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR066"
 			(at 185.42 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3343,7 +3332,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "#PWR061")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3361,7 +3350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d09cc55a-a15e-42b3-9cb0-ed6b3fafe511")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR063"
 			(at 78.74 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3421,7 +3410,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "#PWR058")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3439,7 +3428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef0fc498-fd56-41c7-9fb3-8e2d435fc22c")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR060"
 			(at 60.96 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3499,7 +3488,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "#PWR055")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3517,7 +3506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef8d3a85-ccf6-4346-b1e7-7df562533d4a")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR067"
 			(at 185.42 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3577,7 +3566,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "#PWR062")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -3595,7 +3584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f08576ae-2d30-4162-9346-ea7104426c36")
-		(property "Reference" "C23"
+		(property "Reference" "C28"
 			(at 189.23 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3659,7 +3648,7 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275/2964b0b2-9734-41f1-a616-a2dc21dcd2fa"
-					(reference "C23")
+					(reference "C28")
 					(unit 1)
 				)
 			)

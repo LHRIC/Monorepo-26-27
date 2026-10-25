@@ -5,6 +5,129 @@
 	(uuid "ba6259ef-170d-4c28-878a-9c9425eb0275")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -111,6 +234,284 @@
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -244,6 +645,133 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 187.96 124.46)
+		(end 226.06 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4bff0b6a-922e-48e4-ad2d-a3e05ad17a76")
+	)
+	(rectangle
+		(start 15.24 124.46)
+		(end 86.36 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5e761a10-609d-4c74-95aa-f9d176c93e0e")
+	)
+	(rectangle
+		(start 88.9 124.46)
+		(end 144.78 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8fc06b58-3616-4a74-ac29-bd505d7a8898")
+	)
+	(rectangle
+		(start 88.9 149.86)
+		(end 144.78 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "999a2c9d-924a-4e89-b459-82cb134e3d8e")
+	)
+	(rectangle
+		(start 15.24 15.24)
+		(end 279.4 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b0db95b0-ec0d-4d0f-b4b0-3e1f2ed11ef6")
+	)
+	(rectangle
+		(start 147.32 124.46)
+		(end 185.42 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c894788a-78d6-4602-9423-7f131ce2c9c4")
+	)
+	(text "GPS Testpoints\n"
+		(exclude_from_sim no)
+		(at 149.606 128.27 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "36a98285-b901-4ad5-b2a7-bdba8e9d5382")
+	)
+	(text "Mounting Holes\n"
+		(exclude_from_sim no)
+		(at 20.574 130.556 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "87aac770-4b4f-43ad-9c7b-5ac2613783ed")
+	)
+	(text "CAN Testpoints\n"
+		(exclude_from_sim no)
+		(at 91.44 154.178 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "8ab1923d-533f-42b0-8288-81f1072dc42d")
+	)
+	(text "Power Testpoints\n"
+		(exclude_from_sim no)
+		(at 90.932 129.54 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "91105de2-274d-456f-bbb8-bd68742b01ca")
+	)
+	(text "IMU Testpoints\n"
+		(exclude_from_sim no)
+		(at 191.516 128.524 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "e1efe0fd-ec52-456c-b8a9-8b4deea5f55c")
+	)
 	(no_connect
 		(at 78.74 83.82)
 		(uuid "08f5f064-7c7d-420f-8ef2-0a8fa190f941")
@@ -302,7 +830,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 113.03) (xy 129.54 113.03)
+			(xy 220.98 48.26) (xy 223.52 48.26)
 		)
 		(stroke
 			(width 0)
@@ -312,7 +840,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 40.64) (xy 129.54 40.64)
+			(xy 204.47 140.97) (xy 207.01 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1027857e-519d-407c-9504-03fe2bede1ec")
+	)
+	(wire
+		(pts
+			(xy 114.3 41.91) (xy 116.84 41.91)
 		)
 		(stroke
 			(width 0)
@@ -322,7 +860,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 118.11) (xy 129.54 118.11)
+			(xy 220.98 53.34) (xy 223.52 53.34)
 		)
 		(stroke
 			(width 0)
@@ -332,7 +870,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 59.69) (xy 129.54 59.69)
+			(xy 114.3 60.96) (xy 116.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -349,6 +887,26 @@
 			(type default)
 		)
 		(uuid "1e557df4-a55e-4cfa-aae1-28352f8facb9")
+	)
+	(wire
+		(pts
+			(xy 123.19 142.24) (xy 124.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f30ac32-55d2-486e-9209-314e51a67d46")
+	)
+	(wire
+		(pts
+			(xy 123.19 140.97) (xy 123.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b4dfec-5f1e-4adb-926a-63a5981a5b47")
 	)
 	(wire
 		(pts
@@ -382,7 +940,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 92.71) (xy 129.54 92.71)
+			(xy 220.98 27.94) (xy 223.52 27.94)
 		)
 		(stroke
 			(width 0)
@@ -392,7 +950,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 55.88) (xy 129.54 55.88)
+			(xy 114.3 57.15) (xy 116.84 57.15)
 		)
 		(stroke
 			(width 0)
@@ -402,7 +960,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 38.1) (xy 191.77 38.1)
+			(xy 165.1 39.37) (xy 167.64 39.37)
 		)
 		(stroke
 			(width 0)
@@ -412,7 +970,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 53.34) (xy 191.77 53.34)
+			(xy 163.83 139.7) (xy 166.37 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439cf1fc-b5c8-4420-b547-f7d6f41fc589")
+	)
+	(wire
+		(pts
+			(xy 165.1 54.61) (xy 167.64 54.61)
 		)
 		(stroke
 			(width 0)
@@ -432,7 +1000,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 128.27) (xy 129.54 128.27)
+			(xy 220.98 63.5) (xy 223.52 63.5)
 		)
 		(stroke
 			(width 0)
@@ -452,7 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 63.5) (xy 191.77 63.5)
+			(xy 165.1 64.77) (xy 167.64 64.77)
 		)
 		(stroke
 			(width 0)
@@ -462,7 +1030,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 129.54 63.5)
+			(xy 114.3 64.77) (xy 116.84 64.77)
 		)
 		(stroke
 			(width 0)
@@ -472,13 +1040,33 @@
 	)
 	(wire
 		(pts
-			(xy 127 48.26) (xy 129.54 48.26)
+			(xy 163.83 149.86) (xy 166.37 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585f096b-6fd1-49cc-a8ef-7319670c896f")
+	)
+	(wire
+		(pts
+			(xy 114.3 49.53) (xy 116.84 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "592061ac-c278-4159-bb63-5ad9928a4912")
+	)
+	(wire
+		(pts
+			(xy 163.83 134.62) (xy 166.37 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a02d2a7-2fa4-4ba3-91b0-2ed8e9e49153")
 	)
 	(wire
 		(pts
@@ -492,6 +1080,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 154.94) (xy 166.37 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61cacb83-db73-40fd-92b4-3a11e4d3fa6a")
+	)
+	(wire
+		(pts
 			(xy 81.28 38.1) (xy 78.74 38.1)
 		)
 		(stroke
@@ -502,7 +1100,27 @@
 	)
 	(wire
 		(pts
-			(xy 127 44.45) (xy 129.54 44.45)
+			(xy 204.47 135.89) (xy 207.01 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb3e92f-b2d0-452e-aed4-1627295d32cd")
+	)
+	(wire
+		(pts
+			(xy 204.47 151.13) (xy 207.01 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dccb5c9-b78c-46f8-9d61-50d180a37436")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 116.84 45.72)
 		)
 		(stroke
 			(width 0)
@@ -512,7 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 133.35) (xy 129.54 133.35)
+			(xy 220.98 68.58) (xy 223.52 68.58)
 		)
 		(stroke
 			(width 0)
@@ -522,7 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 97.79) (xy 129.54 97.79)
+			(xy 220.98 33.02) (xy 223.52 33.02)
 		)
 		(stroke
 			(width 0)
@@ -542,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 168.91) (xy 118.11 170.18)
+			(xy 24.13 139.7) (xy 24.13 140.97)
 		)
 		(stroke
 			(width 0)
@@ -552,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 52.07) (xy 129.54 52.07)
+			(xy 114.3 53.34) (xy 116.84 53.34)
 		)
 		(stroke
 			(width 0)
@@ -572,7 +1190,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 33.02) (xy 129.54 33.02)
+			(xy 114.3 34.29) (xy 116.84 34.29)
 		)
 		(stroke
 			(width 0)
@@ -592,7 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 102.87) (xy 129.54 102.87)
+			(xy 220.98 38.1) (xy 223.52 38.1)
 		)
 		(stroke
 			(width 0)
@@ -602,7 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 36.83) (xy 129.54 36.83)
+			(xy 114.3 38.1) (xy 116.84 38.1)
 		)
 		(stroke
 			(width 0)
@@ -612,7 +1230,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 27.94) (xy 191.77 27.94)
+			(xy 204.47 146.05) (xy 207.01 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4be0d11-e4b4-4f6f-bee8-5d35cf092491")
+	)
+	(wire
+		(pts
+			(xy 165.1 29.21) (xy 167.64 29.21)
 		)
 		(stroke
 			(width 0)
@@ -632,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 168.91) (xy 147.32 170.18)
+			(xy 53.34 139.7) (xy 53.34 140.97)
 		)
 		(stroke
 			(width 0)
@@ -642,7 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 29.21) (xy 129.54 29.21)
+			(xy 114.3 30.48) (xy 116.84 30.48)
 		)
 		(stroke
 			(width 0)
@@ -652,7 +1280,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 71.12) (xy 129.54 71.12)
+			(xy 114.3 72.39) (xy 116.84 72.39)
 		)
 		(stroke
 			(width 0)
@@ -662,7 +1290,37 @@
 	)
 	(wire
 		(pts
-			(xy 127 67.31) (xy 129.54 67.31)
+			(xy 127 160.02) (xy 128.27 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2e0067-2e4d-4cb2-bfa2-49135875744f")
+	)
+	(wire
+		(pts
+			(xy 92.71 142.24) (xy 92.71 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be89eb05-a579-4b5f-8213-8c71215ce3ca")
+	)
+	(wire
+		(pts
+			(xy 204.47 156.21) (xy 207.01 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf18f043-e140-4ee3-b759-e41e40428f41")
+	)
+	(wire
+		(pts
+			(xy 114.3 68.58) (xy 116.84 68.58)
 		)
 		(stroke
 			(width 0)
@@ -672,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 33.02) (xy 191.77 33.02)
+			(xy 165.1 34.29) (xy 167.64 34.29)
 		)
 		(stroke
 			(width 0)
@@ -682,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 58.42) (xy 191.77 58.42)
+			(xy 165.1 59.69) (xy 167.64 59.69)
 		)
 		(stroke
 			(width 0)
@@ -712,13 +1370,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 107.95) (xy 129.54 107.95)
+			(xy 220.98 43.18) (xy 223.52 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d0eaa019-85be-4b2d-8a45-2e6ee7e8f9c7")
+	)
+	(wire
+		(pts
+			(xy 204.47 161.29) (xy 207.01 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2319d6b-9622-4033-ad38-37077dd43bd6")
 	)
 	(wire
 		(pts
@@ -732,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 123.19) (xy 129.54 123.19)
+			(xy 220.98 58.42) (xy 223.52 58.42)
 		)
 		(stroke
 			(width 0)
@@ -742,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 48.26) (xy 191.77 48.26)
+			(xy 165.1 49.53) (xy 167.64 49.53)
 		)
 		(stroke
 			(width 0)
@@ -752,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 184.15) (xy 118.11 185.42)
+			(xy 24.13 154.94) (xy 24.13 156.21)
 		)
 		(stroke
 			(width 0)
@@ -762,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 43.18) (xy 191.77 43.18)
+			(xy 165.1 44.45) (xy 167.64 44.45)
 		)
 		(stroke
 			(width 0)
@@ -782,7 +1450,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 184.15) (xy 147.32 185.42)
+			(xy 163.83 160.02) (xy 166.37 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4cd1382-63a2-4c59-a325-9390f79120ff")
+	)
+	(wire
+		(pts
+			(xy 53.34 154.94) (xy 53.34 156.21)
 		)
 		(stroke
 			(width 0)
@@ -812,6 +1490,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 142.24) (xy 92.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe1b306-b465-44a9-8067-b254c9ddf116")
+	)
+	(wire
+		(pts
 			(xy 31.75 88.9) (xy 34.29 88.9)
 		)
 		(stroke
@@ -819,6 +1507,16 @@
 			(type default)
 		)
 		(uuid "f49f9d34-38e2-4f80-b3af-fea71d228f61")
+	)
+	(wire
+		(pts
+			(xy 96.52 160.02) (xy 97.79 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98ca389-0b51-4a6c-8029-3b962df3288b")
 	)
 	(wire
 		(pts
@@ -840,8 +1538,18 @@
 		)
 		(uuid "fad5d619-80cd-48e3-b490-597fe7ebaf3a")
 	)
+	(wire
+		(pts
+			(xy 163.83 144.78) (xy 166.37 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfc4f0a-5fd6-4fc3-9871-f9be46edadb4")
+	)
 	(label "IMU_PSO{slash}WAKE"
-		(at 189.23 58.42 180)
+		(at 165.1 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -851,7 +1559,7 @@
 		(uuid "033d9417-6fb6-4686-b8b1-3a83a0055406")
 	)
 	(label "GPS_NRST"
-		(at 127 113.03 180)
+		(at 220.98 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -880,6 +1588,16 @@
 		)
 		(uuid "13445dd5-c01f-4fc9-8c15-98a24c11379a")
 	)
+	(label "GPS_SCLK"
+		(at 163.83 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13a6afca-93c1-4fab-8613-a0608abc0ffe")
+	)
 	(label "SWCLK"
 		(at 31.75 99.06 180)
 		(effects
@@ -891,7 +1609,7 @@
 		(uuid "144e22fd-93e3-4929-9314-e41c3470af83")
 	)
 	(label "IMU_BOOTN"
-		(at 189.23 27.94 180)
+		(at 165.1 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -901,7 +1619,7 @@
 		(uuid "20bb1b86-d972-42cc-b02c-e4500367f557")
 	)
 	(label "GPS_CS_N"
-		(at 127 102.87 180)
+		(at 220.98 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -941,7 +1659,7 @@
 		(uuid "3102afef-2ceb-4a1d-9cb8-265316f92b09")
 	)
 	(label "GPS_SCLK"
-		(at 127 107.95 180)
+		(at 220.98 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -950,8 +1668,28 @@
 		)
 		(uuid "3480ff44-546b-4ef1-b19d-1c88b333224c")
 	)
+	(label "GPS_MOSI"
+		(at 163.83 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38f3d60d-216d-4ab9-bd09-e217f01033dd")
+	)
+	(label "GPS_RTK_STATUS"
+		(at 163.83 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ba68bb5-3242-4e3e-83b3-b4349ee59e27")
+	)
 	(label "USB_DM"
-		(at 127 59.69 180)
+		(at 114.3 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -961,7 +1699,7 @@
 		(uuid "3f680a5b-40d7-40cc-b1e0-7fdff8adcd3e")
 	)
 	(label "GPS_USART_TX"
-		(at 127 123.19 180)
+		(at 220.98 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -971,7 +1709,7 @@
 		(uuid "41af5820-7c51-45ae-b6b6-05036f1d764c")
 	)
 	(label "SWCLK"
-		(at 127 67.31 180)
+		(at 114.3 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -981,7 +1719,7 @@
 		(uuid "42a9e760-48c7-41ad-83c1-41a00764b34f")
 	)
 	(label "GPS_USART_RX"
-		(at 127 118.11 180)
+		(at 220.98 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -991,7 +1729,7 @@
 		(uuid "462571ae-0975-423c-8a66-671060bbe015")
 	)
 	(label "USB_DP"
-		(at 127 55.88 180)
+		(at 114.3 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1031,7 +1769,7 @@
 		(uuid "4a3f36a3-d011-4a1e-96cd-6df48e32d7b4")
 	)
 	(label "MCU_NRST"
-		(at 127 63.5 180)
+		(at 114.3 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1040,8 +1778,8 @@
 		)
 		(uuid "4eabfe8c-ac75-4001-8970-70b9e24f1b46")
 	)
-	(label "CANTX"
-		(at 127 40.64 180)
+	(label "CAN_TX"
+		(at 114.3 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1061,7 +1799,7 @@
 		(uuid "5051224b-9d0a-434a-b4df-529e996b80db")
 	)
 	(label "SWDIO"
-		(at 127 71.12 180)
+		(at 114.3 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1069,6 +1807,16 @@
 			(justify right bottom)
 		)
 		(uuid "5a384a75-db1a-473b-ae1e-99b4a589a878")
+	)
+	(label "GPS_TIMEPULSE"
+		(at 163.83 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b4daee4-57f7-4396-b03d-7c2a13365d8f")
 	)
 	(label "USART2_RX_PIN"
 		(at 31.75 43.18 180)
@@ -1081,7 +1829,7 @@
 		(uuid "5b538994-2bf2-4488-94c9-b8683ea42301")
 	)
 	(label "GPS_TIMEPULSE"
-		(at 127 133.35 180)
+		(at 220.98 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1090,8 +1838,28 @@
 		)
 		(uuid "5b7fb9d7-d488-4c0d-8672-7a44ad2ef2b1")
 	)
+	(label "GPS_CS_N"
+		(at 163.83 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ceefcbb-5269-4789-8a66-e2f9b75c7256")
+	)
+	(label "IMU_H_INTN"
+		(at 204.47 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d49a697-36ff-462c-bda7-9e4790f066b4")
+	)
 	(label "IMU_CS_N"
-		(at 189.23 33.02 180)
+		(at 165.1 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1110,7 +1878,17 @@
 		)
 		(uuid "5fc7e95b-0c7a-4cef-9c1c-14cf93879cd9")
 	)
-	(label "CANTX"
+	(label "IMU_SCLK"
+		(at 204.47 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d9032b7-d555-451d-b805-837222194135")
+	)
+	(label "CAN_TX"
 		(at 81.28 73.66 0)
 		(effects
 			(font
@@ -1120,7 +1898,17 @@
 		)
 		(uuid "6e362abc-9773-4839-9245-e1e818545018")
 	)
-	(label "CANRX"
+	(label "IMU_CS_N"
+		(at 204.47 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e7409a0-3209-4a83-b7d5-7b46d5159b7a")
+	)
+	(label "CAN_RX"
 		(at 81.28 68.58 0)
 		(effects
 			(font
@@ -1130,8 +1918,8 @@
 		)
 		(uuid "7049fa10-6acd-4142-a514-1e176f8b81aa")
 	)
-	(label "CANRX"
-		(at 127 36.83 180)
+	(label "CAN_RX"
+		(at 114.3 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1141,7 +1929,7 @@
 		(uuid "7e175498-ad79-4ff6-add2-0c07d025a162")
 	)
 	(label "IMU_MISO"
-		(at 189.23 43.18 180)
+		(at 165.1 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1151,7 +1939,7 @@
 		(uuid "86ccf3b7-ee1b-401a-954d-0a71f7d1895c")
 	)
 	(label "CAN_H"
-		(at 127 29.21 180)
+		(at 114.3 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1181,7 +1969,7 @@
 		(uuid "987fc215-113d-4705-8f2d-d4721091cc48")
 	)
 	(label "IMU_SCLK"
-		(at 189.23 63.5 180)
+		(at 165.1 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1190,8 +1978,18 @@
 		)
 		(uuid "9e0a1aa1-c310-494a-b557-31f5b1b7f195")
 	)
+	(label "IMU_PSO{slash}WAKE"
+		(at 204.47 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e343877-ee20-4ce7-b6ea-76fb83edbfa7")
+	)
 	(label "USART2_TX"
-		(at 127 48.26 180)
+		(at 114.3 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1221,7 +2019,7 @@
 		(uuid "aeaabf9a-2b1a-4511-8dbb-872281973c17")
 	)
 	(label "IMU_MOSI"
-		(at 189.23 48.26 180)
+		(at 165.1 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1231,7 +2029,7 @@
 		(uuid "af7df73f-5733-474f-9ee1-ee543ed806f9")
 	)
 	(label "CAN_SLEEP"
-		(at 127 44.45 180)
+		(at 114.3 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1241,7 +2039,7 @@
 		(uuid "b41ab514-a2a0-407a-862b-edf4195bea46")
 	)
 	(label "IMU_NRST"
-		(at 189.23 53.34 180)
+		(at 165.1 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1250,8 +2048,18 @@
 		)
 		(uuid "b5165ead-df8c-4ae1-b333-8c03feab5ae9")
 	)
+	(label "IMU_MOSI"
+		(at 204.47 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5cc4351-8081-4e14-9b03-efacc99d51de")
+	)
 	(label "USART2_RX"
-		(at 127 52.07 180)
+		(at 114.3 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1271,7 +2079,7 @@
 		(uuid "bb57fd7e-561f-4146-bac3-589ce9d76312")
 	)
 	(label "GPS_MOSI"
-		(at 127 97.79 180)
+		(at 220.98 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1279,6 +2087,16 @@
 			(justify right bottom)
 		)
 		(uuid "c1acbb34-05c1-41c1-8127-131d69850be3")
+	)
+	(label "GPS_MISO"
+		(at 163.83 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3e0ab5c-6afa-43b1-8ed3-ffd066cf3b62")
 	)
 	(label "GPS_USART_RX"
 		(at 31.75 73.66 180)
@@ -1301,7 +2119,7 @@
 		(uuid "cea41c03-1f45-4626-8402-1f32e6446cdb")
 	)
 	(label "GPS_MISO"
-		(at 127 92.71 180)
+		(at 220.98 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1309,6 +2127,16 @@
 			(justify right bottom)
 		)
 		(uuid "d03c17e1-304f-4d98-9da0-ce6840586a06")
+	)
+	(label "IMU_MISO"
+		(at 204.47 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3890bf5-cef0-456c-800b-2ec1fdb7a586")
 	)
 	(label "GPS_MOSI"
 		(at 81.28 104.14 0)
@@ -1321,7 +2149,7 @@
 		(uuid "d4605ecc-293e-4240-825a-d8f03efd1a65")
 	)
 	(label "GPS_RTK_STATUS"
-		(at 127 128.27 180)
+		(at 220.98 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1331,7 +2159,7 @@
 		(uuid "d84ddb98-8530-4c42-8f90-9ff3e16ac24c")
 	)
 	(label "CAN_L"
-		(at 127 33.02 180)
+		(at 114.3 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1340,8 +2168,18 @@
 		)
 		(uuid "db90a0ee-06cc-477e-a6c3-2e24ab8811ad")
 	)
+	(label "CAN_L"
+		(at 127 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbe43717-689d-49a7-84aa-5862a96c60b4")
+	)
 	(label "IMU_H_INTN"
-		(at 189.23 38.1 180)
+		(at 165.1 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1349,6 +2187,16 @@
 			(justify right bottom)
 		)
 		(uuid "f3593796-5494-48e2-9d18-c770d6c08f9b")
+	)
+	(label "CAN_H"
+		(at 96.52 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa7027c4-7ec5-4d27-ba09-6ab9797283ec")
 	)
 	(label "GPS_RTK_STATUS"
 		(at 81.28 78.74 0)
@@ -1361,19 +2209,19 @@
 		(uuid "fc49d3c4-003c-41e2-a345-030ea6800487")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 118.11 181.61 0)
+		(lib_id "Connector:TestPoint")
+		(at 128.27 160.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3b13f800-4f7d-45fc-b684-3cacea944695")
-		(property "Reference" "H2"
-			(at 120.65 179.0699 0)
+		(uuid "01dd2241-bd36-451b-8e6b-c924e19e0701")
+		(property "Reference" "TP4"
+			(at 133.35 158.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1383,8 +2231,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 120.65 181.6099 0)
+		(property "Value" "TestPoint"
+			(at 133.35 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1394,8 +2242,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 118.11 181.61 0)
+		(property "Footprint" ""
+			(at 128.27 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1406,7 +2254,402 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 181.61 0)
+			(at 128.27 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 128.27 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d38da5a-9239-40ad-8462-a86102b49906")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07f885a5-a609-4949-b80e-ba630fa2c31e")
+		(property "Reference" "TP12"
+			(at 212.09 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 212.09 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38f079bb-e9dd-40a1-b93f-d7bf7071684d")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 161.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10e6bb40-3bbb-42c7-a283-2648474364ef")
+		(property "Reference" "TP16"
+			(at 212.09 160.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 212.09 162.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "413114a5-5291-4563-90b7-6c184760cba6")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "173d6397-82be-4b81-bc12-31f5753a699e")
+		(property "Reference" "TP14"
+			(at 212.09 149.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 212.09 152.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ef584d9-6d1e-42c8-80c1-9606f085f180")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 135.89 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3831f861-d001-4e1a-9ca5-f3cc0e3957c5")
+		(property "Reference" "TP11"
+			(at 212.09 134.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 212.09 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32c91268-c7d6-4544-895b-f4e7d702c509")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 24.13 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b13f800-4f7d-45fc-b684-3cacea944695")
+		(property "Reference" "H2"
+			(at 26.67 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 26.67 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 24.13 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1417,7 +2660,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 118.11 181.61 0)
+			(at 24.13 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1440,19 +2683,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 147.32 166.37 0)
+		(lib_id "Connector:TestPoint")
+		(at 207.01 146.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ac51fcc-b43a-4ad4-bc85-8c71d5a789be")
-		(property "Reference" "H3"
-			(at 149.86 163.8299 0)
+		(uuid "46d4c8aa-494b-4950-9785-3ddad577a992")
+		(property "Reference" "TP13"
+			(at 212.09 144.7799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1462,8 +2705,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 149.86 166.3699 0)
+		(property "Value" "TestPoint"
+			(at 212.09 147.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1473,8 +2716,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 147.32 166.37 0)
+		(property "Footprint" ""
+			(at 207.01 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1485,7 +2728,481 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 166.37 0)
+			(at 207.01 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf5b5b7c-0c62-4572-85d2-af8b6b2dd985")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 97.79 160.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49835582-040d-4495-938e-11b9886a3b12")
+		(property "Reference" "TP2"
+			(at 102.87 158.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 102.87 161.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c191acc-0ff9-4548-926e-964558aad49f")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 154.94 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f2bb797-c0af-42df-8920-1f399873b8d9")
+		(property "Reference" "TP9"
+			(at 171.45 153.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 171.45 156.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffefcb0c-7f1a-4752-8655-390dbcd70cb7")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61ce6e07-5118-4194-8fc3-67f585f8f237")
+		(property "Reference" "TP8"
+			(at 171.45 148.5899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 171.45 151.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78be8ef6-c79d-433d-951e-5df2b5a43fb2")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 139.7 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aa1264a-3937-427d-97f8-4920b0113645")
+		(property "Reference" "TP6"
+			(at 171.45 138.4299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 171.45 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4420143-c7f2-495f-acb3-73fba1047e46")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 144.78 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87df2611-5b04-4817-b3ff-14fd32ab8b3a")
+		(property "Reference" "TP7"
+			(at 171.45 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 171.45 146.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d61cbf4-976d-4972-940c-fa8f55409cd2")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 53.34 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ac51fcc-b43a-4ad4-bc85-8c71d5a789be")
+		(property "Reference" "H3"
+			(at 55.88 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 55.88 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 53.34 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1496,7 +3213,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 147.32 166.37 0)
+			(at 53.34 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1519,8 +3236,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 118.11 185.42 0)
+		(lib_id "Connector:TestPoint")
+		(at 207.01 156.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1529,30 +3246,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f030c11-be06-424a-8387-b6ece6a543b5")
-		(property "Reference" "#PWR012"
-			(at 118.11 191.77 0)
-			(hide yes)
+		(uuid "8b50c099-44de-4e15-b0da-d7daaeff459b")
+		(property "Reference" "TP15"
+			(at 212.09 154.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 118.11 190.5 0)
+		(property "Value" "TestPoint"
+			(at 212.09 157.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 185.42 0)
+			(at 207.01 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1563,7 +3281,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 185.42 0)
+			(at 207.01 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf8df969-ad27-48ec-a33f-5b497bf552b2")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f030c11-be06-424a-8387-b6ece6a543b5")
+		(property "Reference" "#PWR02"
+			(at 24.13 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1574,7 +3370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 185.42 0)
+			(at 24.13 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1590,15 +3386,15 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
-					(reference "#PWR012")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 147.32 170.18 0)
+		(lib_id "Connector:TestPoint")
+		(at 166.37 160.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1607,30 +3403,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a26b8c7e-ec94-42fd-8659-e47330aee741")
-		(property "Reference" "#PWR014"
-			(at 147.32 176.53 0)
-			(hide yes)
+		(uuid "a04ca0a2-715d-4b86-8152-a23929768ee2")
+		(property "Reference" "TP10"
+			(at 171.45 158.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 147.32 175.26 0)
+		(property "Value" "TestPoint"
+			(at 171.45 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 170.18 0)
+			(at 166.37 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1641,7 +3438,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 170.18 0)
+			(at 166.37 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6ee4bf1-df70-4d8a-a368-055658a7bf23")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a26b8c7e-ec94-42fd-8659-e47330aee741")
+		(property "Reference" "#PWR06"
+			(at 53.34 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1652,7 +3527,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 170.18 0)
+			(at 53.34 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1668,15 +3543,15 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
-					(reference "#PWR014")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 147.32 185.42 0)
+		(lib_id "power:+5V")
+		(at 92.71 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1685,9 +3560,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b058154e-9cfb-4540-80b0-860b47286861")
-		(property "Reference" "#PWR015"
-			(at 147.32 191.77 0)
+		(uuid "a310428c-6e06-4d20-85fe-d3b559f36098")
+		(property "Reference" "#PWR012"
+			(at 92.71 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1697,8 +3572,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 147.32 190.5 0)
+		(property "Value" "+5V"
+			(at 92.71 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1708,7 +3583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 185.42 0)
+			(at 92.71 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1719,7 +3594,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 185.42 0)
+			(at 92.71 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 92.71 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b421083-ab6f-4a96-8e69-bc0dd792d2d2")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b058154e-9cfb-4540-80b0-860b47286861")
+		(property "Reference" "#PWR07"
+			(at 53.34 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1730,7 +3683,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 185.42 0)
+			(at 53.34 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1746,26 +3699,26 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
-					(reference "#PWR015")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 147.32 181.61 0)
+		(lib_id "Connector:TestPoint")
+		(at 93.98 142.24 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9338110-e6a9-437e-a184-816fd4f6cf05")
-		(property "Reference" "H4"
-			(at 149.86 179.0699 0)
+		(uuid "b237a328-ebe3-4027-bded-d9a5eca91e12")
+		(property "Reference" "TP1"
+			(at 99.06 140.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1775,8 +3728,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 149.86 181.6099 0)
+		(property "Value" "TestPoint"
+			(at 99.06 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1786,8 +3739,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 147.32 181.61 0)
+		(property "Footprint" ""
+			(at 93.98 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1798,7 +3751,164 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 181.61 0)
+			(at 93.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25dcd62f-81ee-4120-a0fd-e4a24624e2bc")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 123.19 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4fa1722-802a-4630-948e-d74b5397d2f6")
+		(property "Reference" "#PWR015"
+			(at 123.19 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 123.19 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 123.19 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d048ec97-37f6-4914-974c-8167c28c4ac7")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 53.34 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9338110-e6a9-437e-a184-816fd4f6cf05")
+		(property "Reference" "H4"
+			(at 55.88 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 55.88 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 53.34 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1809,7 +3919,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 147.32 181.61 0)
+			(at 53.34 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1833,7 +3943,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 170.18 0)
+		(at 24.13 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1843,8 +3953,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c11d1a23-3934-4bd0-9fa6-d0a1265d81af")
-		(property "Reference" "#PWR011"
-			(at 118.11 176.53 0)
+		(property "Reference" "#PWR01"
+			(at 24.13 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1855,7 +3965,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 175.26 0)
+			(at 24.13 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1865,7 +3975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 170.18 0)
+			(at 24.13 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1876,7 +3986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 170.18 0)
+			(at 24.13 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1887,7 +3997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 170.18 0)
+			(at 24.13 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1903,26 +4013,26 @@
 		(instances
 			(project "CGGPS"
 				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
-					(reference "#PWR011")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 118.11 166.37 0)
+		(lib_id "Connector:TestPoint")
+		(at 124.46 142.24 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e55d34c9-9015-420e-895c-dc138e56ba52")
-		(property "Reference" "H1"
-			(at 120.65 163.8299 0)
+		(uuid "d2304664-8820-4f11-b9e2-5f309ff830f4")
+		(property "Reference" "TP3"
+			(at 129.54 140.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1932,8 +4042,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 120.65 166.3699 0)
+		(property "Value" "TestPoint"
+			(at 129.54 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1943,8 +4053,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 118.11 166.37 0)
+		(property "Footprint" ""
+			(at 124.46 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1955,7 +4065,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 166.37 0)
+			(at 124.46 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 124.46 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69bacdab-9511-4a77-83d8-a9b3221e19a7")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 24.13 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e55d34c9-9015-420e-895c-dc138e56ba52")
+		(property "Reference" "H1"
+			(at 26.67 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 26.67 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 24.13 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1966,7 +4155,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 118.11 166.37 0)
+			(at 24.13 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1988,8 +4177,87 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f90b698b-4b38-4c14-bf57-e2cdfc69453c")
+		(property "Reference" "TP5"
+			(at 171.45 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 171.45 135.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe4d4277-39f8-48ff-95c3-fb50a21164ab")
+		)
+		(instances
+			(project "CGGPS"
+				(path "/ba6259ef-170d-4c28-878a-9c9425eb0275"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 191.77 22.86)
+		(at 167.64 24.13)
 		(size 33.02 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2005,7 +4273,7 @@
 		)
 		(uuid "2964b0b2-9734-41f1-a616-a2dc21dcd2fa")
 		(property "Sheetname" "IMU"
-			(at 191.77 22.1484 0)
+			(at 167.64 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2016,7 +4284,7 @@
 			)
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
-			(at 191.77 70.4346 0)
+			(at 167.64 71.7046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2027,7 +4295,7 @@
 			)
 		)
 		(pin "BOOTN" input
-			(at 191.77 27.94 180)
+			(at 167.64 29.21 180)
 			(uuid "10e26783-113e-4348-88c0-84ae9220c162")
 			(effects
 				(font
@@ -2037,7 +4305,7 @@
 			)
 		)
 		(pin "CS_N" input
-			(at 191.77 33.02 180)
+			(at 167.64 34.29 180)
 			(uuid "0e2ac000-238c-4514-a75a-8e4484bfbd83")
 			(effects
 				(font
@@ -2047,7 +4315,7 @@
 			)
 		)
 		(pin "H_INTN" input
-			(at 191.77 38.1 180)
+			(at 167.64 39.37 180)
 			(uuid "750544af-a591-4382-a68c-e28b81bf1e4f")
 			(effects
 				(font
@@ -2057,7 +4325,7 @@
 			)
 		)
 		(pin "MISO" input
-			(at 191.77 43.18 180)
+			(at 167.64 44.45 180)
 			(uuid "a896b17c-d612-449b-bc7d-823aeb630bfb")
 			(effects
 				(font
@@ -2067,7 +4335,7 @@
 			)
 		)
 		(pin "MOSI" input
-			(at 191.77 48.26 180)
+			(at 167.64 49.53 180)
 			(uuid "219a268c-ef7e-4f8e-a23c-d36042cf0899")
 			(effects
 				(font
@@ -2077,7 +4345,7 @@
 			)
 		)
 		(pin "NRST" input
-			(at 191.77 53.34 180)
+			(at 167.64 54.61 180)
 			(uuid "140ad0f9-5e51-46e1-a3ed-608e5bad6689")
 			(effects
 				(font
@@ -2087,7 +4355,7 @@
 			)
 		)
 		(pin "PS0{slash}WAKE" input
-			(at 191.77 58.42 180)
+			(at 167.64 59.69 180)
 			(uuid "e3bc3f3b-a34d-47a7-9992-2302072101c2")
 			(effects
 				(font
@@ -2097,7 +4365,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 191.77 63.5 180)
+			(at 167.64 64.77 180)
 			(uuid "3b8745db-a6c5-4571-b6cf-70e8c3273a03")
 			(effects
 				(font
@@ -2481,7 +4749,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 88.9)
+		(at 223.52 24.13)
 		(size 31.75 49.53)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2497,7 +4765,7 @@
 		)
 		(uuid "60efd4f4-e239-46ee-9f37-21450896b078")
 		(property "Sheetname" "GPS"
-			(at 129.54 88.1884 0)
+			(at 223.52 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2508,7 +4776,7 @@
 			)
 		)
 		(property "Sheetfile" "GPS.kicad_sch"
-			(at 129.54 139.0146 0)
+			(at 223.52 74.2446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2519,7 +4787,7 @@
 			)
 		)
 		(pin "CS_N" input
-			(at 129.54 102.87 180)
+			(at 223.52 38.1 180)
 			(uuid "ff6dad45-693b-445b-a5fd-02c9897afb17")
 			(effects
 				(font
@@ -2529,7 +4797,7 @@
 			)
 		)
 		(pin "MISO" input
-			(at 129.54 92.71 180)
+			(at 223.52 27.94 180)
 			(uuid "31dcc981-798e-41a9-915a-9a73e00cfe41")
 			(effects
 				(font
@@ -2539,7 +4807,7 @@
 			)
 		)
 		(pin "MOSI" input
-			(at 129.54 97.79 180)
+			(at 223.52 33.02 180)
 			(uuid "b5235612-60f2-4cfc-b2de-375383f192a5")
 			(effects
 				(font
@@ -2549,7 +4817,7 @@
 			)
 		)
 		(pin "NRST" input
-			(at 129.54 113.03 180)
+			(at 223.52 48.26 180)
 			(uuid "e77219cc-311f-459a-969a-67553fa87b4d")
 			(effects
 				(font
@@ -2559,7 +4827,7 @@
 			)
 		)
 		(pin "RTK_STATUS" input
-			(at 129.54 128.27 180)
+			(at 223.52 63.5 180)
 			(uuid "7eaba3f9-84a2-4419-8d94-81cebfacf787")
 			(effects
 				(font
@@ -2569,7 +4837,7 @@
 			)
 		)
 		(pin "RXD2" input
-			(at 129.54 118.11 180)
+			(at 223.52 53.34 180)
 			(uuid "7822185b-fe5d-4343-9f97-0ca648a3d7f1")
 			(effects
 				(font
@@ -2579,7 +4847,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 129.54 107.95 180)
+			(at 223.52 43.18 180)
 			(uuid "4b665eeb-515e-45ad-832d-154391d0a0c2")
 			(effects
 				(font
@@ -2589,7 +4857,7 @@
 			)
 		)
 		(pin "TIMEPULSE" input
-			(at 129.54 133.35 180)
+			(at 223.52 68.58 180)
 			(uuid "e427f150-8a3a-48fb-aff3-04c1d56d97fb")
 			(effects
 				(font
@@ -2599,7 +4867,7 @@
 			)
 		)
 		(pin "TXD2" input
-			(at 129.54 123.19 180)
+			(at 223.52 58.42 180)
 			(uuid "8581e4c5-4423-4201-b188-9f9914a159c6")
 			(effects
 				(font
@@ -2617,7 +4885,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 21.59)
+		(at 116.84 22.86)
 		(size 30.48 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2633,7 +4901,7 @@
 		)
 		(uuid "e981cdae-4ed9-4411-9de3-7437c5e704f1")
 		(property "Sheetname" "Power_CAN_IO"
-			(at 129.54 20.8784 0)
+			(at 116.84 22.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2644,7 +4912,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_CAN.kicad_sch"
-			(at 129.54 76.7846 0)
+			(at 116.84 78.0546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2655,7 +4923,7 @@
 			)
 		)
 		(pin "+VBUS" input
-			(at 129.54 25.4 180)
+			(at 116.84 26.67 180)
 			(uuid "83c20ee7-55b1-46fe-ba95-a169bf5f894b")
 			(effects
 				(font
@@ -2665,7 +4933,7 @@
 			)
 		)
 		(pin "CAN+" input
-			(at 129.54 29.21 180)
+			(at 116.84 30.48 180)
 			(uuid "41ffa770-f151-4a0f-879c-6b4bf46872df")
 			(effects
 				(font
@@ -2675,7 +4943,7 @@
 			)
 		)
 		(pin "CAN-" input
-			(at 129.54 33.02 180)
+			(at 116.84 34.29 180)
 			(uuid "f79c2a7e-2df8-4130-8395-9ad88cc57cf4")
 			(effects
 				(font
@@ -2684,28 +4952,8 @@
 				(justify left)
 			)
 		)
-		(pin "CANRX" input
-			(at 129.54 36.83 180)
-			(uuid "5d16f0b1-ee61-498d-8bac-97af4b814f95")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CANTX" input
-			(at 129.54 40.64 180)
-			(uuid "0d614600-72c6-45b4-8454-6341184a6c87")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "CAN_SLEEP" input
-			(at 129.54 44.45 180)
+			(at 116.84 45.72 180)
 			(uuid "16ca5edb-72f1-4838-a80e-e4bb1da48927")
 			(effects
 				(font
@@ -2715,7 +4963,7 @@
 			)
 		)
 		(pin "USB+" input
-			(at 129.54 55.88 180)
+			(at 116.84 57.15 180)
 			(uuid "b4576e28-e842-4edb-91f6-7719856a1851")
 			(effects
 				(font
@@ -2725,7 +4973,7 @@
 			)
 		)
 		(pin "USB-" input
-			(at 129.54 59.69 180)
+			(at 116.84 60.96 180)
 			(uuid "7a8a841b-c715-4985-a6be-135a8f5d4d3b")
 			(effects
 				(font
@@ -2735,7 +4983,7 @@
 			)
 		)
 		(pin "NRST" input
-			(at 129.54 63.5 180)
+			(at 116.84 64.77 180)
 			(uuid "3cf12f97-92cc-49ec-9685-eb2e95c5625f")
 			(effects
 				(font
@@ -2745,7 +4993,7 @@
 			)
 		)
 		(pin "SWCLK" input
-			(at 129.54 67.31 180)
+			(at 116.84 68.58 180)
 			(uuid "4148a55d-3638-49c3-8e90-cd3cec5bdaf7")
 			(effects
 				(font
@@ -2755,7 +5003,7 @@
 			)
 		)
 		(pin "SWDIO" input
-			(at 129.54 71.12 180)
+			(at 116.84 72.39 180)
 			(uuid "4a983847-eb2e-4920-8b69-7645b34b8414")
 			(effects
 				(font
@@ -2765,7 +5013,7 @@
 			)
 		)
 		(pin "USART_RX" input
-			(at 129.54 52.07 180)
+			(at 116.84 53.34 180)
 			(uuid "86c6b025-3f90-4f6a-832e-a578e3575a84")
 			(effects
 				(font
@@ -2775,8 +5023,28 @@
 			)
 		)
 		(pin "USART_TX" input
-			(at 129.54 48.26 180)
+			(at 116.84 49.53 180)
 			(uuid "a91c07e6-5d7e-42c1-be3f-0c399c633bf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 116.84 38.1 180)
+			(uuid "ba482bbc-3d57-4904-a002-faa33b69d02f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 116.84 41.91 180)
+			(uuid "36ee8e91-49ff-4862-8166-063a72c39d2e")
 			(effects
 				(font
 					(size 1.27 1.27)
