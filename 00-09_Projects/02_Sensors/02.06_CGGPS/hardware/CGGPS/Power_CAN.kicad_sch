@@ -4962,6 +4962,12 @@
 		(uuid "09f1346b-018f-4494-a0a9-590057f2d776")
 	)
 	(junction
+		(at 71.12 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e207bbb-a37a-46b3-b433-96800b86392e")
+	)
+	(junction
 		(at 109.22 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5004,6 +5010,12 @@
 		(uuid "473ce15b-617c-4136-8506-6bbfaac2eb6a")
 	)
 	(junction
+		(at 71.12 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54a72560-480a-4f28-a38b-b4111706430a")
+	)
+	(junction
 		(at 242.57 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5026,12 +5038,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ba2eb23-8162-45c3-bfe7-a9f966947af1")
-	)
-	(junction
-		(at 71.12 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bc8c708-d3b0-4163-b681-f20bf783539b")
 	)
 	(junction
 		(at 233.68 119.38)
@@ -5158,12 +5164,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcfd2be8-a6a2-4166-9322-8d64d1fc3200")
-	)
-	(junction
-		(at 71.12 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e24e48ef-6c35-48b7-ae48-4aeedee2851a")
 	)
 	(junction
 		(at 158.75 115.57)
@@ -6333,7 +6333,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 107.95) (xy 71.12 113.03)
+			(xy 71.12 107.95) (xy 71.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6373,7 +6373,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 120.65) (xy 71.12 129.54)
+			(xy 71.12 121.92) (xy 71.12 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6503,7 +6503,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 31.75) (xy 240.03 31.75)
+			(xy 232.41 31.75) (xy 234.95 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6851,7 +6851,7 @@
 	)
 	(hierarchical_label "+VBUS"
 		(shape input)
-		(at 240.03 31.75 0)
+		(at 234.95 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11361,7 +11361,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 71.12 116.84 270)
+		(at 71.12 118.11 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11372,7 +11372,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6c24ea0-c05c-4c24-8e01-f007edc96309")
 		(property "Reference" "D3"
-			(at 73.66 115.5699 90)
+			(at 73.66 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11383,7 +11383,7 @@
 			)
 		)
 		(property "Value" "SZBZX84C5V1LT1G"
-			(at 73.66 118.1099 90)
+			(at 73.66 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11394,7 +11394,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SC-59_Handsoldering"
-			(at 71.12 116.84 0)
+			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11405,7 +11405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 116.84 0)
+			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11416,7 +11416,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 71.12 116.84 0)
+			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
