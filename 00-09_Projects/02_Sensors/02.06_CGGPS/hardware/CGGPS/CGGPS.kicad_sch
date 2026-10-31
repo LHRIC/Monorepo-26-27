@@ -777,10 +777,6 @@
 		(uuid "08f5f064-7c7d-420f-8ef2-0a8fa190f941")
 	)
 	(no_connect
-		(at 34.29 48.26)
-		(uuid "3fb2e0a0-02c1-46de-aa94-02fd8309e374")
-	)
-	(no_connect
 		(at 34.29 33.02)
 		(uuid "6802f88a-9cad-446d-8240-581ce3409f46")
 	)
@@ -857,6 +853,16 @@
 			(type default)
 		)
 		(uuid "138d9b21-6e78-48ad-8835-c2d6e927bd63")
+	)
+	(wire
+		(pts
+			(xy 30.48 48.26) (xy 34.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153ae364-3c21-4ff4-8c55-ea103239dd8b")
 	)
 	(wire
 		(pts
@@ -967,6 +973,16 @@
 			(type default)
 		)
 		(uuid "3dff7aef-ad4d-4891-891c-73813aca4192")
+	)
+	(wire
+		(pts
+			(xy 81.28 109.22) (xy 78.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b4166d-ad04-460e-8460-0c3ea241b065")
 	)
 	(wire
 		(pts
@@ -1618,6 +1634,16 @@
 		)
 		(uuid "20bb1b86-d972-42cc-b02c-e4500367f557")
 	)
+	(label "IMU_CS_N"
+		(at 30.48 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25a3933f-4f01-46f6-b3bd-6c7bace94421")
+	)
 	(label "GPS_CS_N"
 		(at 220.98 38.1 180)
 		(effects
@@ -1788,7 +1814,7 @@
 		)
 		(uuid "4ebeebff-b500-4fcd-8ed3-d7df2e723309")
 	)
-	(label "USB+"
+	(label "USB_DP"
 		(at 31.75 88.9 180)
 		(effects
 			(font
@@ -1818,7 +1844,7 @@
 		)
 		(uuid "5b4daee4-57f7-4396-b03d-7c2a13365d8f")
 	)
-	(label "USART2_RX_PIN"
+	(label "USART2_RX"
 		(at 31.75 43.18 180)
 		(effects
 			(font
@@ -1868,7 +1894,7 @@
 		)
 		(uuid "5ee616a3-0685-4d7e-85d8-d2612dd5013a")
 	)
-	(label "USB-"
+	(label "USB_DM"
 		(at 31.75 83.82 180)
 		(effects
 			(font
@@ -1928,6 +1954,16 @@
 		)
 		(uuid "7e175498-ad79-4ff6-add2-0c07d025a162")
 	)
+	(label "MCU_NRST"
+		(at 81.28 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e8a5a94-40ed-47b2-9d6a-657e00a20720")
+	)
 	(label "IMU_MISO"
 		(at 165.1 44.45 180)
 		(effects
@@ -1958,7 +1994,7 @@
 		)
 		(uuid "90a7f06d-9942-49be-b48c-01e04a74cb2e")
 	)
-	(label "USART2_TX_PIN"
+	(label "USART2_TX"
 		(at 31.75 38.1 180)
 		(effects
 			(font
@@ -2098,7 +2134,7 @@
 		)
 		(uuid "c3e0ab5c-6afa-43b1-8ed3-ffd066cf3b62")
 	)
-	(label "GPS_USART_RX"
+	(label "GPS_USART_TX"
 		(at 31.75 73.66 180)
 		(effects
 			(font
@@ -4733,6 +4769,16 @@
 		(pin "PB15" input
 			(at 78.74 104.14 0)
 			(uuid "c5e2a0d8-fff0-4b36-b4d0-6cd9ba2453cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" input
+			(at 78.74 109.22 0)
+			(uuid "8e6d175a-dd98-494f-9598-7ec3d41c32b1")
 			(effects
 				(font
 					(size 1.27 1.27)

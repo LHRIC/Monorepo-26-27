@@ -2503,7 +2503,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_Nidec_CAS-120A1"
+			(property "Value" "450404015514"
 				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2513,7 +2513,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(property "Footprint" "LHR:WS-SLSU_6p7x2p7_WRE"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2730,6 +2730,25 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(hide yes)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4927,16 +4946,6 @@
 		)
 		(uuid "084c56c1-4ba2-4cd5-b534-68d18bc74d2b")
 	)
-	(label "NRST"
-		(at 44.45 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0e372414-afab-4be1-ba25-a0f70510e96f")
-	)
 	(label "RCC_OSC_OUT"
 		(at 44.45 53.34 180)
 		(effects
@@ -4976,16 +4985,6 @@
 			(justify right bottom)
 		)
 		(uuid "5f0b859d-35e3-4748-ab58-0fcd634bfdcf")
-	)
-	(label "NRST"
-		(at 114.3 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf099edd-cd1b-4beb-8061-0417fb69441b")
 	)
 	(label "RCC_OSC_OUT"
 		(at 77.47 149.86 0)
@@ -5206,6 +5205,17 @@
 		)
 		(uuid "aecb21ae-ca76-4a82-8f59-04477de489ea")
 	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 44.45 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b82dd713-81d8-4ef5-b6e9-2844551d3116")
+	)
 	(hierarchical_label "PB0"
 		(shape input)
 		(at 44.45 68.58 180)
@@ -5337,6 +5347,17 @@
 			(justify right)
 		)
 		(uuid "f858e7fe-ab4a-4f16-aa75-53521edc9df7")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 114.3 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8f7aa8a-c062-49a4-a1a5-b56fb4b3acd6")
 	)
 	(hierarchical_label "PB8"
 		(shape input)
@@ -5542,7 +5563,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Nidec_CAS-120A1"
+		(property "Value" "450404015514"
 			(at 233.68 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5602,6 +5623,9 @@
 		)
 		(pin "6"
 			(uuid "e6d3e533-54ef-44a3-89f2-3bc6a7cd487d")
+		)
+		(pin "7"
+			(uuid "7874299b-5340-42c9-b347-9c59bfcb1180")
 		)
 		(instances
 			(project "CGGPS"
@@ -6835,7 +6859,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "RH100-16.000-9-1010-TR"
 			(at 52.07 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6845,7 +6869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_WE_CFPX-180-4Pin_3.2x2.5mm"
 			(at 52.07 149.86 0)
 			(hide yes)
 			(show_name no)

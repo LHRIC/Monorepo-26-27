@@ -5823,7 +5823,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 168.91) (xy 60.96 168.91)
+			(xy 63.5 168.91) (xy 60.96 168.91)
 		)
 		(stroke
 			(width 0)
@@ -6893,7 +6893,7 @@
 		)
 		(uuid "27e7c73e-5567-4780-b250-e5a028afff21")
 	)
-	(hierarchical_label "USB-"
+	(hierarchical_label "CAN-"
 		(shape input)
 		(at 234.95 39.37 0)
 		(effects
@@ -6917,7 +6917,7 @@
 	)
 	(hierarchical_label "NRST"
 		(shape input)
-		(at 62.23 168.91 0)
+		(at 63.5 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6937,7 +6937,7 @@
 		)
 		(uuid "7c480996-44fa-412f-97d3-ac21385390a6")
 	)
-	(hierarchical_label "USB-"
+	(hierarchical_label "CAN-"
 		(shape input)
 		(at 242.57 66.04 0)
 		(effects
@@ -6970,7 +6970,7 @@
 		)
 		(uuid "d8cb6a98-751b-4915-bda3-c5825a1a29c8")
 	)
-	(hierarchical_label "USB+"
+	(hierarchical_label "CAN+"
 		(shape input)
 		(at 234.95 36.83 0)
 		(effects
@@ -6992,7 +6992,7 @@
 		)
 		(uuid "e1a27197-32fe-4979-b6e2-a23bbe441202")
 	)
-	(hierarchical_label "USB+"
+	(hierarchical_label "CAN+"
 		(shape input)
 		(at 242.57 63.5 0)
 		(effects
