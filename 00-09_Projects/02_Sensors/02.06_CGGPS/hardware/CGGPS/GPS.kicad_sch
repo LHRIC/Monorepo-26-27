@@ -2338,7 +2338,7 @@
 	)
 	(text "LQW18CNR12J0ZD"
 		(exclude_from_sim no)
-		(at 33.528 67.056 90)
+		(at 41.148 68.326 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4814,7 +4814,7 @@
 		(dnp no)
 		(uuid "94419cf8-2115-4533-9238-20055c89d81b")
 		(property "Reference" "J5"
-			(at 23.876 67.31 90)
+			(at 26.162 67.818 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4824,7 +4824,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 23.876 69.85 90)
+			(at 23.114 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5242,7 +5242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 54.61 58.928 90)
 			(hide yes)
 			(show_name no)
@@ -5567,7 +5567,8 @@
 	)
 	(symbol
 		(lib_id "Device:L_Ferrite")
-		(at 36.83 67.31 180)
+		(at 36.83 67.31 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5575,10 +5576,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e0b2eae5-e0aa-4a54-b1ed-e073ecb4146e")
 		(property "Reference" "L2"
-			(at 38.1 66.0399 0)
+			(at 35.56 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5589,7 +5589,7 @@
 			)
 		)
 		(property "Value" "120 nH"
-			(at 38.1 68.5799 0)
+			(at 35.56 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
