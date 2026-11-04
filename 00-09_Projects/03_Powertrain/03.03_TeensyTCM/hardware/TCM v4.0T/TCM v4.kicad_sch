@@ -8562,7 +8562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHR:Small_Enclosure"
+		(property "Footprint" "LHR:AMPHENOL_PCB_6P"
 			(at 92.71 38.1 0)
 			(hide yes)
 			(show_name no)
