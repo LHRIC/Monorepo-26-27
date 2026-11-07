@@ -2292,6 +2292,17 @@
 		)
 		(uuid "2c486315-273a-4bbe-bdbb-851703a4e1b9")
 	)
+	(text "Trace width calculation:\nRelative Diaelectric Constant: 4.3\nTrack Width: 0.2mm\nGap Width: 0.5mm\nDiaelectric Thickness: 0.1mm\nhttps://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm\nCharacteristic Impedence = 52.36 ~= 50"
+		(exclude_from_sim no)
+		(at 71.374 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f36ec67-8858-4d09-b9ec-cc52b347fd25")
+	)
 	(text "GPS Backup Battery\n"
 		(exclude_from_sim no)
 		(at 123.952 98.806 0)
@@ -2324,17 +2335,6 @@
 			(justify left)
 		)
 		(uuid "747ebc82-a376-4514-9841-7063011135fd")
-	)
-	(text "300mA current draw\n"
-		(exclude_from_sim no)
-		(at 83.566 85.852 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "88fb60bc-7a02-426b-8f7a-23bc0edfdf62")
 	)
 	(text "LQW18CNR12J0ZD"
 		(exclude_from_sim no)

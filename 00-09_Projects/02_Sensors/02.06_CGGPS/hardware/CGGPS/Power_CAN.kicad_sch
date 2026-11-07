@@ -9000,7 +9000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
 			(at 134.62 48.26 0)
 			(hide yes)
 			(show_name no)
